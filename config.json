@@ -1,0 +1,19 @@
+{
+  "keywords": [
+    "AI",
+    "인공지능",
+    "머신러닝"
+  ],
+  "exclude_keywords": [],
+  "lookback_days": 1,
+  "keep_days": 60,
+  "match_mode": "any",
+  "case_sensitive": false,
+  "api": {
+    "endpoint": "https://apis.data.go.kr/1230000/ad/BidPublicInfoService",
+    "operation": "getBidPblancListInfoServcPPSSrch",
+    "num_of_rows": 500,
+    "max_pages": 20
+  },
+  "comment": "keywords: 공고명(bidNtceNm)에 포함되어야 하는 단어 목록. match_mode=any 는 각 키워드로 API를 순회 검색해 합침. all 은 첫 키워드로 검색 후 나머지 키워드가 모두 포함된 항목만 로컬에서 필터. exclude_keywords 는 항상 로컬 필터. lookback_days=1 은 최근 1일 범위 조회. keep_days 는 대시보드에서 유지하는 일수. 오퍼레이션 getBidPblancListInfoServcPPSSrch 는 용역 입찰공고를 bidNtceNm 부분검색으로 조회."
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>나라장터 용역 공고 트래커</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <h1>나라장터 용역 공고 트래커</h1>
+    <p class="subtitle">공공데이터포털 입찰공고정보서비스를 기반으로 키워드에 매치되는 용역 공고를 매일 자동 수집합니다.</p>
+    <div class="meta" id="meta">
+      <span class="chip" id="generated-at">갱신: -</span>
+      <span class="chip" id="keywords">키워드: -</span>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <section class="stats" id="stats">
+    <div class="stat-card"><div class="stat-label">마감 임박 (24h)</div><div class="stat-value" id="stat-soon">-</div></div>
+    <div class="stat-card"><div class="stat-label">진행 중</div><div class="stat-value" id="stat-open">-</div></div>
+    <div class="stat-card"><div class="stat-label">마감됨</div><div class="stat-value" id="stat-closed">-</div></div>
+    <div class="stat-card"><div class="stat-label">전체</div><div class="stat-value" id="stat-total">-</div></div>
+  </section>
+
+  <section class="controls">
+    <div class="tabs" role="tablist">
+      <button class="tab active" data-tab="soon" role="tab">마감 임박</button>
+      <button class="tab" data-tab="open" role="tab">진행 중</button>
+      <button class="tab" data-tab="closed" role="tab">마감됨</button>
+    </div>
+    <input type="search" id="search" placeholder="공고명·기관으로 필터 (예: 구축, 국방부)">
+  </section>
+
+  <section id="list" class="list" aria-live="polite">
+    <p class="empty">데이터를 불러오는 중…</p>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <p>
+      데이터 출처: <a href="https://www.g2b.go.kr" target="_blank" rel="noopener">나라장터(국가종합전자조달)</a> ·
+      API: <a href="https://www.data.go.kr/data/15129394/openapi.do" target="_blank" rel="noopener">조달청 입찰공고정보서비스</a>
+    </p>
+    <p class="tiny">이 페이지의 정보는 참고용이며 공식 공고 내용과 다를 수 있습니다. 입찰 전 반드시 나라장터 공식 공고를 확인하세요.</p>
+  </div>
+</footer>
+
+<script src="./app.js"></script>
+</body>
+</html>

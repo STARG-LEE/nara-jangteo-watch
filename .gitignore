@@ -1,0 +1,16 @@
+.claude/
+.cache_*
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+.pytest_cache/
