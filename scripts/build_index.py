@@ -108,7 +108,7 @@ def merge_all(files: list[Path], keywords: list[str], case_sensitive: bool) -> l
     return list(merged.values())
 
 
-SOON_THRESHOLD_DAYS = 10
+SOON_THRESHOLD_DAYS = 7
 
 
 def classify(items: list[dict]) -> tuple[list[dict], list[dict], list[dict]]:

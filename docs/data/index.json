@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T17:39:57+09:00",
+  "generated_at": "2026-04-24T17:41:30+09:00",
   "config": {
     "keywords": [
       "AI",
@@ -22,8 +22,8 @@
     "keep_days": 60
   },
   "stats": {
-    "open": 117,
-    "closing_soon": 68,
+    "open": 147,
+    "closing_soon": 38,
     "closed": 23,
     "total": 208
   },
@@ -1243,7 +1243,9 @@
       ],
       "_bidClseDt_iso": "2026-04-30T12:00:00+09:00",
       "_hours_remaining": 138.3
-    },
+    }
+  ],
+  "open": [
     {
       "bidNtceNo": "R26BK01477400",
       "bidNtceOrd": "000",
@@ -2209,9 +2211,7 @@
       ],
       "_bidClseDt_iso": "2026-05-04T17:00:00+09:00",
       "_hours_remaining": 239.3
-    }
-  ],
-  "open": [
+    },
     {
       "bidNtceNo": "R26BK01475685",
       "bidNtceOrd": "000",
@@ -6570,7 +6570,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-21T14:20:00+09:00",
-      "_hours_remaining": -75.3
+      "_hours_remaining": -75.4
     },
     {
       "bidNtceNo": "R26BK01476187",
