@@ -108,9 +108,12 @@ def merge_all(files: list[Path], keywords: list[str], case_sensitive: bool) -> l
     return list(merged.values())
 
 
+SOON_THRESHOLD_DAYS = 10
+
+
 def classify(items: list[dict]) -> tuple[list[dict], list[dict], list[dict]]:
     now = datetime.now(tz=KST)
-    soon_cutoff = now + timedelta(hours=24)
+    soon_cutoff = now + timedelta(days=SOON_THRESHOLD_DAYS)
 
     open_list: list[dict] = []
     soon_list: list[dict] = []

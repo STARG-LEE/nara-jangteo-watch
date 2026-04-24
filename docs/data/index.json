@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T17:34:18+09:00",
+  "generated_at": "2026-04-24T17:39:11+09:00",
   "config": {
     "keywords": [
       "AI",
@@ -22,13 +22,12 @@
     "keep_days": 60
   },
   "stats": {
-    "open": 183,
-    "closing_soon": 0,
+    "open": 115,
+    "closing_soon": 68,
     "closed": 23,
     "total": 206
   },
-  "closing_soon": [],
-  "open": [
+  "closing_soon": [
     {
       "bidNtceNo": "R26BK01477785",
       "bidNtceOrd": "000",
@@ -59,7 +58,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-27T10:00:00+09:00",
-      "_hours_remaining": 64.4
+      "_hours_remaining": 64.3
     },
     {
       "bidNtceNo": "R26BK01477790",
@@ -91,7 +90,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-27T10:00:00+09:00",
-      "_hours_remaining": 64.4
+      "_hours_remaining": 64.3
     },
     {
       "bidNtceNo": "R26BK01476806",
@@ -123,7 +122,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-27T10:00:00+09:00",
-      "_hours_remaining": 64.4
+      "_hours_remaining": 64.3
     },
     {
       "bidNtceNo": "R26BK01477660",
@@ -155,7 +154,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-27T10:00:00+09:00",
-      "_hours_remaining": 64.4
+      "_hours_remaining": 64.3
     },
     {
       "bidNtceNo": "R26BK01476806",
@@ -187,7 +186,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-27T10:00:00+09:00",
-      "_hours_remaining": 64.4
+      "_hours_remaining": 64.3
     },
     {
       "bidNtceNo": "R26BK01480190",
@@ -219,7 +218,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-27T10:00:00+09:00",
-      "_hours_remaining": 64.4
+      "_hours_remaining": 64.3
     },
     {
       "bidNtceNo": "R26BK01477937",
@@ -251,7 +250,7 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-04-27T10:00:00+09:00",
-      "_hours_remaining": 64.4
+      "_hours_remaining": 64.3
     },
     {
       "bidNtceNo": "R26BK01484911",
@@ -283,7 +282,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-27T11:00:00+09:00",
-      "_hours_remaining": 65.4
+      "_hours_remaining": 65.3
     },
     {
       "bidNtceNo": "R26BK01488202",
@@ -315,7 +314,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-27T12:00:00+09:00",
-      "_hours_remaining": 66.4
+      "_hours_remaining": 66.3
     },
     {
       "bidNtceNo": "R26BK01479530",
@@ -347,7 +346,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-27T14:00:00+09:00",
-      "_hours_remaining": 68.4
+      "_hours_remaining": 68.3
     },
     {
       "bidNtceNo": "R26BK01487848",
@@ -379,7 +378,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-27T15:00:00+09:00",
-      "_hours_remaining": 69.4
+      "_hours_remaining": 69.3
     },
     {
       "bidNtceNo": "R26BK01480021",
@@ -411,7 +410,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-27T16:00:00+09:00",
-      "_hours_remaining": 70.4
+      "_hours_remaining": 70.3
     },
     {
       "bidNtceNo": "R26BK01474005",
@@ -443,7 +442,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-28T10:00:00+09:00",
-      "_hours_remaining": 88.4
+      "_hours_remaining": 88.3
     },
     {
       "bidNtceNo": "R26BK01463788",
@@ -475,7 +474,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-28T10:00:00+09:00",
-      "_hours_remaining": 88.4
+      "_hours_remaining": 88.3
     },
     {
       "bidNtceNo": "R26BK01476681",
@@ -507,7 +506,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-04-28T10:00:00+09:00",
-      "_hours_remaining": 88.4
+      "_hours_remaining": 88.3
     },
     {
       "bidNtceNo": "R26BK01471819",
@@ -539,7 +538,7 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-04-28T10:00:00+09:00",
-      "_hours_remaining": 88.4
+      "_hours_remaining": 88.3
     },
     {
       "bidNtceNo": "R26BK01474079",
@@ -571,7 +570,7 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-04-28T10:00:00+09:00",
-      "_hours_remaining": 88.4
+      "_hours_remaining": 88.3
     },
     {
       "bidNtceNo": "R26BK01485667",
@@ -603,7 +602,7 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-04-28T10:00:00+09:00",
-      "_hours_remaining": 88.4
+      "_hours_remaining": 88.3
     },
     {
       "bidNtceNo": "R26BK01483073",
@@ -635,7 +634,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-28T11:00:00+09:00",
-      "_hours_remaining": 89.4
+      "_hours_remaining": 89.3
     },
     {
       "bidNtceNo": "R26BK01477394",
@@ -667,7 +666,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-28T11:00:00+09:00",
-      "_hours_remaining": 89.4
+      "_hours_remaining": 89.3
     },
     {
       "bidNtceNo": "R26BK01479102",
@@ -699,7 +698,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-28T14:00:00+09:00",
-      "_hours_remaining": 92.4
+      "_hours_remaining": 92.3
     },
     {
       "bidNtceNo": "R26BK01487222",
@@ -731,7 +730,7 @@
         "연금"
       ],
       "_bidClseDt_iso": "2026-04-28T14:00:00+09:00",
-      "_hours_remaining": 92.4
+      "_hours_remaining": 92.3
     },
     {
       "bidNtceNo": "R26BK01479831",
@@ -763,7 +762,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-29T10:00:00+09:00",
-      "_hours_remaining": 112.4
+      "_hours_remaining": 112.3
     },
     {
       "bidNtceNo": "R26BK01477660",
@@ -795,7 +794,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-29T10:00:00+09:00",
-      "_hours_remaining": 112.4
+      "_hours_remaining": 112.3
     },
     {
       "bidNtceNo": "R26BK01484211",
@@ -827,7 +826,7 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-04-29T10:00:00+09:00",
-      "_hours_remaining": 112.4
+      "_hours_remaining": 112.3
     },
     {
       "bidNtceNo": "R26BK01485044",
@@ -859,7 +858,7 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-04-29T10:00:00+09:00",
-      "_hours_remaining": 112.4
+      "_hours_remaining": 112.3
     },
     {
       "bidNtceNo": "R26BK01476333",
@@ -891,7 +890,7 @@
         "전망"
       ],
       "_bidClseDt_iso": "2026-04-29T11:00:00+09:00",
-      "_hours_remaining": 113.4
+      "_hours_remaining": 113.3
     },
     {
       "bidNtceNo": "R26BK01478512",
@@ -923,7 +922,7 @@
         "금융"
       ],
       "_bidClseDt_iso": "2026-04-29T14:00:00+09:00",
-      "_hours_remaining": 116.4
+      "_hours_remaining": 116.3
     },
     {
       "bidNtceNo": "R26BK01477852",
@@ -955,7 +954,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-29T15:00:00+09:00",
-      "_hours_remaining": 117.4
+      "_hours_remaining": 117.3
     },
     {
       "bidNtceNo": "R26BK01470946",
@@ -987,7 +986,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-29T16:00:00+09:00",
-      "_hours_remaining": 118.4
+      "_hours_remaining": 118.3
     },
     {
       "bidNtceNo": "R26BK01470946",
@@ -1019,7 +1018,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-29T16:00:00+09:00",
-      "_hours_remaining": 118.4
+      "_hours_remaining": 118.3
     },
     {
       "bidNtceNo": "R26BK01409553",
@@ -1051,7 +1050,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-30T10:00:00+09:00",
-      "_hours_remaining": 136.4
+      "_hours_remaining": 136.3
     },
     {
       "bidNtceNo": "R26BK01481394",
@@ -1083,7 +1082,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-30T10:00:00+09:00",
-      "_hours_remaining": 136.4
+      "_hours_remaining": 136.3
     },
     {
       "bidNtceNo": "R26BK01485953",
@@ -1115,7 +1114,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-30T10:00:00+09:00",
-      "_hours_remaining": 136.4
+      "_hours_remaining": 136.3
     },
     {
       "bidNtceNo": "R26BK01484409",
@@ -1147,7 +1146,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-30T10:00:00+09:00",
-      "_hours_remaining": 136.4
+      "_hours_remaining": 136.3
     },
     {
       "bidNtceNo": "R26BK01487212",
@@ -1179,7 +1178,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-30T10:00:00+09:00",
-      "_hours_remaining": 136.4
+      "_hours_remaining": 136.3
     },
     {
       "bidNtceNo": "R26BK01487148",
@@ -1211,7 +1210,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-30T10:00:00+09:00",
-      "_hours_remaining": 136.4
+      "_hours_remaining": 136.3
     },
     {
       "bidNtceNo": "R26BK01481249",
@@ -1243,7 +1242,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-30T12:00:00+09:00",
-      "_hours_remaining": 138.4
+      "_hours_remaining": 138.3
     },
     {
       "bidNtceNo": "R26BK01477400",
@@ -1275,7 +1274,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T10:00:00+09:00",
-      "_hours_remaining": 232.4
+      "_hours_remaining": 232.3
     },
     {
       "bidNtceNo": "R26BK01477421",
@@ -1308,7 +1307,7 @@
         "전망"
       ],
       "_bidClseDt_iso": "2026-05-04T10:00:00+09:00",
-      "_hours_remaining": 232.4
+      "_hours_remaining": 232.3
     },
     {
       "bidNtceNo": "R26BK01478434",
@@ -1340,7 +1339,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T10:00:00+09:00",
-      "_hours_remaining": 232.4
+      "_hours_remaining": 232.3
     },
     {
       "bidNtceNo": "R26BK01479146",
@@ -1372,7 +1371,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T10:00:00+09:00",
-      "_hours_remaining": 232.4
+      "_hours_remaining": 232.3
     },
     {
       "bidNtceNo": "R26BK01479425",
@@ -1405,7 +1404,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-04T10:00:00+09:00",
-      "_hours_remaining": 232.4
+      "_hours_remaining": 232.3
     },
     {
       "bidNtceNo": "R26BK01478434",
@@ -1437,7 +1436,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T10:00:00+09:00",
-      "_hours_remaining": 232.4
+      "_hours_remaining": 232.3
     },
     {
       "bidNtceNo": "R26BK01485004",
@@ -1469,7 +1468,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T10:00:00+09:00",
-      "_hours_remaining": 232.4
+      "_hours_remaining": 232.3
     },
     {
       "bidNtceNo": "R26BK01485863",
@@ -1501,7 +1500,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T10:00:00+09:00",
-      "_hours_remaining": 232.4
+      "_hours_remaining": 232.3
     },
     {
       "bidNtceNo": "R26BK01476010",
@@ -1533,7 +1532,7 @@
         "인공지능"
       ],
       "_bidClseDt_iso": "2026-05-04T10:00:00+09:00",
-      "_hours_remaining": 232.4
+      "_hours_remaining": 232.3
     },
     {
       "bidNtceNo": "R26BK01477540",
@@ -1567,7 +1566,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-04T10:00:00+09:00",
-      "_hours_remaining": 232.4
+      "_hours_remaining": 232.3
     },
     {
       "bidNtceNo": "R26BK01479042",
@@ -1599,7 +1598,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-04T10:00:00+09:00",
-      "_hours_remaining": 232.4
+      "_hours_remaining": 232.3
     },
     {
       "bidNtceNo": "R26BK01479143",
@@ -1631,7 +1630,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-04T10:00:00+09:00",
-      "_hours_remaining": 232.4
+      "_hours_remaining": 232.3
     },
     {
       "bidNtceNo": "R26BK01484043",
@@ -1663,7 +1662,7 @@
         "금융"
       ],
       "_bidClseDt_iso": "2026-05-04T10:00:00+09:00",
-      "_hours_remaining": 232.4
+      "_hours_remaining": 232.3
     },
     {
       "bidNtceNo": "R26BK01475539",
@@ -1695,7 +1694,7 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-05-04T10:00:00+09:00",
-      "_hours_remaining": 232.4
+      "_hours_remaining": 232.3
     },
     {
       "bidNtceNo": "R26BK01463661",
@@ -1727,7 +1726,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T11:00:00+09:00",
-      "_hours_remaining": 233.4
+      "_hours_remaining": 233.3
     },
     {
       "bidNtceNo": "R26BK01475639",
@@ -1759,7 +1758,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T11:00:00+09:00",
-      "_hours_remaining": 233.4
+      "_hours_remaining": 233.3
     },
     {
       "bidNtceNo": "R26BK01476523",
@@ -1791,7 +1790,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T11:00:00+09:00",
-      "_hours_remaining": 233.4
+      "_hours_remaining": 233.3
     },
     {
       "bidNtceNo": "R26BK01478789",
@@ -1823,7 +1822,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T11:00:00+09:00",
-      "_hours_remaining": 233.4
+      "_hours_remaining": 233.3
     },
     {
       "bidNtceNo": "R26BK01483135",
@@ -1855,7 +1854,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T11:00:00+09:00",
-      "_hours_remaining": 233.4
+      "_hours_remaining": 233.3
     },
     {
       "bidNtceNo": "R26BK01483034",
@@ -1888,7 +1887,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-04T11:00:00+09:00",
-      "_hours_remaining": 233.4
+      "_hours_remaining": 233.3
     },
     {
       "bidNtceNo": "R26BK01474718",
@@ -1920,7 +1919,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-05-04T11:00:00+09:00",
-      "_hours_remaining": 233.4
+      "_hours_remaining": 233.3
     },
     {
       "bidNtceNo": "R26BK01475220",
@@ -1952,7 +1951,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-04T11:00:00+09:00",
-      "_hours_remaining": 233.4
+      "_hours_remaining": 233.3
     },
     {
       "bidNtceNo": "R26BK01483716",
@@ -1984,7 +1983,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T12:00:00+09:00",
-      "_hours_remaining": 234.4
+      "_hours_remaining": 234.3
     },
     {
       "bidNtceNo": "R26BK01480102",
@@ -2017,7 +2016,7 @@
         "빅데이터"
       ],
       "_bidClseDt_iso": "2026-05-04T12:00:00+09:00",
-      "_hours_remaining": 234.4
+      "_hours_remaining": 234.3
     },
     {
       "bidNtceNo": "R26BK01486054",
@@ -2049,7 +2048,7 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-05-04T12:00:00+09:00",
-      "_hours_remaining": 234.4
+      "_hours_remaining": 234.3
     },
     {
       "bidNtceNo": "R26BK01484466",
@@ -2081,7 +2080,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T14:00:00+09:00",
-      "_hours_remaining": 236.4
+      "_hours_remaining": 236.3
     },
     {
       "bidNtceNo": "R26BK01481174",
@@ -2113,7 +2112,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T16:00:00+09:00",
-      "_hours_remaining": 238.4
+      "_hours_remaining": 238.3
     },
     {
       "bidNtceNo": "R26BK01481037",
@@ -2145,7 +2144,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T17:00:00+09:00",
-      "_hours_remaining": 239.4
+      "_hours_remaining": 239.3
     },
     {
       "bidNtceNo": "R26BK01481275",
@@ -2177,7 +2176,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T17:00:00+09:00",
-      "_hours_remaining": 239.4
+      "_hours_remaining": 239.3
     },
     {
       "bidNtceNo": "R26BK01487294",
@@ -2209,8 +2208,10 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T17:00:00+09:00",
-      "_hours_remaining": 239.4
-    },
+      "_hours_remaining": 239.3
+    }
+  ],
+  "open": [
     {
       "bidNtceNo": "R26BK01475685",
       "bidNtceOrd": "000",
@@ -2241,7 +2242,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-06T10:00:00+09:00",
-      "_hours_remaining": 280.4
+      "_hours_remaining": 280.3
     },
     {
       "bidNtceNo": "R26BK01480622",
@@ -2273,7 +2274,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-06T10:00:00+09:00",
-      "_hours_remaining": 280.4
+      "_hours_remaining": 280.3
     },
     {
       "bidNtceNo": "R26BK01487925",
@@ -2305,7 +2306,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-06T10:00:00+09:00",
-      "_hours_remaining": 280.4
+      "_hours_remaining": 280.3
     },
     {
       "bidNtceNo": "R26BK01487915",
@@ -2337,7 +2338,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-06T10:00:00+09:00",
-      "_hours_remaining": 280.4
+      "_hours_remaining": 280.3
     },
     {
       "bidNtceNo": "R26BK01478441",
@@ -2369,7 +2370,7 @@
         "모형"
       ],
       "_bidClseDt_iso": "2026-05-06T10:00:00+09:00",
-      "_hours_remaining": 280.4
+      "_hours_remaining": 280.3
     },
     {
       "bidNtceNo": "R26BK01480575",
@@ -2401,7 +2402,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-06T11:00:00+09:00",
-      "_hours_remaining": 281.4
+      "_hours_remaining": 281.3
     },
     {
       "bidNtceNo": "R26BK01484906",
@@ -2433,7 +2434,7 @@
         "재무"
       ],
       "_bidClseDt_iso": "2026-05-06T12:00:00+09:00",
-      "_hours_remaining": 282.4
+      "_hours_remaining": 282.3
     },
     {
       "bidNtceNo": "R26BK01483660",
@@ -2465,7 +2466,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-06T14:00:00+09:00",
-      "_hours_remaining": 284.4
+      "_hours_remaining": 284.3
     },
     {
       "bidNtceNo": "R26BK01487787",
@@ -2497,7 +2498,7 @@
         "인공지능"
       ],
       "_bidClseDt_iso": "2026-05-06T14:00:00+09:00",
-      "_hours_remaining": 284.4
+      "_hours_remaining": 284.3
     },
     {
       "bidNtceNo": "R26BK01478139",
@@ -2529,7 +2530,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-06T15:00:00+09:00",
-      "_hours_remaining": 285.4
+      "_hours_remaining": 285.3
     },
     {
       "bidNtceNo": "R26BK01480445",
@@ -2561,7 +2562,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-06T15:00:00+09:00",
-      "_hours_remaining": 285.4
+      "_hours_remaining": 285.3
     },
     {
       "bidNtceNo": "R26BK01480477",
@@ -2593,7 +2594,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-06T15:00:00+09:00",
-      "_hours_remaining": 285.4
+      "_hours_remaining": 285.3
     },
     {
       "bidNtceNo": "R26BK01477603",
@@ -2626,7 +2627,7 @@
         "인공지능"
       ],
       "_bidClseDt_iso": "2026-05-06T17:00:00+09:00",
-      "_hours_remaining": 287.4
+      "_hours_remaining": 287.3
     },
     {
       "bidNtceNo": "R26BK01477473",
@@ -2658,7 +2659,7 @@
         "재무"
       ],
       "_bidClseDt_iso": "2026-05-06T17:00:00+09:00",
-      "_hours_remaining": 287.4
+      "_hours_remaining": 287.3
     },
     {
       "bidNtceNo": "R26BK01475169",
@@ -2691,7 +2692,7 @@
         "빅데이터"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 304.4
+      "_hours_remaining": 304.3
     },
     {
       "bidNtceNo": "R26BK01474898",
@@ -2723,7 +2724,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 304.4
+      "_hours_remaining": 304.3
     },
     {
       "bidNtceNo": "R26BK01473052",
@@ -2755,7 +2756,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 304.4
+      "_hours_remaining": 304.3
     },
     {
       "bidNtceNo": "R26BK01477974",
@@ -2789,7 +2790,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 304.4
+      "_hours_remaining": 304.3
     },
     {
       "bidNtceNo": "R26BK01479919",
@@ -2821,7 +2822,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 304.4
+      "_hours_remaining": 304.3
     },
     {
       "bidNtceNo": "R26BK01481665",
@@ -2853,7 +2854,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 304.4
+      "_hours_remaining": 304.3
     },
     {
       "bidNtceNo": "R26BK01481666",
@@ -2885,7 +2886,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 304.4
+      "_hours_remaining": 304.3
     },
     {
       "bidNtceNo": "R26BK01481295",
@@ -2917,7 +2918,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 304.4
+      "_hours_remaining": 304.3
     },
     {
       "bidNtceNo": "R26BK01483174",
@@ -2949,7 +2950,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 304.4
+      "_hours_remaining": 304.3
     },
     {
       "bidNtceNo": "R26BK01482183",
@@ -2981,7 +2982,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 304.4
+      "_hours_remaining": 304.3
     },
     {
       "bidNtceNo": "R26BK01481042",
@@ -3013,7 +3014,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 304.4
+      "_hours_remaining": 304.3
     },
     {
       "bidNtceNo": "R26BK01484302",
@@ -3045,7 +3046,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 304.4
+      "_hours_remaining": 304.3
     },
     {
       "bidNtceNo": "R26BK01483286",
@@ -3078,7 +3079,7 @@
         "인공지능"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 304.4
+      "_hours_remaining": 304.3
     },
     {
       "bidNtceNo": "R26BK01486259",
@@ -3110,7 +3111,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 304.4
+      "_hours_remaining": 304.3
     },
     {
       "bidNtceNo": "R26BK01486944",
@@ -3143,7 +3144,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 304.4
+      "_hours_remaining": 304.3
     },
     {
       "bidNtceNo": "R26BK01486487",
@@ -3175,7 +3176,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 304.4
+      "_hours_remaining": 304.3
     },
     {
       "bidNtceNo": "R26BK01480925",
@@ -3205,7 +3206,7 @@
       "last_seen_date": "2026-04-24",
       "matched_keywords": [],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 304.4
+      "_hours_remaining": 304.3
     },
     {
       "bidNtceNo": "R26BK01481886",
@@ -3237,7 +3238,7 @@
         "인공지능"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 304.4
+      "_hours_remaining": 304.3
     },
     {
       "bidNtceNo": "R26BK01478658",
@@ -3269,7 +3270,7 @@
         "빅데이터"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 304.4
+      "_hours_remaining": 304.3
     },
     {
       "bidNtceNo": "R26BK01486790",
@@ -3301,7 +3302,7 @@
         "빅데이터"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 304.4
+      "_hours_remaining": 304.3
     },
     {
       "bidNtceNo": "R26BK01479495",
@@ -3333,7 +3334,7 @@
         "모형"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 304.4
+      "_hours_remaining": 304.3
     },
     {
       "bidNtceNo": "R26BK01478503",
@@ -3365,7 +3366,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 304.4
+      "_hours_remaining": 304.3
     },
     {
       "bidNtceNo": "R26BK01486006",
@@ -3397,7 +3398,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 304.4
+      "_hours_remaining": 304.3
     },
     {
       "bidNtceNo": "R26BK01486632",
@@ -3429,7 +3430,7 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 304.4
+      "_hours_remaining": 304.3
     },
     {
       "bidNtceNo": "R26BK01475925",
@@ -3461,7 +3462,7 @@
         "빅데이터"
       ],
       "_bidClseDt_iso": "2026-05-07T11:00:00+09:00",
-      "_hours_remaining": 305.4
+      "_hours_remaining": 305.3
     },
     {
       "bidNtceNo": "R26BK01483878",
@@ -3493,7 +3494,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-07T12:00:00+09:00",
-      "_hours_remaining": 306.4
+      "_hours_remaining": 306.3
     },
     {
       "bidNtceNo": "R26BK01482601",
@@ -3525,7 +3526,7 @@
         "모형"
       ],
       "_bidClseDt_iso": "2026-05-07T12:00:00+09:00",
-      "_hours_remaining": 306.4
+      "_hours_remaining": 306.3
     },
     {
       "bidNtceNo": "R26BK01483915",
@@ -3557,7 +3558,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-07T15:00:00+09:00",
-      "_hours_remaining": 309.4
+      "_hours_remaining": 309.3
     },
     {
       "bidNtceNo": "R26BK01474102",
@@ -3589,7 +3590,7 @@
         "인공지능"
       ],
       "_bidClseDt_iso": "2026-05-07T17:00:00+09:00",
-      "_hours_remaining": 311.4
+      "_hours_remaining": 311.3
     },
     {
       "bidNtceNo": "R26BK01475149",
@@ -3621,7 +3622,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 328.4
+      "_hours_remaining": 328.3
     },
     {
       "bidNtceNo": "R26BK01477275",
@@ -3653,7 +3654,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 328.4
+      "_hours_remaining": 328.3
     },
     {
       "bidNtceNo": "R26BK01480967",
@@ -3685,7 +3686,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 328.4
+      "_hours_remaining": 328.3
     },
     {
       "bidNtceNo": "R26BK01481611",
@@ -3717,7 +3718,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 328.4
+      "_hours_remaining": 328.3
     },
     {
       "bidNtceNo": "R26BK01481839",
@@ -3749,7 +3750,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 328.4
+      "_hours_remaining": 328.3
     },
     {
       "bidNtceNo": "R26BK01483451",
@@ -3781,7 +3782,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 328.4
+      "_hours_remaining": 328.3
     },
     {
       "bidNtceNo": "R26BK01484556",
@@ -3813,7 +3814,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 328.4
+      "_hours_remaining": 328.3
     },
     {
       "bidNtceNo": "R26BK01486864",
@@ -3845,7 +3846,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 328.4
+      "_hours_remaining": 328.3
     },
     {
       "bidNtceNo": "R26BK01471809",
@@ -3877,7 +3878,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 328.4
+      "_hours_remaining": 328.3
     },
     {
       "bidNtceNo": "R26BK01486760",
@@ -3909,7 +3910,7 @@
         "인공지능"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 328.4
+      "_hours_remaining": 328.3
     },
     {
       "bidNtceNo": "R26BK01481769",
@@ -3941,7 +3942,7 @@
         "머신러닝"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 328.4
+      "_hours_remaining": 328.3
     },
     {
       "bidNtceNo": "R26BK01487868",
@@ -3973,7 +3974,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 328.4
+      "_hours_remaining": 328.3
     },
     {
       "bidNtceNo": "R26BK01486162",
@@ -4006,7 +4007,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 328.4
+      "_hours_remaining": 328.3
     },
     {
       "bidNtceNo": "R26BK01482873",
@@ -4038,7 +4039,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 328.4
+      "_hours_remaining": 328.3
     },
     {
       "bidNtceNo": "R26BK01478449",
@@ -4070,7 +4071,7 @@
         "재무"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 328.4
+      "_hours_remaining": 328.3
     },
     {
       "bidNtceNo": "R26BK01480182",
@@ -4102,7 +4103,7 @@
         "금융"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 328.4
+      "_hours_remaining": 328.3
     },
     {
       "bidNtceNo": "R26BK01481029",
@@ -4134,7 +4135,7 @@
         "금융"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 328.4
+      "_hours_remaining": 328.3
     },
     {
       "bidNtceNo": "R26BK01379423",
@@ -4166,7 +4167,7 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-05-08T14:00:00+09:00",
-      "_hours_remaining": 332.4
+      "_hours_remaining": 332.3
     },
     {
       "bidNtceNo": "R26BK01485454",
@@ -4198,7 +4199,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-11T10:00:00+09:00",
-      "_hours_remaining": 400.4
+      "_hours_remaining": 400.3
     },
     {
       "bidNtceNo": "R26BK01478382",
@@ -4230,7 +4231,7 @@
         "재무"
       ],
       "_bidClseDt_iso": "2026-05-11T10:00:00+09:00",
-      "_hours_remaining": 400.4
+      "_hours_remaining": 400.3
     },
     {
       "bidNtceNo": "R26BK01478204",
@@ -4262,7 +4263,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-12T10:00:00+09:00",
-      "_hours_remaining": 424.4
+      "_hours_remaining": 424.3
     },
     {
       "bidNtceNo": "R26BK01481275",
@@ -4294,7 +4295,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-12T17:00:00+09:00",
-      "_hours_remaining": 431.4
+      "_hours_remaining": 431.3
     },
     {
       "bidNtceNo": "R26BK01487294",
@@ -4326,7 +4327,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-12T17:00:00+09:00",
-      "_hours_remaining": 431.4
+      "_hours_remaining": 431.3
     },
     {
       "bidNtceNo": "R26BK01475290",
@@ -4358,7 +4359,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-14T10:00:00+09:00",
-      "_hours_remaining": 472.4
+      "_hours_remaining": 472.3
     },
     {
       "bidNtceNo": "R26BK01481295",
@@ -4390,7 +4391,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-14T10:00:00+09:00",
-      "_hours_remaining": 472.4
+      "_hours_remaining": 472.3
     },
     {
       "bidNtceNo": "R26BK01476242",
@@ -4422,7 +4423,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-05-14T10:00:00+09:00",
-      "_hours_remaining": 472.4
+      "_hours_remaining": 472.3
     },
     {
       "bidNtceNo": "R26BK01484223",
@@ -4454,7 +4455,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-05-14T10:00:00+09:00",
-      "_hours_remaining": 472.4
+      "_hours_remaining": 472.3
     },
     {
       "bidNtceNo": "R26BK01484223",
@@ -4486,7 +4487,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-05-14T10:00:00+09:00",
-      "_hours_remaining": 472.4
+      "_hours_remaining": 472.3
     },
     {
       "bidNtceNo": "R26BK01485799",
@@ -4518,7 +4519,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-05-14T10:00:00+09:00",
-      "_hours_remaining": 472.4
+      "_hours_remaining": 472.3
     },
     {
       "bidNtceNo": "R26BK01485493",
@@ -4550,7 +4551,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-14T11:00:00+09:00",
-      "_hours_remaining": 473.4
+      "_hours_remaining": 473.3
     },
     {
       "bidNtceNo": "R26BK01483627",
@@ -4582,7 +4583,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-15T10:00:00+09:00",
-      "_hours_remaining": 496.4
+      "_hours_remaining": 496.3
     },
     {
       "bidNtceNo": "R26BK01475475",
@@ -4614,7 +4615,7 @@
         "금융"
       ],
       "_bidClseDt_iso": "2026-05-15T10:00:00+09:00",
-      "_hours_remaining": 496.4
+      "_hours_remaining": 496.3
     },
     {
       "bidNtceNo": "R26BK01480269",
@@ -4646,7 +4647,7 @@
         "연금"
       ],
       "_bidClseDt_iso": "2026-05-15T10:00:00+09:00",
-      "_hours_remaining": 496.4
+      "_hours_remaining": 496.3
     },
     {
       "bidNtceNo": "R26BK01484035",
@@ -4678,7 +4679,7 @@
         "연금"
       ],
       "_bidClseDt_iso": "2026-05-15T10:00:00+09:00",
-      "_hours_remaining": 496.4
+      "_hours_remaining": 496.3
     },
     {
       "bidNtceNo": "R26BK01473370",
@@ -4710,7 +4711,7 @@
         "금융"
       ],
       "_bidClseDt_iso": "2026-05-19T10:00:00+09:00",
-      "_hours_remaining": 592.4
+      "_hours_remaining": 592.3
     },
     {
       "bidNtceNo": "R26BK01486705",
@@ -4742,7 +4743,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-20T10:00:00+09:00",
-      "_hours_remaining": 616.4
+      "_hours_remaining": 616.3
     },
     {
       "bidNtceNo": "R26BK01484568",
@@ -4774,7 +4775,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-21T10:00:00+09:00",
-      "_hours_remaining": 640.4
+      "_hours_remaining": 640.3
     },
     {
       "bidNtceNo": "R26BK01456051",
@@ -4806,7 +4807,7 @@
         "빅데이터"
       ],
       "_bidClseDt_iso": "2026-05-21T10:00:00+09:00",
-      "_hours_remaining": 640.4
+      "_hours_remaining": 640.3
     },
     {
       "bidNtceNo": "R26BK01480852",
@@ -4838,7 +4839,7 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-06-02T10:00:00+09:00",
-      "_hours_remaining": 928.4
+      "_hours_remaining": 928.3
     },
     {
       "bidNtceNo": "R26BK01467529",
@@ -4870,7 +4871,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-06-02T11:00:00+09:00",
-      "_hours_remaining": 929.4
+      "_hours_remaining": 929.3
     },
     {
       "bidNtceNo": "R26BK01482333",
@@ -4902,7 +4903,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-06-02T14:00:00+09:00",
-      "_hours_remaining": 932.4
+      "_hours_remaining": 932.3
     },
     {
       "bidNtceNo": "R26BK01471627",
@@ -4934,7 +4935,7 @@
         "빅데이터"
       ],
       "_bidClseDt_iso": "2026-06-02T14:00:00+09:00",
-      "_hours_remaining": 932.4
+      "_hours_remaining": 932.3
     },
     {
       "bidNtceNo": "R26BK01474950",
@@ -5928,7 +5929,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-24T14:00:00+09:00",
-      "_hours_remaining": -3.6
+      "_hours_remaining": -3.7
     },
     {
       "bidNtceNo": "R26BK01476294",
@@ -5960,7 +5961,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-24T14:00:00+09:00",
-      "_hours_remaining": -3.6
+      "_hours_remaining": -3.7
     },
     {
       "bidNtceNo": "R26BK01476294",
@@ -5992,7 +5993,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-24T14:00:00+09:00",
-      "_hours_remaining": -3.6
+      "_hours_remaining": -3.7
     },
     {
       "bidNtceNo": "R26BK01485636",
@@ -6024,7 +6025,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-24T12:00:00+09:00",
-      "_hours_remaining": -5.6
+      "_hours_remaining": -5.7
     },
     {
       "bidNtceNo": "R26BK01482225",
@@ -6056,7 +6057,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-04-24T11:00:00+09:00",
-      "_hours_remaining": -6.6
+      "_hours_remaining": -6.7
     },
     {
       "bidNtceNo": "R26BK01484783",
@@ -6088,7 +6089,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-23T18:00:00+09:00",
-      "_hours_remaining": -23.6
+      "_hours_remaining": -23.7
     },
     {
       "bidNtceNo": "R26BK01483102",
@@ -6120,7 +6121,7 @@
         "딥러닝"
       ],
       "_bidClseDt_iso": "2026-04-23T14:30:00+09:00",
-      "_hours_remaining": -27.1
+      "_hours_remaining": -27.2
     },
     {
       "bidNtceNo": "R26BK01483287",
@@ -6152,7 +6153,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-23T14:00:00+09:00",
-      "_hours_remaining": -27.6
+      "_hours_remaining": -27.7
     },
     {
       "bidNtceNo": "R26BK01480997",
@@ -6184,7 +6185,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-23T12:00:00+09:00",
-      "_hours_remaining": -29.6
+      "_hours_remaining": -29.7
     },
     {
       "bidNtceNo": "R26BK01477141",
@@ -6217,7 +6218,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-04-23T12:00:00+09:00",
-      "_hours_remaining": -29.6
+      "_hours_remaining": -29.7
     },
     {
       "bidNtceNo": "R26BK01479393",
@@ -6249,7 +6250,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-23T12:00:00+09:00",
-      "_hours_remaining": -29.6
+      "_hours_remaining": -29.7
     },
     {
       "bidNtceNo": "R26BK01481539",
@@ -6281,7 +6282,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-22T16:00:00+09:00",
-      "_hours_remaining": -49.6
+      "_hours_remaining": -49.7
     },
     {
       "bidNtceNo": "R26BK01474445",
@@ -6313,7 +6314,7 @@
         "빅데이터"
       ],
       "_bidClseDt_iso": "2026-04-22T15:00:00+09:00",
-      "_hours_remaining": -50.6
+      "_hours_remaining": -50.7
     },
     {
       "bidNtceNo": "R26BK01473951",
@@ -6345,7 +6346,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-22T14:00:00+09:00",
-      "_hours_remaining": -51.6
+      "_hours_remaining": -51.7
     },
     {
       "bidNtceNo": "R26BK01473011",
@@ -6377,7 +6378,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-04-22T12:00:00+09:00",
-      "_hours_remaining": -53.6
+      "_hours_remaining": -53.7
     },
     {
       "bidNtceNo": "R26BK01479217",
@@ -6409,7 +6410,7 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-04-22T11:00:00+09:00",
-      "_hours_remaining": -54.6
+      "_hours_remaining": -54.7
     },
     {
       "bidNtceNo": "R26BK01475125",
@@ -6441,7 +6442,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-21T15:00:00+09:00",
-      "_hours_remaining": -74.6
+      "_hours_remaining": -74.7
     },
     {
       "bidNtceNo": "R26BK01477065",
@@ -6473,7 +6474,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-04-21T15:00:00+09:00",
-      "_hours_remaining": -74.6
+      "_hours_remaining": -74.7
     },
     {
       "bidNtceNo": "R26BK01475935",
@@ -6505,7 +6506,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-21T14:20:00+09:00",
-      "_hours_remaining": -75.2
+      "_hours_remaining": -75.3
     },
     {
       "bidNtceNo": "R26BK01476187",
@@ -6537,7 +6538,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-21T11:00:00+09:00",
-      "_hours_remaining": -78.6
+      "_hours_remaining": -78.7
     },
     {
       "bidNtceNo": "R26BK01475935",
@@ -6569,7 +6570,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-21T10:00:00+09:00",
-      "_hours_remaining": -79.6
+      "_hours_remaining": -79.7
     },
     {
       "bidNtceNo": "R26BK01449166",
@@ -6603,7 +6604,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-04-21T10:00:00+09:00",
-      "_hours_remaining": -79.6
+      "_hours_remaining": -79.7
     },
     {
       "bidNtceNo": "R26BK01475402",
@@ -6635,7 +6636,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-04-20T15:00:00+09:00",
-      "_hours_remaining": -98.6
+      "_hours_remaining": -98.7
     }
   ]
 }
