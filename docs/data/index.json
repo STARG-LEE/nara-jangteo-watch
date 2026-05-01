@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T09:13:14+09:00",
+  "generated_at": "2026-05-01T09:12:02+09:00",
   "config": {
     "keywords": [
       "AI",
@@ -22,525 +22,12 @@
     "keep_days": 60
   },
   "stats": {
-    "open": 260,
-    "closing_soon": 78,
-    "closed": 67,
-    "total": 405
+    "open": 268,
+    "closing_soon": 107,
+    "closed": 85,
+    "total": 460
   },
   "closing_soon": [
-    {
-      "bidNtceNo": "R26BK01409553",
-      "bidNtceOrd": "001",
-      "bidNtceNm": "26년 국방통합AI데이터센터 실증목적 GPU 서버 구축사업",
-      "ntceInsttNm": "조달청 인천지방조달청",
-      "ntceInsttCd": "1230133",
-      "dminsttNm": "국방통합데이터센터",
-      "dminsttCd": "ZD01034",
-      "bidMethdNm": "전자입찰",
-      "cntrctCnclsMthdNm": "일반경쟁",
-      "ntceKindNm": "변경공고",
-      "bsnsDivNm": "",
-      "srvceDivNm": "일반용역",
-      "ppswGnrlSrvceYn": "Y",
-      "bidNtceDt": "2026-04-20 15:33:01",
-      "bidBeginDt": "2026-04-28 10:00:00",
-      "bidClseDt": "2026-04-30 10:00:00",
-      "opengDt": "2026-04-30 11:00:00",
-      "asignBdgtAmt": "21706856820",
-      "presmptPrce": "19638308073",
-      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01409553&bidPbancOrd=001",
-      "ntceInsttOfclNm": "김준권",
-      "ntceInsttOfclTelNo": "070-4056-7872",
-      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정(SW사업)",
-      "first_seen_date": "2026-04-24",
-      "last_seen_date": "2026-04-24",
-      "matched_keywords": [
-        "AI"
-      ],
-      "_bidClseDt_iso": "2026-04-30T10:00:00+09:00",
-      "_hours_remaining": 0.8
-    },
-    {
-      "bidNtceNo": "R26BK01481394",
-      "bidNtceOrd": "000",
-      "bidNtceNm": "(동의대학교 산학협력단) [RISE] AI 기본소양 확대를 위한 AIx6 융합 프로그램 개발",
-      "ntceInsttNm": "동의대학교 산학협력단",
-      "ntceInsttCd": "7007556",
-      "dminsttNm": "동의대학교 산학협력단",
-      "dminsttCd": "7007556",
-      "bidMethdNm": "전자입찰",
-      "cntrctCnclsMthdNm": "제한경쟁",
-      "ntceKindNm": "등록공고",
-      "bsnsDivNm": "",
-      "srvceDivNm": "일반용역",
-      "ppswGnrlSrvceYn": "N",
-      "bidNtceDt": "2026-04-22 10:57:44",
-      "bidBeginDt": "2026-04-22 16:00:00",
-      "bidClseDt": "2026-04-30 10:00:00",
-      "opengDt": "2026-05-08 11:00:00",
-      "asignBdgtAmt": "55000000",
-      "presmptPrce": "50000000",
-      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01481394&bidPbancOrd=000",
-      "ntceInsttOfclNm": "서지웅",
-      "ntceInsttOfclTelNo": "051-890-2402",
-      "sucsfbidMthdNm": "규격가격동시입찰-제안적격자 중 예가 내 최저가 투찰자",
-      "first_seen_date": "2026-04-24",
-      "last_seen_date": "2026-04-24",
-      "matched_keywords": [
-        "AI"
-      ],
-      "_bidClseDt_iso": "2026-04-30T10:00:00+09:00",
-      "_hours_remaining": 0.8
-    },
-    {
-      "bidNtceNo": "R26BK01485953",
-      "bidNtceOrd": "000",
-      "bidNtceNm": "(재공고)KAIST 본원 화재예방안전진단 용역",
-      "ntceInsttNm": "한국과학기술원",
-      "ntceInsttCd": "B350021",
-      "dminsttNm": "한국과학기술원",
-      "dminsttCd": "B350021",
-      "bidMethdNm": "전자입찰",
-      "cntrctCnclsMthdNm": "수의계약",
-      "ntceKindNm": "재공고",
-      "bsnsDivNm": "",
-      "srvceDivNm": "일반용역",
-      "ppswGnrlSrvceYn": "N",
-      "bidNtceDt": "2026-04-23 16:55:12",
-      "bidBeginDt": "2026-04-24 14:00:00",
-      "bidClseDt": "2026-04-30 10:00:00",
-      "opengDt": "2026-04-30 11:00:00",
-      "asignBdgtAmt": "49900000",
-      "presmptPrce": "45363636",
-      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01485953&bidPbancOrd=000",
-      "ntceInsttOfclNm": "이한권",
-      "ntceInsttOfclTelNo": "042-350-2333",
-      "sucsfbidMthdNm": "소액수의견적-소액수의견적(2인 이상 견적 제출)",
-      "first_seen_date": "2026-04-24",
-      "last_seen_date": "2026-04-24",
-      "matched_keywords": [
-        "AI"
-      ],
-      "_bidClseDt_iso": "2026-04-30T10:00:00+09:00",
-      "_hours_remaining": 0.8
-    },
-    {
-      "bidNtceNo": "R26BK01484409",
-      "bidNtceOrd": "000",
-      "bidNtceNm": "애니메이션 IP (헬로랜드) 3D 배경 및 프랍 모델링 제작",
-      "ntceInsttNm": "(주)마로스튜디오",
-      "ntceInsttCd": "Z055913",
-      "dminsttNm": "(주)마로스튜디오",
-      "dminsttCd": "Z055913",
-      "bidMethdNm": "전자입찰",
-      "cntrctCnclsMthdNm": "일반경쟁",
-      "ntceKindNm": "등록공고",
-      "bsnsDivNm": "",
-      "srvceDivNm": "일반용역",
-      "ppswGnrlSrvceYn": "N",
-      "bidNtceDt": "2026-04-23 11:36:40",
-      "bidBeginDt": "2026-04-23 12:00:00",
-      "bidClseDt": "2026-04-30 10:00:00",
-      "opengDt": "2026-04-30 11:00:00",
-      "asignBdgtAmt": "132000000",
-      "presmptPrce": "120000000",
-      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01484409&bidPbancOrd=000",
-      "ntceInsttOfclNm": "허재정",
-      "ntceInsttOfclTelNo": "070-8668-7696",
-      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
-      "first_seen_date": "2026-04-24",
-      "last_seen_date": "2026-04-24",
-      "matched_keywords": [
-        "모델링"
-      ],
-      "_bidClseDt_iso": "2026-04-30T10:00:00+09:00",
-      "_hours_remaining": 0.8
-    },
-    {
-      "bidNtceNo": "R26BK01487212",
-      "bidNtceOrd": "000",
-      "bidNtceNm": "광주동운초 공간재구조화 리모델링공사 가연성폐기물처리용역 견적제출 안내 공고",
-      "ntceInsttNm": "광주광역시교육청",
-      "ntceInsttCd": "7380000",
-      "dminsttNm": "광주광역시교육청",
-      "dminsttCd": "7380000",
-      "bidMethdNm": "전자입찰",
-      "cntrctCnclsMthdNm": "수의계약",
-      "ntceKindNm": "등록공고",
-      "bsnsDivNm": "",
-      "srvceDivNm": "일반용역",
-      "ppswGnrlSrvceYn": "N",
-      "bidNtceDt": "2026-04-24 15:36:14",
-      "bidBeginDt": "2026-04-28 10:00:00",
-      "bidClseDt": "2026-04-30 10:00:00",
-      "opengDt": "2026-04-30 11:10:00",
-      "asignBdgtAmt": "15297000",
-      "presmptPrce": "13906364",
-      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01487212&bidPbancOrd=000",
-      "ntceInsttOfclNm": "윤지혜",
-      "ntceInsttOfclTelNo": "062-380-4161",
-      "sucsfbidMthdNm": "소액수의견적-소액수의견적(2인 이상 견적 제출)",
-      "first_seen_date": "2026-04-24",
-      "last_seen_date": "2026-04-25",
-      "matched_keywords": [
-        "모델링"
-      ],
-      "_bidClseDt_iso": "2026-04-30T10:00:00+09:00",
-      "_hours_remaining": 0.8
-    },
-    {
-      "bidNtceNo": "R26BK01487148",
-      "bidNtceOrd": "000",
-      "bidNtceNm": "광주동운초 공간재구조화 리모델링공사 건설폐기물처리용역 견적제출 안내 공고",
-      "ntceInsttNm": "광주광역시교육청",
-      "ntceInsttCd": "7380000",
-      "dminsttNm": "광주광역시교육청",
-      "dminsttCd": "7380000",
-      "bidMethdNm": "전자입찰",
-      "cntrctCnclsMthdNm": "수의계약",
-      "ntceKindNm": "등록공고",
-      "bsnsDivNm": "",
-      "srvceDivNm": "일반용역",
-      "ppswGnrlSrvceYn": "N",
-      "bidNtceDt": "2026-04-24 16:25:05",
-      "bidBeginDt": "2026-04-28 10:00:00",
-      "bidClseDt": "2026-04-30 10:00:00",
-      "opengDt": "2026-04-30 11:00:00",
-      "asignBdgtAmt": "71348000",
-      "presmptPrce": "64861818",
-      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01487148&bidPbancOrd=000",
-      "ntceInsttOfclNm": "윤지혜",
-      "ntceInsttOfclTelNo": "062-380-4161",
-      "sucsfbidMthdNm": "소액수의견적-소액수의견적(2인 이상 견적 제출)",
-      "first_seen_date": "2026-04-24",
-      "last_seen_date": "2026-04-25",
-      "matched_keywords": [
-        "모델링"
-      ],
-      "_bidClseDt_iso": "2026-04-30T10:00:00+09:00",
-      "_hours_remaining": 0.8
-    },
-    {
-      "bidNtceNo": "R26BK01488672",
-      "bidNtceOrd": "000",
-      "bidNtceNm": "통영시 인구감소지역 대응 기본계획 및 지방소멸대응기금 투자계획 수립 용역",
-      "ntceInsttNm": "경상남도 통영시",
-      "ntceInsttCd": "5330000",
-      "dminsttNm": "경상남도 통영시",
-      "dminsttCd": "5330000",
-      "bidMethdNm": "전자입찰",
-      "cntrctCnclsMthdNm": "수의계약",
-      "ntceKindNm": "등록공고",
-      "bsnsDivNm": "",
-      "srvceDivNm": "일반용역",
-      "ppswGnrlSrvceYn": "N",
-      "bidNtceDt": "2026-04-24 17:41:03",
-      "bidBeginDt": "2026-04-28 10:00:00",
-      "bidClseDt": "2026-04-30 11:00:00",
-      "opengDt": "2026-04-30 14:00:00",
-      "asignBdgtAmt": "40000000",
-      "presmptPrce": "36363636",
-      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01488672&bidPbancOrd=000",
-      "ntceInsttOfclNm": "신영주",
-      "ntceInsttOfclTelNo": "055-650-4424",
-      "sucsfbidMthdNm": "소액수의견적-소액수의견적(2인 이상 견적 제출)",
-      "first_seen_date": "2026-04-24",
-      "last_seen_date": "2026-04-25",
-      "matched_keywords": [
-        "투자"
-      ],
-      "_bidClseDt_iso": "2026-04-30T11:00:00+09:00",
-      "_hours_remaining": 1.8
-    },
-    {
-      "bidNtceNo": "R26BK01497135",
-      "bidNtceOrd": "000",
-      "bidNtceNm": "[정책,107] AI 기반 손상위험 예측모델 연구 중장기 전략 수립",
-      "ntceInsttNm": "질병관리청",
-      "ntceInsttCd": "1790387",
-      "dminsttNm": "질병관리청",
-      "dminsttCd": "1790387",
-      "bidMethdNm": "전자시담",
-      "cntrctCnclsMthdNm": "수의계약",
-      "ntceKindNm": "등록공고",
-      "bsnsDivNm": "",
-      "srvceDivNm": "일반용역",
-      "ppswGnrlSrvceYn": "N",
-      "bidNtceDt": "2026-04-29 15:54:15",
-      "bidBeginDt": "2026-04-30 10:00:00",
-      "bidClseDt": "2026-04-30 11:00:00",
-      "opengDt": "2026-04-30 12:00:00",
-      "asignBdgtAmt": "50000000",
-      "presmptPrce": "45454545",
-      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01497135&bidPbancOrd=000",
-      "ntceInsttOfclNm": "강태형",
-      "ntceInsttOfclTelNo": "043-719-7044",
-      "sucsfbidMthdNm": "수의시담-수의시담",
-      "first_seen_date": "2026-04-30",
-      "last_seen_date": "2026-04-30",
-      "matched_keywords": [
-        "AI",
-        "예측"
-      ],
-      "_bidClseDt_iso": "2026-04-30T11:00:00+09:00",
-      "_hours_remaining": 1.8
-    },
-    {
-      "bidNtceNo": "R26BK01495943",
-      "bidNtceOrd": "000",
-      "bidNtceNm": "현업 대기질 모델 예측 성능 향상 연구(Ⅳ)",
-      "ntceInsttNm": "조달청 인천지방조달청",
-      "ntceInsttCd": "1230133",
-      "dminsttNm": "기후에너지환경부 국립환경과학원",
-      "dminsttCd": "1482021",
-      "bidMethdNm": "전자시담",
-      "cntrctCnclsMthdNm": "수의계약",
-      "ntceKindNm": "재공고",
-      "bsnsDivNm": "",
-      "srvceDivNm": "일반용역",
-      "ppswGnrlSrvceYn": "Y",
-      "bidNtceDt": "2026-04-29 14:07:14",
-      "bidBeginDt": "2026-04-30 10:00:00",
-      "bidClseDt": "2026-04-30 11:00:00",
-      "opengDt": "2026-04-30 12:00:00",
-      "asignBdgtAmt": "552474800",
-      "presmptPrce": "498181818",
-      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01495943&bidPbancOrd=000",
-      "ntceInsttOfclNm": "박민지",
-      "ntceInsttOfclTelNo": "070-4056-7775",
-      "sucsfbidMthdNm": "수의시담-일반경쟁->수의",
-      "first_seen_date": "2026-04-30",
-      "last_seen_date": "2026-04-30",
-      "matched_keywords": [
-        "예측"
-      ],
-      "_bidClseDt_iso": "2026-04-30T11:00:00+09:00",
-      "_hours_remaining": 1.8
-    },
-    {
-      "bidNtceNo": "R26BK01481249",
-      "bidNtceOrd": "000",
-      "bidNtceNm": "2026년 임대아파트 놀이시설 통합 리모델링공사 설계용역",
-      "ntceInsttNm": "서울주택도시개발공사",
-      "ntceInsttCd": "Z003688",
-      "dminsttNm": "서울주택도시개발공사",
-      "dminsttCd": "Z003688",
-      "bidMethdNm": "전자입찰",
-      "cntrctCnclsMthdNm": "수의계약",
-      "ntceKindNm": "등록공고",
-      "bsnsDivNm": "",
-      "srvceDivNm": "기술용역",
-      "ppswGnrlSrvceYn": "N",
-      "bidNtceDt": "2026-04-22 10:04:55",
-      "bidBeginDt": "2026-04-28 10:00:00",
-      "bidClseDt": "2026-04-30 12:00:00",
-      "opengDt": "2026-04-30 13:00:00",
-      "asignBdgtAmt": "73216000",
-      "presmptPrce": "66560000",
-      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01481249&bidPbancOrd=000",
-      "ntceInsttOfclNm": "장혜진",
-      "ntceInsttOfclTelNo": "02-3410-7193",
-      "sucsfbidMthdNm": "소액수의견적-소액수의견적(2인 이상 견적 제출)",
-      "first_seen_date": "2026-04-24",
-      "last_seen_date": "2026-04-24",
-      "matched_keywords": [
-        "모델링"
-      ],
-      "_bidClseDt_iso": "2026-04-30T12:00:00+09:00",
-      "_hours_remaining": 2.8
-    },
-    {
-      "bidNtceNo": "R26BK01481598",
-      "bidNtceOrd": "000",
-      "bidNtceNm": "2026년 해양산업 AI 전환 및 기술 실증·확산 지원 용역",
-      "ntceInsttNm": "한국해양진흥공사",
-      "ntceInsttCd": "B553953",
-      "dminsttNm": "한국해양진흥공사",
-      "dminsttCd": "B553953",
-      "bidMethdNm": "전자시담",
-      "cntrctCnclsMthdNm": "수의계약",
-      "ntceKindNm": "등록공고",
-      "bsnsDivNm": "",
-      "srvceDivNm": "일반용역",
-      "ppswGnrlSrvceYn": "N",
-      "bidNtceDt": "2026-04-28 18:07:41",
-      "bidBeginDt": "2026-04-28 19:00:00",
-      "bidClseDt": "2026-04-30 12:00:00",
-      "opengDt": "2026-04-30 13:00:00",
-      "asignBdgtAmt": "2500000000",
-      "presmptPrce": "2272727273",
-      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01481598&bidPbancOrd=000",
-      "ntceInsttOfclNm": "홍지혁",
-      "ntceInsttOfclTelNo": "051-795-1576",
-      "sucsfbidMthdNm": "수의시담-수의시담",
-      "first_seen_date": "2026-04-29",
-      "last_seen_date": "2026-04-29",
-      "matched_keywords": [
-        "AI"
-      ],
-      "_bidClseDt_iso": "2026-04-30T12:00:00+09:00",
-      "_hours_remaining": 2.8
-    },
-    {
-      "bidNtceNo": "R26BK01495037",
-      "bidNtceOrd": "000",
-      "bidNtceNm": "아기상어 AI전시 프로젝트 인쇄홍보물",
-      "ntceInsttNm": "더핑크퐁컴퍼니 주식회사",
-      "ntceInsttCd": "Z037856",
-      "dminsttNm": "더핑크퐁컴퍼니 주식회사",
-      "dminsttCd": "Z037856",
-      "bidMethdNm": "전자시담",
-      "cntrctCnclsMthdNm": "수의계약",
-      "ntceKindNm": "등록공고",
-      "bsnsDivNm": "",
-      "srvceDivNm": "일반용역",
-      "ppswGnrlSrvceYn": "N",
-      "bidNtceDt": "2026-04-29 11:11:33",
-      "bidBeginDt": "2026-04-29 12:00:00",
-      "bidClseDt": "2026-04-30 12:00:00",
-      "opengDt": "2026-04-30 13:00:00",
-      "asignBdgtAmt": "81112965",
-      "presmptPrce": "73739059",
-      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01495037&bidPbancOrd=000",
-      "ntceInsttOfclNm": "강서솔",
-      "ntceInsttOfclTelNo": "",
-      "sucsfbidMthdNm": "수의시담-수의시담",
-      "first_seen_date": "2026-04-30",
-      "last_seen_date": "2026-04-30",
-      "matched_keywords": [
-        "AI"
-      ],
-      "_bidClseDt_iso": "2026-04-30T12:00:00+09:00",
-      "_hours_remaining": 2.8
-    },
-    {
-      "bidNtceNo": "R26BK01495960",
-      "bidNtceOrd": "000",
-      "bidNtceNm": "수산생물질병 인공지능 학습모델 개발 및 서비스 시스템 고도화(III)",
-      "ntceInsttNm": "해양수산부 국립수산과학원",
-      "ntceInsttCd": "1192266",
-      "dminsttNm": "해양수산부 국립수산과학원",
-      "dminsttCd": "1192266",
-      "bidMethdNm": "전자시담",
-      "cntrctCnclsMthdNm": "수의계약",
-      "ntceKindNm": "재공고",
-      "bsnsDivNm": "",
-      "srvceDivNm": "일반용역",
-      "ppswGnrlSrvceYn": "N",
-      "bidNtceDt": "2026-04-29 11:29:38",
-      "bidBeginDt": "2026-04-30 10:00:00",
-      "bidClseDt": "2026-04-30 12:00:00",
-      "opengDt": "2026-04-30 13:00:00",
-      "asignBdgtAmt": "70000000",
-      "presmptPrce": "63636364",
-      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01495960&bidPbancOrd=000",
-      "ntceInsttOfclNm": "심서현",
-      "ntceInsttOfclTelNo": "051-720-2066",
-      "sucsfbidMthdNm": "수의시담-수의시담",
-      "first_seen_date": "2026-04-30",
-      "last_seen_date": "2026-04-30",
-      "matched_keywords": [
-        "인공지능"
-      ],
-      "_bidClseDt_iso": "2026-04-30T12:00:00+09:00",
-      "_hours_remaining": 2.8
-    },
-    {
-      "bidNtceNo": "R26BK01495247",
-      "bidNtceOrd": "000",
-      "bidNtceNm": "검증용 원심모형실험(3) 용역",
-      "ntceInsttNm": "한국건설기술연구원",
-      "ntceInsttCd": "B090023",
-      "dminsttNm": "한국건설기술연구원",
-      "dminsttCd": "B090023",
-      "bidMethdNm": "전자시담",
-      "cntrctCnclsMthdNm": "수의계약",
-      "ntceKindNm": "등록공고",
-      "bsnsDivNm": "",
-      "srvceDivNm": "일반용역",
-      "ppswGnrlSrvceYn": "N",
-      "bidNtceDt": "2026-04-29 09:26:36",
-      "bidBeginDt": "2026-04-30 09:00:00",
-      "bidClseDt": "2026-04-30 12:00:00",
-      "opengDt": "2026-04-30 13:00:00",
-      "asignBdgtAmt": "18480000",
-      "presmptPrce": "16800000",
-      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01495247&bidPbancOrd=000",
-      "ntceInsttOfclNm": "유진옥",
-      "ntceInsttOfclTelNo": "031-910-0023",
-      "sucsfbidMthdNm": "수의시담-수의시담",
-      "first_seen_date": "2026-04-30",
-      "last_seen_date": "2026-04-30",
-      "matched_keywords": [
-        "모형"
-      ],
-      "_bidClseDt_iso": "2026-04-30T12:00:00+09:00",
-      "_hours_remaining": 2.8
-    },
-    {
-      "bidNtceNo": "R26BK01479989",
-      "bidNtceOrd": "000",
-      "bidNtceNm": "2026년~2027년도 수질예측 및 수질오염사고대응예측시스템 유지관리(장기계속 1차)",
-      "ntceInsttNm": "조달청 인천지방조달청",
-      "ntceInsttCd": "1230133",
-      "dminsttNm": "기후에너지환경부 국립환경과학원",
-      "dminsttCd": "1482021",
-      "bidMethdNm": "전자시담",
-      "cntrctCnclsMthdNm": "수의계약",
-      "ntceKindNm": "재공고",
-      "bsnsDivNm": "",
-      "srvceDivNm": "일반용역",
-      "ppswGnrlSrvceYn": "Y",
-      "bidNtceDt": "2026-04-29 15:18:27",
-      "bidBeginDt": "2026-04-30 11:00:00",
-      "bidClseDt": "2026-04-30 12:00:00",
-      "opengDt": "2026-04-30 13:00:00",
-      "asignBdgtAmt": "363046000",
-      "presmptPrce": "327272727",
-      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01479989&bidPbancOrd=000",
-      "ntceInsttOfclNm": "최찬수",
-      "ntceInsttOfclTelNo": "070-4056-7867",
-      "sucsfbidMthdNm": "수의시담-일반경쟁->수의",
-      "first_seen_date": "2026-04-30",
-      "last_seen_date": "2026-04-30",
-      "matched_keywords": [
-        "예측"
-      ],
-      "_bidClseDt_iso": "2026-04-30T12:00:00+09:00",
-      "_hours_remaining": 2.8
-    },
-    {
-      "bidNtceNo": "R26BK01494274",
-      "bidNtceOrd": "000",
-      "bidNtceNm": "하천환경변화를 고려한 영산강권역 AI 홍수예보체계 개선 연구",
-      "ntceInsttNm": "조달청",
-      "ntceInsttCd": "1230000",
-      "dminsttNm": "기후에너지환경부 영산강홍수통제소",
-      "dminsttCd": "1482037",
-      "bidMethdNm": "전자시담",
-      "cntrctCnclsMthdNm": "수의계약",
-      "ntceKindNm": "재공고",
-      "bsnsDivNm": "",
-      "srvceDivNm": "일반용역",
-      "ppswGnrlSrvceYn": "Y",
-      "bidNtceDt": "2026-04-28 17:06:28",
-      "bidBeginDt": "2026-04-30 13:00:00",
-      "bidClseDt": "2026-04-30 14:00:00",
-      "opengDt": "2026-04-30 15:00:00",
-      "asignBdgtAmt": "277400000",
-      "presmptPrce": "250000000",
-      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01494274&bidPbancOrd=000",
-      "ntceInsttOfclNm": "양희선",
-      "ntceInsttOfclTelNo": "042-724-7360",
-      "sucsfbidMthdNm": "수의시담-일반경쟁->수의",
-      "first_seen_date": "2026-04-29",
-      "last_seen_date": "2026-04-29",
-      "matched_keywords": [
-        "AI"
-      ],
-      "_bidClseDt_iso": "2026-04-30T14:00:00+09:00",
-      "_hours_remaining": 4.8
-    },
     {
       "bidNtceNo": "R26BK01477400",
       "bidNtceOrd": "000",
@@ -571,7 +58,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T10:00:00+09:00",
-      "_hours_remaining": 96.8
+      "_hours_remaining": 72.8
     },
     {
       "bidNtceNo": "R26BK01477421",
@@ -604,7 +91,7 @@
         "전망"
       ],
       "_bidClseDt_iso": "2026-05-04T10:00:00+09:00",
-      "_hours_remaining": 96.8
+      "_hours_remaining": 72.8
     },
     {
       "bidNtceNo": "R26BK01478434",
@@ -636,7 +123,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T10:00:00+09:00",
-      "_hours_remaining": 96.8
+      "_hours_remaining": 72.8
     },
     {
       "bidNtceNo": "R26BK01479146",
@@ -668,7 +155,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T10:00:00+09:00",
-      "_hours_remaining": 96.8
+      "_hours_remaining": 72.8
     },
     {
       "bidNtceNo": "R26BK01479425",
@@ -701,7 +188,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-04T10:00:00+09:00",
-      "_hours_remaining": 96.8
+      "_hours_remaining": 72.8
     },
     {
       "bidNtceNo": "R26BK01478434",
@@ -733,7 +220,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T10:00:00+09:00",
-      "_hours_remaining": 96.8
+      "_hours_remaining": 72.8
     },
     {
       "bidNtceNo": "R26BK01485004",
@@ -765,7 +252,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T10:00:00+09:00",
-      "_hours_remaining": 96.8
+      "_hours_remaining": 72.8
     },
     {
       "bidNtceNo": "R26BK01485863",
@@ -797,7 +284,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T10:00:00+09:00",
-      "_hours_remaining": 96.8
+      "_hours_remaining": 72.8
     },
     {
       "bidNtceNo": "R26BK01476010",
@@ -829,7 +316,7 @@
         "인공지능"
       ],
       "_bidClseDt_iso": "2026-05-04T10:00:00+09:00",
-      "_hours_remaining": 96.8
+      "_hours_remaining": 72.8
     },
     {
       "bidNtceNo": "R26BK01477540",
@@ -863,7 +350,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-04T10:00:00+09:00",
-      "_hours_remaining": 96.8
+      "_hours_remaining": 72.8
     },
     {
       "bidNtceNo": "R26BK01479042",
@@ -895,7 +382,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-04T10:00:00+09:00",
-      "_hours_remaining": 96.8
+      "_hours_remaining": 72.8
     },
     {
       "bidNtceNo": "R26BK01479143",
@@ -927,7 +414,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-04T10:00:00+09:00",
-      "_hours_remaining": 96.8
+      "_hours_remaining": 72.8
     },
     {
       "bidNtceNo": "R26BK01484043",
@@ -959,7 +446,7 @@
         "금융"
       ],
       "_bidClseDt_iso": "2026-05-04T10:00:00+09:00",
-      "_hours_remaining": 96.8
+      "_hours_remaining": 72.8
     },
     {
       "bidNtceNo": "R26BK01475539",
@@ -991,7 +478,7 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-05-04T10:00:00+09:00",
-      "_hours_remaining": 96.8
+      "_hours_remaining": 72.8
     },
     {
       "bidNtceNo": "R26BK01494776",
@@ -1023,7 +510,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T10:00:00+09:00",
-      "_hours_remaining": 96.8
+      "_hours_remaining": 72.8
     },
     {
       "bidNtceNo": "R26BK01463661",
@@ -1055,7 +542,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T11:00:00+09:00",
-      "_hours_remaining": 97.8
+      "_hours_remaining": 73.8
     },
     {
       "bidNtceNo": "R26BK01475639",
@@ -1087,7 +574,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T11:00:00+09:00",
-      "_hours_remaining": 97.8
+      "_hours_remaining": 73.8
     },
     {
       "bidNtceNo": "R26BK01476523",
@@ -1119,7 +606,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T11:00:00+09:00",
-      "_hours_remaining": 97.8
+      "_hours_remaining": 73.8
     },
     {
       "bidNtceNo": "R26BK01478789",
@@ -1151,7 +638,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T11:00:00+09:00",
-      "_hours_remaining": 97.8
+      "_hours_remaining": 73.8
     },
     {
       "bidNtceNo": "R26BK01483135",
@@ -1183,7 +670,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T11:00:00+09:00",
-      "_hours_remaining": 97.8
+      "_hours_remaining": 73.8
     },
     {
       "bidNtceNo": "R26BK01483034",
@@ -1216,7 +703,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-04T11:00:00+09:00",
-      "_hours_remaining": 97.8
+      "_hours_remaining": 73.8
     },
     {
       "bidNtceNo": "R26BK01474718",
@@ -1248,7 +735,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-05-04T11:00:00+09:00",
-      "_hours_remaining": 97.8
+      "_hours_remaining": 73.8
     },
     {
       "bidNtceNo": "R26BK01475220",
@@ -1280,7 +767,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-04T11:00:00+09:00",
-      "_hours_remaining": 97.8
+      "_hours_remaining": 73.8
     },
     {
       "bidNtceNo": "R26BK01483716",
@@ -1312,7 +799,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T12:00:00+09:00",
-      "_hours_remaining": 98.8
+      "_hours_remaining": 74.8
     },
     {
       "bidNtceNo": "R26BK01480102",
@@ -1345,7 +832,7 @@
         "빅데이터"
       ],
       "_bidClseDt_iso": "2026-05-04T12:00:00+09:00",
-      "_hours_remaining": 98.8
+      "_hours_remaining": 74.8
     },
     {
       "bidNtceNo": "R26BK01486054",
@@ -1377,7 +864,7 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-05-04T12:00:00+09:00",
-      "_hours_remaining": 98.8
+      "_hours_remaining": 74.8
     },
     {
       "bidNtceNo": "R26BK01484466",
@@ -1409,7 +896,39 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T14:00:00+09:00",
-      "_hours_remaining": 100.8
+      "_hours_remaining": 76.8
+    },
+    {
+      "bidNtceNo": "R26BK01498778",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "(위탁)바이오화합물 생산시설 설치를 위한 분리·정제 단계의 수율 예측 시뮬레이션",
+      "ntceInsttNm": "산림청 국립산림과학원",
+      "ntceInsttCd": "1400377",
+      "dminsttNm": "산림청 국립산림과학원",
+      "dminsttCd": "1400377",
+      "bidMethdNm": "전자시담",
+      "cntrctCnclsMthdNm": "수의계약",
+      "ntceKindNm": "재공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 10:13:12",
+      "bidBeginDt": "2026-05-04 14:00:00",
+      "bidClseDt": "2026-05-04 15:00:00",
+      "opengDt": "2026-05-04 16:00:00",
+      "asignBdgtAmt": "49852000",
+      "presmptPrce": "45320000",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01498778&bidPbancOrd=000",
+      "ntceInsttOfclNm": "강주형",
+      "ntceInsttOfclTelNo": "02-961-2533",
+      "sucsfbidMthdNm": "수의시담-수의시담",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "예측"
+      ],
+      "_bidClseDt_iso": "2026-05-04T15:00:00+09:00",
+      "_hours_remaining": 77.8
     },
     {
       "bidNtceNo": "R26BK01481174",
@@ -1441,7 +960,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T16:00:00+09:00",
-      "_hours_remaining": 102.8
+      "_hours_remaining": 78.8
     },
     {
       "bidNtceNo": "R26BK01481037",
@@ -1473,7 +992,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T17:00:00+09:00",
-      "_hours_remaining": 103.8
+      "_hours_remaining": 79.8
     },
     {
       "bidNtceNo": "R26BK01481275",
@@ -1505,7 +1024,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T17:00:00+09:00",
-      "_hours_remaining": 103.8
+      "_hours_remaining": 79.8
     },
     {
       "bidNtceNo": "R26BK01487294",
@@ -1537,7 +1056,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T17:00:00+09:00",
-      "_hours_remaining": 103.8
+      "_hours_remaining": 79.8
     },
     {
       "bidNtceNo": "R26BK01491684",
@@ -1569,7 +1088,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-04T17:00:00+09:00",
-      "_hours_remaining": 103.8
+      "_hours_remaining": 79.8
     },
     {
       "bidNtceNo": "R26BK01475685",
@@ -1601,7 +1120,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-06T10:00:00+09:00",
-      "_hours_remaining": 144.8
+      "_hours_remaining": 120.8
     },
     {
       "bidNtceNo": "R26BK01480622",
@@ -1633,7 +1152,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-06T10:00:00+09:00",
-      "_hours_remaining": 144.8
+      "_hours_remaining": 120.8
     },
     {
       "bidNtceNo": "R26BK01487925",
@@ -1665,7 +1184,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-06T10:00:00+09:00",
-      "_hours_remaining": 144.8
+      "_hours_remaining": 120.8
     },
     {
       "bidNtceNo": "R26BK01487915",
@@ -1697,7 +1216,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-06T10:00:00+09:00",
-      "_hours_remaining": 144.8
+      "_hours_remaining": 120.8
     },
     {
       "bidNtceNo": "R26BK01478441",
@@ -1729,7 +1248,7 @@
         "모형"
       ],
       "_bidClseDt_iso": "2026-05-06T10:00:00+09:00",
-      "_hours_remaining": 144.8
+      "_hours_remaining": 120.8
     },
     {
       "bidNtceNo": "R26BK01488643",
@@ -1761,7 +1280,7 @@
         "빅데이터"
       ],
       "_bidClseDt_iso": "2026-05-06T10:00:00+09:00",
-      "_hours_remaining": 144.8
+      "_hours_remaining": 120.8
     },
     {
       "bidNtceNo": "R26BK01491918",
@@ -1793,7 +1312,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-06T10:00:00+09:00",
-      "_hours_remaining": 144.8
+      "_hours_remaining": 120.8
     },
     {
       "bidNtceNo": "R26BK01491918",
@@ -1825,7 +1344,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-06T10:00:00+09:00",
-      "_hours_remaining": 144.8
+      "_hours_remaining": 120.8
     },
     {
       "bidNtceNo": "R26BK01492387",
@@ -1857,7 +1376,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-06T10:00:00+09:00",
-      "_hours_remaining": 144.8
+      "_hours_remaining": 120.8
     },
     {
       "bidNtceNo": "R26BK01494863",
@@ -1889,7 +1408,7 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-05-06T10:00:00+09:00",
-      "_hours_remaining": 144.8
+      "_hours_remaining": 120.8
     },
     {
       "bidNtceNo": "R26BK01480575",
@@ -1921,7 +1440,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-06T11:00:00+09:00",
-      "_hours_remaining": 145.8
+      "_hours_remaining": 121.8
     },
     {
       "bidNtceNo": "R26BK01488590",
@@ -1953,7 +1472,7 @@
         "빅데이터"
       ],
       "_bidClseDt_iso": "2026-05-06T11:00:00+09:00",
-      "_hours_remaining": 145.8
+      "_hours_remaining": 121.8
     },
     {
       "bidNtceNo": "R26BK01494719",
@@ -1985,7 +1504,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-05-06T11:00:00+09:00",
-      "_hours_remaining": 145.8
+      "_hours_remaining": 121.8
     },
     {
       "bidNtceNo": "R26BK01493235",
@@ -2017,7 +1536,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-06T11:00:00+09:00",
-      "_hours_remaining": 145.8
+      "_hours_remaining": 121.8
     },
     {
       "bidNtceNo": "R26BK01484906",
@@ -2049,7 +1568,7 @@
         "재무"
       ],
       "_bidClseDt_iso": "2026-05-06T12:00:00+09:00",
-      "_hours_remaining": 146.8
+      "_hours_remaining": 122.8
     },
     {
       "bidNtceNo": "R26BK01483660",
@@ -2081,7 +1600,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-06T14:00:00+09:00",
-      "_hours_remaining": 148.8
+      "_hours_remaining": 124.8
     },
     {
       "bidNtceNo": "R26BK01487787",
@@ -2113,7 +1632,7 @@
         "인공지능"
       ],
       "_bidClseDt_iso": "2026-05-06T14:00:00+09:00",
-      "_hours_remaining": 148.8
+      "_hours_remaining": 124.8
     },
     {
       "bidNtceNo": "R26BK01495417",
@@ -2145,7 +1664,7 @@
         "연금"
       ],
       "_bidClseDt_iso": "2026-05-06T14:00:00+09:00",
-      "_hours_remaining": 148.8
+      "_hours_remaining": 124.8
     },
     {
       "bidNtceNo": "R26BK01478139",
@@ -2177,7 +1696,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-06T15:00:00+09:00",
-      "_hours_remaining": 149.8
+      "_hours_remaining": 125.8
     },
     {
       "bidNtceNo": "R26BK01480445",
@@ -2209,7 +1728,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-06T15:00:00+09:00",
-      "_hours_remaining": 149.8
+      "_hours_remaining": 125.8
     },
     {
       "bidNtceNo": "R26BK01480477",
@@ -2241,7 +1760,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-06T15:00:00+09:00",
-      "_hours_remaining": 149.8
+      "_hours_remaining": 125.8
     },
     {
       "bidNtceNo": "R26BK01493157",
@@ -2273,7 +1792,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-05-06T15:00:00+09:00",
-      "_hours_remaining": 149.8
+      "_hours_remaining": 125.8
     },
     {
       "bidNtceNo": "R26BK01493935",
@@ -2305,7 +1824,39 @@
         "모형"
       ],
       "_bidClseDt_iso": "2026-05-06T15:00:00+09:00",
-      "_hours_remaining": 149.8
+      "_hours_remaining": 125.8
+    },
+    {
+      "bidNtceNo": "R26BK01499469",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "2026년 맞춤형 기상기후 빅데이터 서비스 기반 구축",
+      "ntceInsttNm": "조달청",
+      "ntceInsttCd": "1230000",
+      "dminsttNm": "기상청",
+      "dminsttCd": "1360000",
+      "bidMethdNm": "전자시담",
+      "cntrctCnclsMthdNm": "수의계약",
+      "ntceKindNm": "재공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "Y",
+      "bidNtceDt": "2026-04-30 15:09:25",
+      "bidBeginDt": "2026-05-06 14:00:00",
+      "bidClseDt": "2026-05-06 15:00:00",
+      "opengDt": "2026-05-06 16:00:00",
+      "asignBdgtAmt": "389567960",
+      "presmptPrce": "350909091",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01499469&bidPbancOrd=000",
+      "ntceInsttOfclNm": "안치민",
+      "ntceInsttOfclTelNo": "042-724-6479",
+      "sucsfbidMthdNm": "수의시담-일반경쟁->수의",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "빅데이터"
+      ],
+      "_bidClseDt_iso": "2026-05-06T15:00:00+09:00",
+      "_hours_remaining": 125.8
     },
     {
       "bidNtceNo": "R26BK01490704",
@@ -2337,7 +1888,7 @@
         "인공지능"
       ],
       "_bidClseDt_iso": "2026-05-06T16:00:00+09:00",
-      "_hours_remaining": 150.8
+      "_hours_remaining": 126.8
     },
     {
       "bidNtceNo": "R26BK01477603",
@@ -2370,7 +1921,7 @@
         "인공지능"
       ],
       "_bidClseDt_iso": "2026-05-06T17:00:00+09:00",
-      "_hours_remaining": 151.8
+      "_hours_remaining": 127.8
     },
     {
       "bidNtceNo": "R26BK01477473",
@@ -2402,7 +1953,7 @@
         "재무"
       ],
       "_bidClseDt_iso": "2026-05-06T17:00:00+09:00",
-      "_hours_remaining": 151.8
+      "_hours_remaining": 127.8
     },
     {
       "bidNtceNo": "R26BK01480726",
@@ -2434,7 +1985,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-06T18:00:00+09:00",
-      "_hours_remaining": 152.8
+      "_hours_remaining": 128.8
     },
     {
       "bidNtceNo": "R26BK01489741",
@@ -2466,7 +2017,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-06T18:00:00+09:00",
-      "_hours_remaining": 152.8
+      "_hours_remaining": 128.8
     },
     {
       "bidNtceNo": "R26BK01480726",
@@ -2498,7 +2049,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-06T18:00:00+09:00",
-      "_hours_remaining": 152.8
+      "_hours_remaining": 128.8
     },
     {
       "bidNtceNo": "R26BK01489741",
@@ -2530,10 +2081,8 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-06T18:00:00+09:00",
-      "_hours_remaining": 152.8
-    }
-  ],
-  "open": [
+      "_hours_remaining": 128.8
+    },
     {
       "bidNtceNo": "R26BK01475169",
       "bidNtceOrd": "000",
@@ -2565,7 +2114,7 @@
         "빅데이터"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 168.8
+      "_hours_remaining": 144.8
     },
     {
       "bidNtceNo": "R26BK01474898",
@@ -2597,7 +2146,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 168.8
+      "_hours_remaining": 144.8
     },
     {
       "bidNtceNo": "R26BK01473052",
@@ -2629,7 +2178,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 168.8
+      "_hours_remaining": 144.8
     },
     {
       "bidNtceNo": "R26BK01477974",
@@ -2663,7 +2212,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 168.8
+      "_hours_remaining": 144.8
     },
     {
       "bidNtceNo": "R26BK01479919",
@@ -2695,7 +2244,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 168.8
+      "_hours_remaining": 144.8
     },
     {
       "bidNtceNo": "R26BK01481665",
@@ -2727,7 +2276,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 168.8
+      "_hours_remaining": 144.8
     },
     {
       "bidNtceNo": "R26BK01481666",
@@ -2759,7 +2308,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 168.8
+      "_hours_remaining": 144.8
     },
     {
       "bidNtceNo": "R26BK01481295",
@@ -2791,7 +2340,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 168.8
+      "_hours_remaining": 144.8
     },
     {
       "bidNtceNo": "R26BK01483174",
@@ -2823,7 +2372,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 168.8
+      "_hours_remaining": 144.8
     },
     {
       "bidNtceNo": "R26BK01482183",
@@ -2855,7 +2404,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 168.8
+      "_hours_remaining": 144.8
     },
     {
       "bidNtceNo": "R26BK01481042",
@@ -2887,7 +2436,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 168.8
+      "_hours_remaining": 144.8
     },
     {
       "bidNtceNo": "R26BK01484302",
@@ -2919,7 +2468,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 168.8
+      "_hours_remaining": 144.8
     },
     {
       "bidNtceNo": "R26BK01483286",
@@ -2952,7 +2501,7 @@
         "인공지능"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 168.8
+      "_hours_remaining": 144.8
     },
     {
       "bidNtceNo": "R26BK01486259",
@@ -2984,7 +2533,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 168.8
+      "_hours_remaining": 144.8
     },
     {
       "bidNtceNo": "R26BK01486944",
@@ -3017,7 +2566,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 168.8
+      "_hours_remaining": 144.8
     },
     {
       "bidNtceNo": "R26BK01486487",
@@ -3049,7 +2598,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 168.8
+      "_hours_remaining": 144.8
     },
     {
       "bidNtceNo": "R26BK01480925",
@@ -3079,7 +2628,7 @@
       "last_seen_date": "2026-04-24",
       "matched_keywords": [],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 168.8
+      "_hours_remaining": 144.8
     },
     {
       "bidNtceNo": "R26BK01481886",
@@ -3111,7 +2660,7 @@
         "인공지능"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 168.8
+      "_hours_remaining": 144.8
     },
     {
       "bidNtceNo": "R26BK01478658",
@@ -3143,7 +2692,7 @@
         "빅데이터"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 168.8
+      "_hours_remaining": 144.8
     },
     {
       "bidNtceNo": "R26BK01486790",
@@ -3175,7 +2724,7 @@
         "빅데이터"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 168.8
+      "_hours_remaining": 144.8
     },
     {
       "bidNtceNo": "R26BK01479495",
@@ -3207,7 +2756,7 @@
         "모형"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 168.8
+      "_hours_remaining": 144.8
     },
     {
       "bidNtceNo": "R26BK01478503",
@@ -3239,7 +2788,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 168.8
+      "_hours_remaining": 144.8
     },
     {
       "bidNtceNo": "R26BK01486006",
@@ -3271,7 +2820,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 168.8
+      "_hours_remaining": 144.8
     },
     {
       "bidNtceNo": "R26BK01486632",
@@ -3303,7 +2852,7 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 168.8
+      "_hours_remaining": 144.8
     },
     {
       "bidNtceNo": "R26BK01490729",
@@ -3335,7 +2884,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 168.8
+      "_hours_remaining": 144.8
     },
     {
       "bidNtceNo": "R26BK01497624",
@@ -3367,7 +2916,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 168.8
+      "_hours_remaining": 144.8
     },
     {
       "bidNtceNo": "R26BK01488508",
@@ -3399,7 +2948,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 168.8
+      "_hours_remaining": 144.8
     },
     {
       "bidNtceNo": "R26BK01494463",
@@ -3431,7 +2980,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 168.8
+      "_hours_remaining": 144.8
     },
     {
       "bidNtceNo": "R26BK01497942",
@@ -3463,7 +3012,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 168.8
+      "_hours_remaining": 144.8
     },
     {
       "bidNtceNo": "R26BK01497942",
@@ -3495,7 +3044,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 168.8
+      "_hours_remaining": 144.8
     },
     {
       "bidNtceNo": "R26BK01497942",
@@ -3527,7 +3076,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 168.8
+      "_hours_remaining": 144.8
     },
     {
       "bidNtceNo": "R26BK01495386",
@@ -3559,7 +3108,7 @@
         "모형"
       ],
       "_bidClseDt_iso": "2026-05-07T10:00:00+09:00",
-      "_hours_remaining": 168.8
+      "_hours_remaining": 144.8
     },
     {
       "bidNtceNo": "R26BK01475925",
@@ -3591,7 +3140,7 @@
         "빅데이터"
       ],
       "_bidClseDt_iso": "2026-05-07T11:00:00+09:00",
-      "_hours_remaining": 169.8
+      "_hours_remaining": 145.8
     },
     {
       "bidNtceNo": "R26BK01494592",
@@ -3623,7 +3172,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-05-07T11:00:00+09:00",
-      "_hours_remaining": 169.8
+      "_hours_remaining": 145.8
     },
     {
       "bidNtceNo": "R26BK01496055",
@@ -3655,7 +3204,7 @@
         "전망"
       ],
       "_bidClseDt_iso": "2026-05-07T11:00:00+09:00",
-      "_hours_remaining": 169.8
+      "_hours_remaining": 145.8
     },
     {
       "bidNtceNo": "R26BK01483878",
@@ -3687,7 +3236,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-07T12:00:00+09:00",
-      "_hours_remaining": 170.8
+      "_hours_remaining": 146.8
     },
     {
       "bidNtceNo": "R26BK01482601",
@@ -3719,7 +3268,7 @@
         "모형"
       ],
       "_bidClseDt_iso": "2026-05-07T12:00:00+09:00",
-      "_hours_remaining": 170.8
+      "_hours_remaining": 146.8
     },
     {
       "bidNtceNo": "R26BK01483915",
@@ -3751,7 +3300,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-07T15:00:00+09:00",
-      "_hours_remaining": 173.8
+      "_hours_remaining": 149.8
     },
     {
       "bidNtceNo": "R26BK01488932",
@@ -3783,7 +3332,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-07T15:00:00+09:00",
-      "_hours_remaining": 173.8
+      "_hours_remaining": 149.8
     },
     {
       "bidNtceNo": "R26BK01489158",
@@ -3815,7 +3364,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-07T16:00:00+09:00",
-      "_hours_remaining": 174.8
+      "_hours_remaining": 150.8
     },
     {
       "bidNtceNo": "R26BK01489158",
@@ -3847,7 +3396,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-07T16:00:00+09:00",
-      "_hours_remaining": 174.8
+      "_hours_remaining": 150.8
     },
     {
       "bidNtceNo": "R26BK01489158",
@@ -3879,7 +3428,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-07T16:00:00+09:00",
-      "_hours_remaining": 174.8
+      "_hours_remaining": 150.8
     },
     {
       "bidNtceNo": "R26BK01474102",
@@ -3911,8 +3460,10 @@
         "인공지능"
       ],
       "_bidClseDt_iso": "2026-05-07T17:00:00+09:00",
-      "_hours_remaining": 175.8
-    },
+      "_hours_remaining": 151.8
+    }
+  ],
+  "open": [
     {
       "bidNtceNo": "R26BK01475149",
       "bidNtceOrd": "000",
@@ -3943,7 +3494,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 192.8
+      "_hours_remaining": 168.8
     },
     {
       "bidNtceNo": "R26BK01477275",
@@ -3975,7 +3526,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 192.8
+      "_hours_remaining": 168.8
     },
     {
       "bidNtceNo": "R26BK01480967",
@@ -4007,7 +3558,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 192.8
+      "_hours_remaining": 168.8
     },
     {
       "bidNtceNo": "R26BK01481611",
@@ -4039,7 +3590,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 192.8
+      "_hours_remaining": 168.8
     },
     {
       "bidNtceNo": "R26BK01481839",
@@ -4071,7 +3622,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 192.8
+      "_hours_remaining": 168.8
     },
     {
       "bidNtceNo": "R26BK01483451",
@@ -4103,7 +3654,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 192.8
+      "_hours_remaining": 168.8
     },
     {
       "bidNtceNo": "R26BK01484556",
@@ -4135,7 +3686,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 192.8
+      "_hours_remaining": 168.8
     },
     {
       "bidNtceNo": "R26BK01486864",
@@ -4167,7 +3718,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 192.8
+      "_hours_remaining": 168.8
     },
     {
       "bidNtceNo": "R26BK01471809",
@@ -4199,7 +3750,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 192.8
+      "_hours_remaining": 168.8
     },
     {
       "bidNtceNo": "R26BK01486760",
@@ -4231,7 +3782,7 @@
         "인공지능"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 192.8
+      "_hours_remaining": 168.8
     },
     {
       "bidNtceNo": "R26BK01481769",
@@ -4263,7 +3814,7 @@
         "머신러닝"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 192.8
+      "_hours_remaining": 168.8
     },
     {
       "bidNtceNo": "R26BK01487868",
@@ -4295,7 +3846,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 192.8
+      "_hours_remaining": 168.8
     },
     {
       "bidNtceNo": "R26BK01486162",
@@ -4328,7 +3879,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 192.8
+      "_hours_remaining": 168.8
     },
     {
       "bidNtceNo": "R26BK01482873",
@@ -4360,7 +3911,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 192.8
+      "_hours_remaining": 168.8
     },
     {
       "bidNtceNo": "R26BK01478449",
@@ -4392,7 +3943,7 @@
         "재무"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 192.8
+      "_hours_remaining": 168.8
     },
     {
       "bidNtceNo": "R26BK01480182",
@@ -4424,7 +3975,7 @@
         "금융"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 192.8
+      "_hours_remaining": 168.8
     },
     {
       "bidNtceNo": "R26BK01481029",
@@ -4456,7 +4007,7 @@
         "금융"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 192.8
+      "_hours_remaining": 168.8
     },
     {
       "bidNtceNo": "R26BK01489324",
@@ -4488,7 +4039,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 192.8
+      "_hours_remaining": 168.8
     },
     {
       "bidNtceNo": "R26BK01485903",
@@ -4520,7 +4071,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 192.8
+      "_hours_remaining": 168.8
     },
     {
       "bidNtceNo": "R26BK01490006",
@@ -4552,7 +4103,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 192.8
+      "_hours_remaining": 168.8
     },
     {
       "bidNtceNo": "R26BK01489757",
@@ -4584,7 +4135,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 192.8
+      "_hours_remaining": 168.8
     },
     {
       "bidNtceNo": "R26BK01490539",
@@ -4616,7 +4167,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 192.8
+      "_hours_remaining": 168.8
     },
     {
       "bidNtceNo": "R26BK01491634",
@@ -4648,7 +4199,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 192.8
+      "_hours_remaining": 168.8
     },
     {
       "bidNtceNo": "R26BK01491840",
@@ -4680,7 +4231,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 192.8
+      "_hours_remaining": 168.8
     },
     {
       "bidNtceNo": "R26BK01492055",
@@ -4712,7 +4263,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 192.8
+      "_hours_remaining": 168.8
     },
     {
       "bidNtceNo": "R26BK01489866",
@@ -4744,7 +4295,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 192.8
+      "_hours_remaining": 168.8
     },
     {
       "bidNtceNo": "R26BK01491610",
@@ -4776,7 +4327,7 @@
         "인공지능"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 192.8
+      "_hours_remaining": 168.8
     },
     {
       "bidNtceNo": "R26BK01490314",
@@ -4808,7 +4359,7 @@
         "전망"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 192.8
+      "_hours_remaining": 168.8
     },
     {
       "bidNtceNo": "R26BK01490554",
@@ -4840,7 +4391,7 @@
         "전망"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 192.8
+      "_hours_remaining": 168.8
     },
     {
       "bidNtceNo": "R26BK01492110",
@@ -4873,7 +4424,7 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 192.8
+      "_hours_remaining": 168.8
     },
     {
       "bidNtceNo": "R26BK01490108",
@@ -4905,7 +4456,7 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 192.8
+      "_hours_remaining": 168.8
     },
     {
       "bidNtceNo": "R26BK01492543",
@@ -4937,7 +4488,135 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
-      "_hours_remaining": 192.8
+      "_hours_remaining": 168.8
+    },
+    {
+      "bidNtceNo": "R26BK01498362",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "광주 AI융복합지구 지식산업센터 전기공사 전기감리 용역(PQ후 가격입찰)",
+      "ntceInsttNm": "광주광역시 도시공사",
+      "ntceInsttCd": "Z003312",
+      "dminsttNm": "광주광역시 도시공사",
+      "dminsttCd": "Z003312",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "지명경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "기술용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 13:14:13",
+      "bidBeginDt": "2026-04-30 15:00:00",
+      "bidClseDt": "2026-05-08 10:00:00",
+      "opengDt": "2026-05-08 11:00:00",
+      "asignBdgtAmt": "349169000",
+      "presmptPrce": "317426364",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01498362&bidPbancOrd=000",
+      "ntceInsttOfclNm": "진영준",
+      "ntceInsttOfclTelNo": "062-600-6655",
+      "sucsfbidMthdNm": "적격심사제-추정가격이 5억원 미만인 P.Q 대상 기술용역의 평가기준",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
+      "_hours_remaining": 168.8
+    },
+    {
+      "bidNtceNo": "R26BK01498956",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "광주 AI융복합지구 지식산업센터 건립사업 건설사업관리용역(PQ 후 가격입찰)",
+      "ntceInsttNm": "광주광역시 도시공사",
+      "ntceInsttCd": "Z003312",
+      "dminsttNm": "광주광역시 도시공사",
+      "dminsttCd": "Z003312",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "지명경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "기술용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 14:01:41",
+      "bidBeginDt": "2026-04-30 16:00:00",
+      "bidClseDt": "2026-05-08 10:00:00",
+      "opengDt": "2026-05-08 11:00:00",
+      "asignBdgtAmt": "2051659000",
+      "presmptPrce": "1865144545",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01498956&bidPbancOrd=000",
+      "ntceInsttOfclNm": "진영준",
+      "ntceInsttOfclTelNo": "062-600-6655",
+      "sucsfbidMthdNm": "적격심사제-추정가격이 10억원 이상인 P.Q대상 기술용역의 평가기준",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
+      "_hours_remaining": 168.8
+    },
+    {
+      "bidNtceNo": "R26BK01498728",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "충청북도 청소년 종합진흥원 및 복합문화센터 리모델링 공사 건설폐기물 처리 용역",
+      "ntceInsttNm": "충청북도",
+      "ntceInsttCd": "6430000",
+      "dminsttNm": "충청북도",
+      "dminsttCd": "6430000",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "수의계약",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 10:07:12",
+      "bidBeginDt": "2026-05-01 10:00:00",
+      "bidClseDt": "2026-05-08 10:00:00",
+      "opengDt": "2026-05-08 11:00:00",
+      "asignBdgtAmt": "48970000",
+      "presmptPrce": "44518182",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01498728&bidPbancOrd=000",
+      "ntceInsttOfclNm": "박선병",
+      "ntceInsttOfclTelNo": "043-220-2825",
+      "sucsfbidMthdNm": "소액수의견적-소액수의견적(2인 이상 견적 제출)",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "모델링"
+      ],
+      "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
+      "_hours_remaining": 168.8
+    },
+    {
+      "bidNtceNo": "R26BK01500358",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "남구형 매입임대주택(가칭) 리모델링 실시설계 용역 소액수의 견적제출 공고",
+      "ntceInsttNm": "대구광역시 남구",
+      "ntceInsttCd": "3440000",
+      "dminsttNm": "대구광역시 남구",
+      "dminsttCd": "3440000",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "수의계약",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "기술용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 17:25:05",
+      "bidBeginDt": "2026-05-04 10:00:00",
+      "bidClseDt": "2026-05-08 10:00:00",
+      "opengDt": "2026-05-08 11:00:00",
+      "asignBdgtAmt": "29749500",
+      "presmptPrce": "27045000",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01500358&bidPbancOrd=000",
+      "ntceInsttOfclNm": "장지민",
+      "ntceInsttOfclTelNo": "053-664-2243",
+      "sucsfbidMthdNm": "소액수의견적-소액수의견적(2인 이상 견적 제출)",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "모델링"
+      ],
+      "_bidClseDt_iso": "2026-05-08T10:00:00+09:00",
+      "_hours_remaining": 168.8
     },
     {
       "bidNtceNo": "R26BK01490684",
@@ -4967,7 +4646,7 @@
       "last_seen_date": "2026-04-28",
       "matched_keywords": [],
       "_bidClseDt_iso": "2026-05-08T11:00:00+09:00",
-      "_hours_remaining": 193.8
+      "_hours_remaining": 169.8
     },
     {
       "bidNtceNo": "R26BK01490928",
@@ -4999,7 +4678,39 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-08T11:00:00+09:00",
-      "_hours_remaining": 193.8
+      "_hours_remaining": 169.8
+    },
+    {
+      "bidNtceNo": "R26BK01500540",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "통영시 인구감소지역 대응 기본계획 및 지방소멸대응기금 투자계획 수립 용역(재공고)",
+      "ntceInsttNm": "경상남도 통영시",
+      "ntceInsttCd": "5330000",
+      "dminsttNm": "경상남도 통영시",
+      "dminsttCd": "5330000",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "수의계약",
+      "ntceKindNm": "재공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 16:58:13",
+      "bidBeginDt": "2026-05-06 10:00:00",
+      "bidClseDt": "2026-05-08 11:00:00",
+      "opengDt": "2026-05-08 14:00:00",
+      "asignBdgtAmt": "40000000",
+      "presmptPrce": "36363636",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01500540&bidPbancOrd=000",
+      "ntceInsttOfclNm": "신영주",
+      "ntceInsttOfclTelNo": "055-650-4424",
+      "sucsfbidMthdNm": "소액수의견적-소액수의견적(2인 이상 견적 제출)",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "투자"
+      ],
+      "_bidClseDt_iso": "2026-05-08T11:00:00+09:00",
+      "_hours_remaining": 169.8
     },
     {
       "bidNtceNo": "R26BK01484775",
@@ -5031,7 +4742,7 @@
         "금융"
       ],
       "_bidClseDt_iso": "2026-05-08T12:00:00+09:00",
-      "_hours_remaining": 194.8
+      "_hours_remaining": 170.8
     },
     {
       "bidNtceNo": "R26BK01379423",
@@ -5063,7 +4774,39 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-05-08T14:00:00+09:00",
-      "_hours_remaining": 196.8
+      "_hours_remaining": 172.8
+    },
+    {
+      "bidNtceNo": "R26BK01498799",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "금융리스 포괄계약 리스(시설대여) 기관 선정",
+      "ntceInsttNm": "부산대학교병원",
+      "ntceInsttCd": "B550554",
+      "dminsttNm": "부산대학교병원",
+      "dminsttCd": "B550554",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "일반경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역(리스)",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 16:44:29",
+      "bidBeginDt": "2026-05-06 10:00:00",
+      "bidClseDt": "2026-05-08 14:00:00",
+      "opengDt": "2026-05-08 15:00:00",
+      "asignBdgtAmt": "",
+      "presmptPrce": "",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01498799&bidPbancOrd=000",
+      "ntceInsttOfclNm": "권송이",
+      "ntceInsttOfclTelNo": "051-240-7475",
+      "sucsfbidMthdNm": "최저가낙찰제-최저가낙찰자",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "금융"
+      ],
+      "_bidClseDt_iso": "2026-05-08T14:00:00+09:00",
+      "_hours_remaining": 172.8
     },
     {
       "bidNtceNo": "R26BK01480552",
@@ -5095,7 +4838,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-08T15:00:00+09:00",
-      "_hours_remaining": 197.8
+      "_hours_remaining": 173.8
     },
     {
       "bidNtceNo": "R26BK01481918",
@@ -5127,7 +4870,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-08T15:00:00+09:00",
-      "_hours_remaining": 197.8
+      "_hours_remaining": 173.8
     },
     {
       "bidNtceNo": "R26BK01485072",
@@ -5159,7 +4902,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-08T15:00:00+09:00",
-      "_hours_remaining": 197.8
+      "_hours_remaining": 173.8
     },
     {
       "bidNtceNo": "R26BK01491256",
@@ -5191,7 +4934,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-08T16:00:00+09:00",
-      "_hours_remaining": 198.8
+      "_hours_remaining": 174.8
     },
     {
       "bidNtceNo": "R26BK01490337",
@@ -5223,7 +4966,7 @@
         "금융"
       ],
       "_bidClseDt_iso": "2026-05-08T17:00:00+09:00",
-      "_hours_remaining": 199.8
+      "_hours_remaining": 175.8
     },
     {
       "bidNtceNo": "R26BK01493090",
@@ -5255,7 +4998,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-08T17:00:00+09:00",
-      "_hours_remaining": 199.8
+      "_hours_remaining": 175.8
     },
     {
       "bidNtceNo": "R26BK01485454",
@@ -5287,7 +5030,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-11T10:00:00+09:00",
-      "_hours_remaining": 264.8
+      "_hours_remaining": 240.8
     },
     {
       "bidNtceNo": "R26BK01478382",
@@ -5319,7 +5062,7 @@
         "재무"
       ],
       "_bidClseDt_iso": "2026-05-11T10:00:00+09:00",
-      "_hours_remaining": 264.8
+      "_hours_remaining": 240.8
     },
     {
       "bidNtceNo": "R26BK01490235",
@@ -5351,7 +5094,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-11T10:00:00+09:00",
-      "_hours_remaining": 264.8
+      "_hours_remaining": 240.8
     },
     {
       "bidNtceNo": "R26BK01490235",
@@ -5383,7 +5126,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-11T10:00:00+09:00",
-      "_hours_remaining": 264.8
+      "_hours_remaining": 240.8
     },
     {
       "bidNtceNo": "R26BK01491718",
@@ -5415,7 +5158,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-11T10:00:00+09:00",
-      "_hours_remaining": 264.8
+      "_hours_remaining": 240.8
     },
     {
       "bidNtceNo": "R26BK01492723",
@@ -5447,7 +5190,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-11T10:00:00+09:00",
-      "_hours_remaining": 264.8
+      "_hours_remaining": 240.8
     },
     {
       "bidNtceNo": "R26BK01493039",
@@ -5479,7 +5222,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-11T10:00:00+09:00",
-      "_hours_remaining": 264.8
+      "_hours_remaining": 240.8
     },
     {
       "bidNtceNo": "R26BK01493424",
@@ -5511,7 +5254,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-11T10:00:00+09:00",
-      "_hours_remaining": 264.8
+      "_hours_remaining": 240.8
     },
     {
       "bidNtceNo": "R26BK01489408",
@@ -5543,7 +5286,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-11T10:00:00+09:00",
-      "_hours_remaining": 264.8
+      "_hours_remaining": 240.8
     },
     {
       "bidNtceNo": "R26BK01489866",
@@ -5575,7 +5318,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-11T10:00:00+09:00",
-      "_hours_remaining": 264.8
+      "_hours_remaining": 240.8
     },
     {
       "bidNtceNo": "R26BK01493786",
@@ -5607,7 +5350,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-11T10:00:00+09:00",
-      "_hours_remaining": 264.8
+      "_hours_remaining": 240.8
     },
     {
       "bidNtceNo": "R26BK01494602",
@@ -5639,7 +5382,7 @@
         "금융"
       ],
       "_bidClseDt_iso": "2026-05-11T10:00:00+09:00",
-      "_hours_remaining": 264.8
+      "_hours_remaining": 240.8
     },
     {
       "bidNtceNo": "R26BK01496814",
@@ -5671,7 +5414,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-11T10:00:00+09:00",
-      "_hours_remaining": 264.8
+      "_hours_remaining": 240.8
     },
     {
       "bidNtceNo": "R26BK01489866",
@@ -5703,7 +5446,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-11T10:00:00+09:00",
-      "_hours_remaining": 264.8
+      "_hours_remaining": 240.8
     },
     {
       "bidNtceNo": "R26BK01495709",
@@ -5735,7 +5478,7 @@
         "인공지능"
       ],
       "_bidClseDt_iso": "2026-05-11T10:00:00+09:00",
-      "_hours_remaining": 264.8
+      "_hours_remaining": 240.8
     },
     {
       "bidNtceNo": "R26BK01496388",
@@ -5767,7 +5510,7 @@
         "빅데이터"
       ],
       "_bidClseDt_iso": "2026-05-11T10:00:00+09:00",
-      "_hours_remaining": 264.8
+      "_hours_remaining": 240.8
     },
     {
       "bidNtceNo": "R26BK01495453",
@@ -5799,7 +5542,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-11T10:00:00+09:00",
-      "_hours_remaining": 264.8
+      "_hours_remaining": 240.8
     },
     {
       "bidNtceNo": "R26BK01497799",
@@ -5831,7 +5574,7 @@
         "전망"
       ],
       "_bidClseDt_iso": "2026-05-11T10:00:00+09:00",
-      "_hours_remaining": 264.8
+      "_hours_remaining": 240.8
     },
     {
       "bidNtceNo": "R26BK01494235",
@@ -5863,7 +5606,135 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-05-11T10:00:00+09:00",
-      "_hours_remaining": 264.8
+      "_hours_remaining": 240.8
+    },
+    {
+      "bidNtceNo": "R26BK01499037",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "2026년 국제식품박람회(Food Taipei, WOFEX) 통합한국관 장치 용역",
+      "ntceInsttNm": "한국농수산식품유통공사",
+      "ntceInsttCd": "Z000152",
+      "dminsttNm": "한국농수산식품유통공사",
+      "dminsttCd": "Z000152",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 13:03:53",
+      "bidBeginDt": "2026-05-07 10:00:00",
+      "bidClseDt": "2026-05-11 10:00:00",
+      "opengDt": "2026-05-11 11:00:00",
+      "asignBdgtAmt": "198992580",
+      "presmptPrce": "198992580",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01499037&bidPbancOrd=000",
+      "ntceInsttOfclNm": "김민영",
+      "ntceInsttOfclTelNo": "061-931-1216",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-05-11T10:00:00+09:00",
+      "_hours_remaining": 240.8
+    },
+    {
+      "bidNtceNo": "R26BK01500653",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "국가과학기술연구망 AIOps 데이터레이크 구축",
+      "ntceInsttNm": "한국과학기술정보연구원",
+      "ntceInsttCd": "Z004831",
+      "dminsttNm": "한국과학기술정보연구원",
+      "dminsttCd": "Z004831",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "재공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 17:17:44",
+      "bidBeginDt": "2026-05-07 10:00:00",
+      "bidClseDt": "2026-05-11 10:00:00",
+      "opengDt": "2026-05-11 11:00:00",
+      "asignBdgtAmt": "80000000",
+      "presmptPrce": "72727273",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01500653&bidPbancOrd=000",
+      "ntceInsttOfclNm": "라하나",
+      "ntceInsttOfclTelNo": "042-869-0787",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정(SW사업)",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-05-11T10:00:00+09:00",
+      "_hours_remaining": 240.8
+    },
+    {
+      "bidNtceNo": "R26BK01500507",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "파랑 예측 시스템 운영을 위한 임대 용역",
+      "ntceInsttNm": "한국해양과학기술원",
+      "ntceInsttCd": "Z004822",
+      "dminsttNm": "한국해양과학기술원",
+      "dminsttCd": "Z004822",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "재공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 16:50:48",
+      "bidBeginDt": "2026-05-07 10:00:00",
+      "bidClseDt": "2026-05-11 10:00:00",
+      "opengDt": "2026-05-11 11:00:00",
+      "asignBdgtAmt": "33000000",
+      "presmptPrce": "30000000",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01500507&bidPbancOrd=000",
+      "ntceInsttOfclNm": "이소명",
+      "ntceInsttOfclTelNo": "051-664-9143",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "예측"
+      ],
+      "_bidClseDt_iso": "2026-05-11T10:00:00+09:00",
+      "_hours_remaining": 240.8
+    },
+    {
+      "bidNtceNo": "R26BK01500595",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "한반도 주변 고해상도 예측정보 생산을 위한 GPU 임차 용역",
+      "ntceInsttNm": "한국해양과학기술원",
+      "ntceInsttCd": "Z004822",
+      "dminsttNm": "한국해양과학기술원",
+      "dminsttCd": "Z004822",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 17:11:00",
+      "bidBeginDt": "2026-05-07 10:00:00",
+      "bidClseDt": "2026-05-11 10:00:00",
+      "opengDt": "2026-05-11 11:00:00",
+      "asignBdgtAmt": "54120000",
+      "presmptPrce": "49200000",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01500595&bidPbancOrd=000",
+      "ntceInsttOfclNm": "이소명",
+      "ntceInsttOfclTelNo": "051-664-9143",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "예측"
+      ],
+      "_bidClseDt_iso": "2026-05-11T10:00:00+09:00",
+      "_hours_remaining": 240.8
     },
     {
       "bidNtceNo": "R26BK01492404",
@@ -5895,7 +5766,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-11T11:00:00+09:00",
-      "_hours_remaining": 265.8
+      "_hours_remaining": 241.8
     },
     {
       "bidNtceNo": "R26BK01492702",
@@ -5927,7 +5798,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-11T11:00:00+09:00",
-      "_hours_remaining": 265.8
+      "_hours_remaining": 241.8
     },
     {
       "bidNtceNo": "R26BK01492132",
@@ -5959,7 +5830,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-11T12:00:00+09:00",
-      "_hours_remaining": 266.8
+      "_hours_remaining": 242.8
     },
     {
       "bidNtceNo": "R26BK01494288",
@@ -5991,7 +5862,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-11T12:00:00+09:00",
-      "_hours_remaining": 266.8
+      "_hours_remaining": 242.8
     },
     {
       "bidNtceNo": "R26BK01495181",
@@ -6023,7 +5894,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-11T12:00:00+09:00",
-      "_hours_remaining": 266.8
+      "_hours_remaining": 242.8
     },
     {
       "bidNtceNo": "R26BK01493121",
@@ -6055,7 +5926,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-11T12:00:00+09:00",
-      "_hours_remaining": 266.8
+      "_hours_remaining": 242.8
     },
     {
       "bidNtceNo": "R26BK01496116",
@@ -6087,7 +5958,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-11T12:00:00+09:00",
-      "_hours_remaining": 266.8
+      "_hours_remaining": 242.8
     },
     {
       "bidNtceNo": "R26BK01495608",
@@ -6119,7 +5990,71 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-11T12:00:00+09:00",
-      "_hours_remaining": 266.8
+      "_hours_remaining": 242.8
+    },
+    {
+      "bidNtceNo": "R26BK01498905",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "제2기 AI ADVANCED 과정 운영 용역",
+      "ntceInsttNm": "전남대학교 교육혁신본부",
+      "ntceInsttCd": "C131377",
+      "dminsttNm": "전남대학교 교육혁신본부",
+      "dminsttCd": "C131377",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "일반경쟁",
+      "ntceKindNm": "재공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 13:43:26",
+      "bidBeginDt": "2026-05-04 10:00:00",
+      "bidClseDt": "2026-05-11 12:00:00",
+      "opengDt": "2026-05-12 17:00:00",
+      "asignBdgtAmt": "50000000",
+      "presmptPrce": "45454545",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01498905&bidPbancOrd=000",
+      "ntceInsttOfclNm": "최몽주",
+      "ntceInsttOfclTelNo": "***********",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-05-11T12:00:00+09:00",
+      "_hours_remaining": 242.8
+    },
+    {
+      "bidNtceNo": "R26BK01500933",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "그린리모델링 기반 재난 및 기후위기 적응기술 적용 매뉴얼 마련",
+      "ntceInsttNm": "국토안전관리원",
+      "ntceInsttCd": "B554390",
+      "dminsttNm": "국토안전관리원",
+      "dminsttCd": "B554390",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "일반경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 19:19:57",
+      "bidBeginDt": "2026-05-01 09:00:00",
+      "bidClseDt": "2026-05-11 12:00:00",
+      "opengDt": "2026-05-11 13:00:00",
+      "asignBdgtAmt": "120000000",
+      "presmptPrce": "109090909",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01500933&bidPbancOrd=000",
+      "ntceInsttOfclNm": "박대훈",
+      "ntceInsttOfclTelNo": "055-771-4767",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "모델링"
+      ],
+      "_bidClseDt_iso": "2026-05-11T12:00:00+09:00",
+      "_hours_remaining": 242.8
     },
     {
       "bidNtceNo": "R26BK01492855",
@@ -6151,7 +6086,7 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-05-11T14:00:00+09:00",
-      "_hours_remaining": 268.8
+      "_hours_remaining": 244.8
     },
     {
       "bidNtceNo": "R26BK01492955",
@@ -6183,7 +6118,7 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-05-11T14:00:00+09:00",
-      "_hours_remaining": 268.8
+      "_hours_remaining": 244.8
     },
     {
       "bidNtceNo": "R26BK01495737",
@@ -6215,7 +6150,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-11T14:00:00+09:00",
-      "_hours_remaining": 268.8
+      "_hours_remaining": 244.8
     },
     {
       "bidNtceNo": "R26BK01494199",
@@ -6247,7 +6182,39 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-11T14:00:00+09:00",
-      "_hours_remaining": 268.8
+      "_hours_remaining": 244.8
+    },
+    {
+      "bidNtceNo": "R26BK01453894",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "(한국나노기술원) 경기도 양자AI융합기술센터 사무공간 구축 공사",
+      "ntceInsttNm": "재단법인 한국나노기술원",
+      "ntceInsttCd": "Z010691",
+      "dminsttNm": "재단법인 한국나노기술원",
+      "dminsttCd": "Z010691",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 10:12:55",
+      "bidBeginDt": "2026-04-30 14:00:00",
+      "bidClseDt": "2026-05-11 14:00:00",
+      "opengDt": "2026-05-11 15:00:00",
+      "asignBdgtAmt": "48000000",
+      "presmptPrce": "43636364",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01453894&bidPbancOrd=000",
+      "ntceInsttOfclNm": "홍성민",
+      "ntceInsttOfclTelNo": "031-546-6244",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-05-11T14:00:00+09:00",
+      "_hours_remaining": 244.8
     },
     {
       "bidNtceNo": "R26BK01481918",
@@ -6279,7 +6246,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-11T15:00:00+09:00",
-      "_hours_remaining": 269.8
+      "_hours_remaining": 245.8
     },
     {
       "bidNtceNo": "R26BK01480552",
@@ -6311,7 +6278,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-11T15:00:00+09:00",
-      "_hours_remaining": 269.8
+      "_hours_remaining": 245.8
     },
     {
       "bidNtceNo": "R26BK01481174",
@@ -6343,7 +6310,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-11T16:00:00+09:00",
-      "_hours_remaining": 270.8
+      "_hours_remaining": 246.8
     },
     {
       "bidNtceNo": "R26BK01492748",
@@ -6375,7 +6342,39 @@
         "금융"
       ],
       "_bidClseDt_iso": "2026-05-11T16:00:00+09:00",
-      "_hours_remaining": 270.8
+      "_hours_remaining": 246.8
+    },
+    {
+      "bidNtceNo": "R26BK01498805",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "2026년 국민대학교 캠퍼스타운사업 AI 인재양성 교육 운영(재공고)",
+      "ntceInsttNm": "국민대학교 산학협력단",
+      "ntceInsttCd": "Z011438",
+      "dminsttNm": "국민대학교 산학협력단",
+      "dminsttCd": "Z011438",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "일반경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 11:24:18",
+      "bidBeginDt": "2026-04-30 15:00:00",
+      "bidClseDt": "2026-05-11 18:00:00",
+      "opengDt": "2026-05-12 10:00:00",
+      "asignBdgtAmt": "120000000",
+      "presmptPrce": "109090909",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01498805&bidPbancOrd=000",
+      "ntceInsttOfclNm": "신원선",
+      "ntceInsttOfclTelNo": "02-910-5388",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-05-11T18:00:00+09:00",
+      "_hours_remaining": 248.8
     },
     {
       "bidNtceNo": "R26BK01478204",
@@ -6407,7 +6406,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-12T10:00:00+09:00",
-      "_hours_remaining": 288.8
+      "_hours_remaining": 264.8
     },
     {
       "bidNtceNo": "R26BK01487092",
@@ -6439,7 +6438,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-12T10:00:00+09:00",
-      "_hours_remaining": 288.8
+      "_hours_remaining": 264.8
     },
     {
       "bidNtceNo": "R26BK01489478",
@@ -6471,7 +6470,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-05-12T10:00:00+09:00",
-      "_hours_remaining": 288.8
+      "_hours_remaining": 264.8
     },
     {
       "bidNtceNo": "R26BK01492766",
@@ -6503,7 +6502,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-12T10:00:00+09:00",
-      "_hours_remaining": 288.8
+      "_hours_remaining": 264.8
     },
     {
       "bidNtceNo": "R26BK01493889",
@@ -6535,7 +6534,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-12T10:00:00+09:00",
-      "_hours_remaining": 288.8
+      "_hours_remaining": 264.8
     },
     {
       "bidNtceNo": "R26BK01493479",
@@ -6567,7 +6566,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-12T10:00:00+09:00",
-      "_hours_remaining": 288.8
+      "_hours_remaining": 264.8
     },
     {
       "bidNtceNo": "R26BK01492673",
@@ -6599,7 +6598,7 @@
         "인공지능"
       ],
       "_bidClseDt_iso": "2026-05-12T10:00:00+09:00",
-      "_hours_remaining": 288.8
+      "_hours_remaining": 264.8
     },
     {
       "bidNtceNo": "R26BK01493734",
@@ -6631,7 +6630,7 @@
         "인공지능"
       ],
       "_bidClseDt_iso": "2026-05-12T10:00:00+09:00",
-      "_hours_remaining": 288.8
+      "_hours_remaining": 264.8
     },
     {
       "bidNtceNo": "R26BK01492929",
@@ -6664,7 +6663,7 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-05-12T10:00:00+09:00",
-      "_hours_remaining": 288.8
+      "_hours_remaining": 264.8
     },
     {
       "bidNtceNo": "R26BK01492216",
@@ -6696,7 +6695,7 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-05-12T10:00:00+09:00",
-      "_hours_remaining": 288.8
+      "_hours_remaining": 264.8
     },
     {
       "bidNtceNo": "R26BK01496169",
@@ -6728,7 +6727,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-12T10:00:00+09:00",
-      "_hours_remaining": 288.8
+      "_hours_remaining": 264.8
     },
     {
       "bidNtceNo": "R26BK01496661",
@@ -6760,7 +6759,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-12T10:00:00+09:00",
-      "_hours_remaining": 288.8
+      "_hours_remaining": 264.8
     },
     {
       "bidNtceNo": "R26BK01496749",
@@ -6792,7 +6791,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-12T10:00:00+09:00",
-      "_hours_remaining": 288.8
+      "_hours_remaining": 264.8
     },
     {
       "bidNtceNo": "R26BK01495510",
@@ -6824,7 +6823,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-12T10:00:00+09:00",
-      "_hours_remaining": 288.8
+      "_hours_remaining": 264.8
     },
     {
       "bidNtceNo": "R26BK01494165",
@@ -6856,7 +6855,7 @@
         "인공지능"
       ],
       "_bidClseDt_iso": "2026-05-12T10:00:00+09:00",
-      "_hours_remaining": 288.8
+      "_hours_remaining": 264.8
     },
     {
       "bidNtceNo": "R26BK01495388",
@@ -6888,7 +6887,7 @@
         "인공지능"
       ],
       "_bidClseDt_iso": "2026-05-12T10:00:00+09:00",
-      "_hours_remaining": 288.8
+      "_hours_remaining": 264.8
     },
     {
       "bidNtceNo": "R26BK01495873",
@@ -6920,7 +6919,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-05-12T10:00:00+09:00",
-      "_hours_remaining": 288.8
+      "_hours_remaining": 264.8
     },
     {
       "bidNtceNo": "R26BK01495340",
@@ -6952,7 +6951,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-12T10:00:00+09:00",
-      "_hours_remaining": 288.8
+      "_hours_remaining": 264.8
     },
     {
       "bidNtceNo": "R26BK01496820",
@@ -6984,7 +6983,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-12T10:00:00+09:00",
-      "_hours_remaining": 288.8
+      "_hours_remaining": 264.8
     },
     {
       "bidNtceNo": "R26BK01495755",
@@ -7016,7 +7015,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-12T10:00:00+09:00",
-      "_hours_remaining": 288.8
+      "_hours_remaining": 264.8
     },
     {
       "bidNtceNo": "R26BK01495746",
@@ -7048,7 +7047,7 @@
         "전망"
       ],
       "_bidClseDt_iso": "2026-05-12T10:00:00+09:00",
-      "_hours_remaining": 288.8
+      "_hours_remaining": 264.8
     },
     {
       "bidNtceNo": "R26BK01497656",
@@ -7080,7 +7079,135 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-05-12T10:00:00+09:00",
-      "_hours_remaining": 288.8
+      "_hours_remaining": 264.8
+    },
+    {
+      "bidNtceNo": "R26BK01500908",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "울산 피지컬 AI 스퀘어 구축 수요조사 및 연구용역",
+      "ntceInsttNm": "재단법인 울산정보산업진흥원",
+      "ntceInsttCd": "Z031659",
+      "dminsttNm": "재단법인 울산정보산업진흥원",
+      "dminsttCd": "Z031659",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 18:57:37",
+      "bidBeginDt": "2026-05-05 10:00:00",
+      "bidClseDt": "2026-05-12 10:00:00",
+      "opengDt": "2026-05-12 11:00:00",
+      "asignBdgtAmt": "50000000",
+      "presmptPrce": "45454545",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01500908&bidPbancOrd=000",
+      "ntceInsttOfclNm": "장현진",
+      "ntceInsttOfclTelNo": "052-210-0212",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-05-12T10:00:00+09:00",
+      "_hours_remaining": 264.8
+    },
+    {
+      "bidNtceNo": "R26BK01498390",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "2026년 인공지능 부트캠프 위탁운영 용역",
+      "ntceInsttNm": "조달청 서울지방조달청",
+      "ntceInsttCd": "1230121",
+      "dminsttNm": "과학기술정보통신부 국립과천과학관",
+      "dminsttCd": "1721125",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "재공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "Y",
+      "bidNtceDt": "2026-04-30 16:05:27",
+      "bidBeginDt": "2026-05-08 10:00:00",
+      "bidClseDt": "2026-05-12 10:00:00",
+      "opengDt": "2026-05-12 11:00:00",
+      "asignBdgtAmt": "128275200",
+      "presmptPrce": "115454545",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01498390&bidPbancOrd=000",
+      "ntceInsttOfclNm": "임한빈",
+      "ntceInsttOfclTelNo": "070-4056-8881",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "인공지능"
+      ],
+      "_bidClseDt_iso": "2026-05-12T10:00:00+09:00",
+      "_hours_remaining": 264.8
+    },
+    {
+      "bidNtceNo": "R26BK01500761",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "2026년 사회적경제 크라우드펀딩 및 금융정보 용역",
+      "ntceInsttNm": "조달청 서울지방조달청",
+      "ntceInsttCd": "1230121",
+      "dminsttNm": "한국사회적기업진흥원",
+      "dminsttCd": "B552745",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "재공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "Y",
+      "bidNtceDt": "2026-04-30 17:59:49",
+      "bidBeginDt": "2026-05-08 10:00:00",
+      "bidClseDt": "2026-05-12 10:00:00",
+      "opengDt": "2026-05-12 11:00:00",
+      "asignBdgtAmt": "111146000",
+      "presmptPrce": "100000000",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01500761&bidPbancOrd=000",
+      "ntceInsttOfclNm": "이혜민",
+      "ntceInsttOfclTelNo": "070-4056-8738",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "금융"
+      ],
+      "_bidClseDt_iso": "2026-05-12T10:00:00+09:00",
+      "_hours_remaining": 264.8
+    },
+    {
+      "bidNtceNo": "R26BK01499312",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "2026년 창업도약패키지 특화프로그램 ‘투자 어트랙트’ 지원 용역",
+      "ntceInsttNm": "인천테크노파크",
+      "ntceInsttCd": "B554014",
+      "dminsttNm": "인천테크노파크",
+      "dminsttCd": "B554014",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 14:45:14",
+      "bidBeginDt": "2026-05-06 10:00:00",
+      "bidClseDt": "2026-05-12 10:00:00",
+      "opengDt": "2026-05-12 11:00:00",
+      "asignBdgtAmt": "65000000",
+      "presmptPrce": "59090909",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01499312&bidPbancOrd=000",
+      "ntceInsttOfclNm": "이석우",
+      "ntceInsttOfclTelNo": "032-260-0738",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "투자"
+      ],
+      "_bidClseDt_iso": "2026-05-12T10:00:00+09:00",
+      "_hours_remaining": 264.8
     },
     {
       "bidNtceNo": "R26BK01490984",
@@ -7112,7 +7239,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-12T11:00:00+09:00",
-      "_hours_remaining": 289.8
+      "_hours_remaining": 265.8
     },
     {
       "bidNtceNo": "R26BK01494354",
@@ -7144,7 +7271,71 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-12T11:00:00+09:00",
-      "_hours_remaining": 289.8
+      "_hours_remaining": 265.8
+    },
+    {
+      "bidNtceNo": "R26BK01496797",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "차세대 디지털 VTS 서비스 품질관리(QMO) 및 AI 기반 충돌 분석 모델 연구 용역",
+      "ntceInsttNm": "조달청 대전지방조달청",
+      "ntceInsttCd": "1230277",
+      "dminsttNm": "한국해양과학기술원 부설 선박해양플랜트연구소",
+      "dminsttCd": "Z007257",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "재공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "Y",
+      "bidNtceDt": "2026-04-30 13:16:33",
+      "bidBeginDt": "2026-05-08 14:00:00",
+      "bidClseDt": "2026-05-12 14:00:00",
+      "opengDt": "2026-05-12 15:00:00",
+      "asignBdgtAmt": "150643920",
+      "presmptPrce": "135636364",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01496797&bidPbancOrd=000",
+      "ntceInsttOfclNm": "유지혜",
+      "ntceInsttOfclTelNo": "070-4056-8385",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-05-12T14:00:00+09:00",
+      "_hours_remaining": 268.8
+    },
+    {
+      "bidNtceNo": "R26BK01499062",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "사학연금 재정안정화 방안 연구용역",
+      "ntceInsttNm": "사립학교교직원연금공단",
+      "ntceInsttCd": "B552635",
+      "dminsttNm": "사립학교교직원연금공단",
+      "dminsttCd": "B552635",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 11:17:16",
+      "bidBeginDt": "2026-04-30 14:00:00",
+      "bidClseDt": "2026-05-12 14:00:00",
+      "opengDt": "2026-05-18 14:00:00",
+      "asignBdgtAmt": "80000000",
+      "presmptPrce": "72727273",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01499062&bidPbancOrd=000",
+      "ntceInsttOfclNm": "이재현",
+      "ntceInsttOfclTelNo": "061-338-0114",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "연금"
+      ],
+      "_bidClseDt_iso": "2026-05-12T14:00:00+09:00",
+      "_hours_remaining": 268.8
     },
     {
       "bidNtceNo": "R26BK01481275",
@@ -7176,7 +7367,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-12T17:00:00+09:00",
-      "_hours_remaining": 295.8
+      "_hours_remaining": 271.8
     },
     {
       "bidNtceNo": "R26BK01487294",
@@ -7208,7 +7399,71 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-12T17:00:00+09:00",
-      "_hours_remaining": 295.8
+      "_hours_remaining": 271.8
+    },
+    {
+      "bidNtceNo": "R26BK01500482",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "2026년 전주시 빅데이터 분석 및 활용사업(협상에 의한 계약)",
+      "ntceInsttNm": "전북특별자치도 전주시",
+      "ntceInsttCd": "4641000",
+      "dminsttNm": "전북특별자치도 전주시",
+      "dminsttCd": "4641000",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 17:29:51",
+      "bidBeginDt": "2026-05-08 10:00:00",
+      "bidClseDt": "2026-05-12 17:00:00",
+      "opengDt": "2026-05-12 18:00:00",
+      "asignBdgtAmt": "45000000",
+      "presmptPrce": "40909091",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01500482&bidPbancOrd=000",
+      "ntceInsttOfclNm": "고가영",
+      "ntceInsttOfclTelNo": "063-281-2174",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정(SW사업)",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "빅데이터"
+      ],
+      "_bidClseDt_iso": "2026-05-12T17:00:00+09:00",
+      "_hours_remaining": 271.8
+    },
+    {
+      "bidNtceNo": "R26BK01486863",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "수출기업의 수출 경기 동향 및 전망 설문조사 용역",
+      "ntceInsttNm": "한국수출입은행",
+      "ntceInsttCd": "B190031",
+      "dminsttNm": "한국수출입은행",
+      "dminsttCd": "B190031",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 09:18:48",
+      "bidBeginDt": "2026-05-04 10:00:00",
+      "bidClseDt": "2026-05-12 17:00:00",
+      "opengDt": "2026-05-12 18:00:00",
+      "asignBdgtAmt": "42000000",
+      "presmptPrce": "38181818",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01486863&bidPbancOrd=000",
+      "ntceInsttOfclNm": "김봄",
+      "ntceInsttOfclTelNo": "02-3779-6144",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "전망"
+      ],
+      "_bidClseDt_iso": "2026-05-12T17:00:00+09:00",
+      "_hours_remaining": 271.8
     },
     {
       "bidNtceNo": "R26BK01495160",
@@ -7240,7 +7495,135 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-13T10:00:00+09:00",
-      "_hours_remaining": 312.8
+      "_hours_remaining": 288.8
+    },
+    {
+      "bidNtceNo": "R26BK01499502",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "고병원성 AI 대응을 위한 야생조류 AI 검사 위탁(`26-`27)",
+      "ntceInsttNm": "조달청",
+      "ntceInsttCd": "1230000",
+      "dminsttNm": "기후에너지환경부 국립야생동물질병관리원",
+      "dminsttCd": "1482025",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "일반경쟁",
+      "ntceKindNm": "재공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "Y",
+      "bidNtceDt": "2026-04-30 16:14:55",
+      "bidBeginDt": "2026-05-11 10:00:00",
+      "bidClseDt": "2026-05-13 10:00:00",
+      "opengDt": "2026-05-13 11:00:00",
+      "asignBdgtAmt": "504110000",
+      "presmptPrce": "454545455",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01499502&bidPbancOrd=000",
+      "ntceInsttOfclNm": "정조은",
+      "ntceInsttOfclTelNo": "070-4056-6130",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-05-13T10:00:00+09:00",
+      "_hours_remaining": 288.8
+    },
+    {
+      "bidNtceNo": "R26BK01499502",
+      "bidNtceOrd": "001",
+      "bidNtceNm": "고병원성 AI 대응을 위한 야생조류 AI 검사 위탁(`26-`27)",
+      "ntceInsttNm": "조달청",
+      "ntceInsttCd": "1230000",
+      "dminsttNm": "기후에너지환경부 국립야생동물질병관리원",
+      "dminsttCd": "1482025",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "일반경쟁",
+      "ntceKindNm": "취소공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "Y",
+      "bidNtceDt": "2026-04-30 17:48:31",
+      "bidBeginDt": "2026-05-11 10:00:00",
+      "bidClseDt": "2026-05-13 10:00:00",
+      "opengDt": "2026-05-13 11:00:00",
+      "asignBdgtAmt": "504110000",
+      "presmptPrce": "454545455",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01499502&bidPbancOrd=001",
+      "ntceInsttOfclNm": "정조은",
+      "ntceInsttOfclTelNo": "070-4056-6130",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-05-13T10:00:00+09:00",
+      "_hours_remaining": 288.8
+    },
+    {
+      "bidNtceNo": "R26BK01500802",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "고병원성 AI 대응을 위한 야생조류 AI 검사 위탁(`26-`27)",
+      "ntceInsttNm": "조달청",
+      "ntceInsttCd": "1230000",
+      "dminsttNm": "기후에너지환경부 국립야생동물질병관리원",
+      "dminsttCd": "1482025",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "일반경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "Y",
+      "bidNtceDt": "2026-04-30 19:15:04",
+      "bidBeginDt": "2026-05-11 10:00:00",
+      "bidClseDt": "2026-05-13 10:00:00",
+      "opengDt": "2026-05-13 11:00:00",
+      "asignBdgtAmt": "504110000",
+      "presmptPrce": "454545455",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01500802&bidPbancOrd=000",
+      "ntceInsttOfclNm": "정조은",
+      "ntceInsttOfclTelNo": "070-4056-6130",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-05-13T10:00:00+09:00",
+      "_hours_remaining": 288.8
+    },
+    {
+      "bidNtceNo": "R26BK01498580",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "2026년 보증이용기업 금융실태 및 신용보증 지원 효과 조사 용역",
+      "ntceInsttNm": "조달청 대전지방조달청",
+      "ntceInsttCd": "1230277",
+      "dminsttNm": "신용보증재단중앙회",
+      "dminsttCd": "B552473",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "Y",
+      "bidNtceDt": "2026-04-30 14:31:08",
+      "bidBeginDt": "2026-05-11 10:00:00",
+      "bidClseDt": "2026-05-13 10:00:00",
+      "opengDt": "2026-05-13 11:00:00",
+      "asignBdgtAmt": "136336000",
+      "presmptPrce": "122727273",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01498580&bidPbancOrd=000",
+      "ntceInsttOfclNm": "이윤영",
+      "ntceInsttOfclTelNo": "070-4056-8337",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "금융"
+      ],
+      "_bidClseDt_iso": "2026-05-13T10:00:00+09:00",
+      "_hours_remaining": 288.8
     },
     {
       "bidNtceNo": "R26BK01482601",
@@ -7272,7 +7655,7 @@
         "모형"
       ],
       "_bidClseDt_iso": "2026-05-13T12:00:00+09:00",
-      "_hours_remaining": 314.8
+      "_hours_remaining": 290.8
     },
     {
       "bidNtceNo": "R26BK01475290",
@@ -7304,7 +7687,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-14T10:00:00+09:00",
-      "_hours_remaining": 336.8
+      "_hours_remaining": 312.8
     },
     {
       "bidNtceNo": "R26BK01481295",
@@ -7336,7 +7719,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-14T10:00:00+09:00",
-      "_hours_remaining": 336.8
+      "_hours_remaining": 312.8
     },
     {
       "bidNtceNo": "R26BK01476242",
@@ -7368,7 +7751,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-05-14T10:00:00+09:00",
-      "_hours_remaining": 336.8
+      "_hours_remaining": 312.8
     },
     {
       "bidNtceNo": "R26BK01484223",
@@ -7400,7 +7783,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-05-14T10:00:00+09:00",
-      "_hours_remaining": 336.8
+      "_hours_remaining": 312.8
     },
     {
       "bidNtceNo": "R26BK01484223",
@@ -7432,7 +7815,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-05-14T10:00:00+09:00",
-      "_hours_remaining": 336.8
+      "_hours_remaining": 312.8
     },
     {
       "bidNtceNo": "R26BK01485799",
@@ -7464,7 +7847,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-05-14T10:00:00+09:00",
-      "_hours_remaining": 336.8
+      "_hours_remaining": 312.8
     },
     {
       "bidNtceNo": "R26BK01485981",
@@ -7496,7 +7879,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-14T10:00:00+09:00",
-      "_hours_remaining": 336.8
+      "_hours_remaining": 312.8
     },
     {
       "bidNtceNo": "R26BK01485981",
@@ -7528,7 +7911,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-14T10:00:00+09:00",
-      "_hours_remaining": 336.8
+      "_hours_remaining": 312.8
     },
     {
       "bidNtceNo": "R26BK01493317",
@@ -7560,7 +7943,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-14T10:00:00+09:00",
-      "_hours_remaining": 336.8
+      "_hours_remaining": 312.8
     },
     {
       "bidNtceNo": "R26BK01481635",
@@ -7592,7 +7975,103 @@
         "금융"
       ],
       "_bidClseDt_iso": "2026-05-14T10:00:00+09:00",
-      "_hours_remaining": 336.8
+      "_hours_remaining": 312.8
+    },
+    {
+      "bidNtceNo": "R26BK01499585",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "(용역)에이전틱 AI 산림서비스 요소기술 식별 및 영상품질관리 자동화",
+      "ntceInsttNm": "조달청 서울지방조달청",
+      "ntceInsttCd": "1230121",
+      "dminsttNm": "산림청 국립산림과학원",
+      "dminsttCd": "1400377",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "재공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "Y",
+      "bidNtceDt": "2026-04-30 14:40:31",
+      "bidBeginDt": "2026-05-12 10:00:00",
+      "bidClseDt": "2026-05-14 10:00:00",
+      "opengDt": "2026-05-14 11:00:00",
+      "asignBdgtAmt": "554606240",
+      "presmptPrce": "499700000",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01499585&bidPbancOrd=000",
+      "ntceInsttOfclNm": "장기순",
+      "ntceInsttOfclTelNo": "02-590-8884",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정(SW사업)",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-05-14T10:00:00+09:00",
+      "_hours_remaining": 312.8
+    },
+    {
+      "bidNtceNo": "R26BK01500035",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "AI 인체감지카메라(고정식) 실효성 검증 및 가이드라인 개발 연구용역",
+      "ntceInsttNm": "한국산업안전보건공단",
+      "ntceInsttCd": "B552468",
+      "dminsttNm": "한국산업안전보건공단",
+      "dminsttCd": "B552468",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 16:17:05",
+      "bidBeginDt": "2026-05-11 10:00:00",
+      "bidClseDt": "2026-05-14 10:00:00",
+      "opengDt": "2026-05-19 14:00:00",
+      "asignBdgtAmt": "100000000",
+      "presmptPrce": "90909091",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01500035&bidPbancOrd=000",
+      "ntceInsttOfclNm": "이성종",
+      "ntceInsttOfclTelNo": "052-703-0558",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-05-14T10:00:00+09:00",
+      "_hours_remaining": 312.8
+    },
+    {
+      "bidNtceNo": "R26BK01500901",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "2026년 스마트농업 AI 경진대회 행사 및 홍보",
+      "ntceInsttNm": "한국농업기술진흥원",
+      "ntceInsttCd": "B554729",
+      "dminsttNm": "한국농업기술진흥원",
+      "dminsttCd": "B554729",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 18:50:42",
+      "bidBeginDt": "2026-05-07 09:00:00",
+      "bidClseDt": "2026-05-14 10:00:00",
+      "opengDt": "2026-05-14 11:00:00",
+      "asignBdgtAmt": "100000000",
+      "presmptPrce": "90909091",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01500901&bidPbancOrd=000",
+      "ntceInsttOfclNm": "차은희",
+      "ntceInsttOfclTelNo": "063-919-1255",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-05-14T10:00:00+09:00",
+      "_hours_remaining": 312.8
     },
     {
       "bidNtceNo": "R26BK01485493",
@@ -7624,7 +8103,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-14T11:00:00+09:00",
-      "_hours_remaining": 337.8
+      "_hours_remaining": 313.8
     },
     {
       "bidNtceNo": "R26BK01483627",
@@ -7656,7 +8135,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-15T10:00:00+09:00",
-      "_hours_remaining": 360.8
+      "_hours_remaining": 336.8
     },
     {
       "bidNtceNo": "R26BK01475475",
@@ -7688,7 +8167,7 @@
         "금융"
       ],
       "_bidClseDt_iso": "2026-05-15T10:00:00+09:00",
-      "_hours_remaining": 360.8
+      "_hours_remaining": 336.8
     },
     {
       "bidNtceNo": "R26BK01480269",
@@ -7720,7 +8199,7 @@
         "연금"
       ],
       "_bidClseDt_iso": "2026-05-15T10:00:00+09:00",
-      "_hours_remaining": 360.8
+      "_hours_remaining": 336.8
     },
     {
       "bidNtceNo": "R26BK01484035",
@@ -7752,7 +8231,7 @@
         "연금"
       ],
       "_bidClseDt_iso": "2026-05-15T10:00:00+09:00",
-      "_hours_remaining": 360.8
+      "_hours_remaining": 336.8
     },
     {
       "bidNtceNo": "R26BK01496488",
@@ -7784,7 +8263,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-15T10:00:00+09:00",
-      "_hours_remaining": 360.8
+      "_hours_remaining": 336.8
     },
     {
       "bidNtceNo": "R26BK01496934",
@@ -7816,7 +8295,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-15T10:00:00+09:00",
-      "_hours_remaining": 360.8
+      "_hours_remaining": 336.8
     },
     {
       "bidNtceNo": "R26BK01496999",
@@ -7848,7 +8327,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-15T10:00:00+09:00",
-      "_hours_remaining": 360.8
+      "_hours_remaining": 336.8
     },
     {
       "bidNtceNo": "R26BK01497066",
@@ -7880,7 +8359,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-15T10:00:00+09:00",
-      "_hours_remaining": 360.8
+      "_hours_remaining": 336.8
     },
     {
       "bidNtceNo": "R26BK01497114",
@@ -7912,7 +8391,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-15T10:00:00+09:00",
-      "_hours_remaining": 360.8
+      "_hours_remaining": 336.8
     },
     {
       "bidNtceNo": "R26BK01497193",
@@ -7944,7 +8423,39 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-15T10:00:00+09:00",
-      "_hours_remaining": 360.8
+      "_hours_remaining": 336.8
+    },
+    {
+      "bidNtceNo": "R26BK01500852",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "2026년 산림데이터·AI 비즈니스 모델 발굴",
+      "ntceInsttNm": "한국임업진흥원",
+      "ntceInsttCd": "B552826",
+      "dminsttNm": "한국임업진흥원",
+      "dminsttCd": "B552826",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 18:45:54",
+      "bidBeginDt": "2026-05-13 10:00:00",
+      "bidClseDt": "2026-05-15 10:00:00",
+      "opengDt": "2026-05-15 11:00:00",
+      "asignBdgtAmt": "90000000",
+      "presmptPrce": "81818182",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01500852&bidPbancOrd=000",
+      "ntceInsttOfclNm": "박은영",
+      "ntceInsttOfclTelNo": "02-6393-2549",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-05-15T10:00:00+09:00",
+      "_hours_remaining": 336.8
     },
     {
       "bidNtceNo": "R26BK01496290",
@@ -7976,7 +8487,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-15T11:00:00+09:00",
-      "_hours_remaining": 361.8
+      "_hours_remaining": 337.8
     },
     {
       "bidNtceNo": "R26BK01495424",
@@ -8008,7 +8519,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-15T14:00:00+09:00",
-      "_hours_remaining": 364.8
+      "_hours_remaining": 340.8
     },
     {
       "bidNtceNo": "R26BK01495424",
@@ -8040,7 +8551,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-15T14:00:00+09:00",
-      "_hours_remaining": 364.8
+      "_hours_remaining": 340.8
     },
     {
       "bidNtceNo": "R26BK01490413",
@@ -8072,7 +8583,135 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-15T15:00:00+09:00",
-      "_hours_remaining": 365.8
+      "_hours_remaining": 341.8
+    },
+    {
+      "bidNtceNo": "R26BK01498834",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "AI·코딩 드론 미래 인재 양성 프로젝트 운영",
+      "ntceInsttNm": "재단법인 경기대진테크노파크",
+      "ntceInsttCd": "Z013704",
+      "dminsttNm": "재단법인 경기대진테크노파크",
+      "dminsttCd": "Z013704",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 11:04:26",
+      "bidBeginDt": "2026-04-30 12:00:00",
+      "bidClseDt": "2026-05-15 15:00:00",
+      "opengDt": "2026-05-15 16:00:00",
+      "asignBdgtAmt": "50000000",
+      "presmptPrce": "45454545",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01498834&bidPbancOrd=000",
+      "ntceInsttOfclNm": "장진욱",
+      "ntceInsttOfclTelNo": "031-539-5023",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-05-15T15:00:00+09:00",
+      "_hours_remaining": 341.8
+    },
+    {
+      "bidNtceNo": "R26BK01498834",
+      "bidNtceOrd": "001",
+      "bidNtceNm": "AI·코딩 드론 미래 인재 양성 프로젝트 운영",
+      "ntceInsttNm": "재단법인 경기대진테크노파크",
+      "ntceInsttCd": "Z013704",
+      "dminsttNm": "재단법인 경기대진테크노파크",
+      "dminsttCd": "Z013704",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "취소공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 17:32:34",
+      "bidBeginDt": "2026-04-30 12:00:00",
+      "bidClseDt": "2026-05-15 15:00:00",
+      "opengDt": "2026-05-15 16:00:00",
+      "asignBdgtAmt": "50000000",
+      "presmptPrce": "45454545",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01498834&bidPbancOrd=001",
+      "ntceInsttOfclNm": "장진욱",
+      "ntceInsttOfclTelNo": "031-539-5023",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-05-15T15:00:00+09:00",
+      "_hours_remaining": 341.8
+    },
+    {
+      "bidNtceNo": "R26BK01500766",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "AI·코딩 드론 미래 인재 양성 프로젝트 운영",
+      "ntceInsttNm": "재단법인 경기대진테크노파크",
+      "ntceInsttCd": "Z013704",
+      "dminsttNm": "재단법인 경기대진테크노파크",
+      "dminsttCd": "Z013704",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "일반경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 17:53:06",
+      "bidBeginDt": "2026-04-30 18:00:00",
+      "bidClseDt": "2026-05-15 15:00:00",
+      "opengDt": "2026-05-15 16:00:00",
+      "asignBdgtAmt": "50000000",
+      "presmptPrce": "45454545",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01500766&bidPbancOrd=000",
+      "ntceInsttOfclNm": "장진욱",
+      "ntceInsttOfclTelNo": "031-539-5023",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-05-15T15:00:00+09:00",
+      "_hours_remaining": 341.8
+    },
+    {
+      "bidNtceNo": "R26BK01498883",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "[대학일자리+](졸업생특화)건국대학교 2026학년도 체인지업(AI 입사지원 루틴) 프로그램 위탁업체 선정",
+      "ntceInsttNm": "건국대학교",
+      "ntceInsttCd": "7001355",
+      "dminsttNm": "건국대학교",
+      "dminsttCd": "7001355",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "일반경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 10:32:43",
+      "bidBeginDt": "2026-04-30 15:00:00",
+      "bidClseDt": "2026-05-18 14:00:00",
+      "opengDt": "2026-05-18 15:00:00",
+      "asignBdgtAmt": "31200000",
+      "presmptPrce": "28363636",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01498883&bidPbancOrd=000",
+      "ntceInsttOfclNm": "전상민",
+      "ntceInsttOfclTelNo": "02-450-3161",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-05-18T14:00:00+09:00",
+      "_hours_remaining": 412.8
     },
     {
       "bidNtceNo": "R26BK01473370",
@@ -8104,7 +8743,7 @@
         "금융"
       ],
       "_bidClseDt_iso": "2026-05-19T10:00:00+09:00",
-      "_hours_remaining": 456.8
+      "_hours_remaining": 432.8
     },
     {
       "bidNtceNo": "R26BK01490277",
@@ -8136,7 +8775,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-19T10:00:00+09:00",
-      "_hours_remaining": 456.8
+      "_hours_remaining": 432.8
     },
     {
       "bidNtceNo": "R26BK01489113",
@@ -8169,7 +8808,7 @@
         "인공지능"
       ],
       "_bidClseDt_iso": "2026-05-19T10:00:00+09:00",
-      "_hours_remaining": 456.8
+      "_hours_remaining": 432.8
     },
     {
       "bidNtceNo": "R26BK01487035",
@@ -8201,7 +8840,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-19T10:00:00+09:00",
-      "_hours_remaining": 456.8
+      "_hours_remaining": 432.8
     },
     {
       "bidNtceNo": "R26BK01486861",
@@ -8233,7 +8872,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-19T10:00:00+09:00",
-      "_hours_remaining": 456.8
+      "_hours_remaining": 432.8
     },
     {
       "bidNtceNo": "R26BK01490082",
@@ -8265,7 +8904,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-19T10:00:00+09:00",
-      "_hours_remaining": 456.8
+      "_hours_remaining": 432.8
     },
     {
       "bidNtceNo": "R26BK01476756",
@@ -8299,7 +8938,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-19T10:00:00+09:00",
-      "_hours_remaining": 456.8
+      "_hours_remaining": 432.8
     },
     {
       "bidNtceNo": "R26BK01490462",
@@ -8331,7 +8970,7 @@
         "인공지능"
       ],
       "_bidClseDt_iso": "2026-05-19T10:00:00+09:00",
-      "_hours_remaining": 456.8
+      "_hours_remaining": 432.8
     },
     {
       "bidNtceNo": "R26BK01492956",
@@ -8363,7 +9002,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-19T10:00:00+09:00",
-      "_hours_remaining": 456.8
+      "_hours_remaining": 432.8
     },
     {
       "bidNtceNo": "R26BK01492716",
@@ -8395,7 +9034,39 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-05-19T10:00:00+09:00",
-      "_hours_remaining": 456.8
+      "_hours_remaining": 432.8
+    },
+    {
+      "bidNtceNo": "R26BK01499372",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "26년 경제·금융분야 국내 석사과정 위탁교육(장기-신규)",
+      "ntceInsttNm": "조달청 서울지방조달청",
+      "ntceInsttCd": "1230121",
+      "dminsttNm": "경찰청",
+      "dminsttCd": "1320000",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "일반경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "Y",
+      "bidNtceDt": "2026-04-30 16:09:56",
+      "bidBeginDt": "2026-05-15 10:00:00",
+      "bidClseDt": "2026-05-19 10:00:00",
+      "opengDt": "2026-05-19 11:00:00",
+      "asignBdgtAmt": "403350000",
+      "presmptPrce": "400000000",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01499372&bidPbancOrd=000",
+      "ntceInsttOfclNm": "최성용",
+      "ntceInsttOfclTelNo": "02-590-8879",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "금융"
+      ],
+      "_bidClseDt_iso": "2026-05-19T10:00:00+09:00",
+      "_hours_remaining": 432.8
     },
     {
       "bidNtceNo": "R26BK01489130",
@@ -8427,7 +9098,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-19T12:00:00+09:00",
-      "_hours_remaining": 458.8
+      "_hours_remaining": 434.8
     },
     {
       "bidNtceNo": "R26BK01486705",
@@ -8459,7 +9130,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-05-20T10:00:00+09:00",
-      "_hours_remaining": 480.8
+      "_hours_remaining": 456.8
     },
     {
       "bidNtceNo": "R26BK01494547",
@@ -8491,7 +9162,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-20T10:00:00+09:00",
-      "_hours_remaining": 480.8
+      "_hours_remaining": 456.8
     },
     {
       "bidNtceNo": "R26BK01495355",
@@ -8523,7 +9194,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-20T10:00:00+09:00",
-      "_hours_remaining": 480.8
+      "_hours_remaining": 456.8
     },
     {
       "bidNtceNo": "R26BK01485436",
@@ -8555,7 +9226,7 @@
         "딥러닝"
       ],
       "_bidClseDt_iso": "2026-05-20T10:00:00+09:00",
-      "_hours_remaining": 480.8
+      "_hours_remaining": 456.8
     },
     {
       "bidNtceNo": "R26BK01493380",
@@ -8587,7 +9258,71 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-05-20T10:00:00+09:00",
-      "_hours_remaining": 480.8
+      "_hours_remaining": 456.8
+    },
+    {
+      "bidNtceNo": "R26BK01498861",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "경기도기록원 설립사업(제1별관 등) 증축 및 리모델링 소방공사 감리용역",
+      "ntceInsttNm": "경기도",
+      "ntceInsttCd": "6410000",
+      "dminsttNm": "경기도 경기도건설본부",
+      "dminsttCd": "6410593",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "기술용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 14:11:25",
+      "bidBeginDt": "2026-05-13 10:00:00",
+      "bidClseDt": "2026-05-20 10:00:00",
+      "opengDt": "2026-05-20 11:00:00",
+      "asignBdgtAmt": "59427000",
+      "presmptPrce": "54024545",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01498861&bidPbancOrd=000",
+      "ntceInsttOfclNm": "이수진",
+      "ntceInsttOfclTelNo": "031-8008-4170",
+      "sucsfbidMthdNm": "적격심사제-추정가격이 5억원 미만인 P.Q 대상 기술용역의 평가기준",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "모델링"
+      ],
+      "_bidClseDt_iso": "2026-05-20T10:00:00+09:00",
+      "_hours_remaining": 456.8
+    },
+    {
+      "bidNtceNo": "R26BK01497705",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "리츠정보시스템 유지관리 및 투자보고서 기능 고도화",
+      "ntceInsttNm": "조달청 대구지방조달청",
+      "ntceInsttCd": "1230137",
+      "dminsttNm": "한국부동산원",
+      "dminsttCd": "B554388",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "Y",
+      "bidNtceDt": "2026-04-30 17:57:33",
+      "bidBeginDt": "2026-05-18 10:00:00",
+      "bidClseDt": "2026-05-20 10:00:00",
+      "opengDt": "2026-05-20 11:00:00",
+      "asignBdgtAmt": "336496740",
+      "presmptPrce": "303319091",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01497705&bidPbancOrd=000",
+      "ntceInsttOfclNm": "강태희",
+      "ntceInsttOfclTelNo": "070-4056-7989",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정(SW사업)",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "투자"
+      ],
+      "_bidClseDt_iso": "2026-05-20T10:00:00+09:00",
+      "_hours_remaining": 456.8
     },
     {
       "bidNtceNo": "R26BK01498219",
@@ -8619,7 +9354,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-20T11:00:00+09:00",
-      "_hours_remaining": 481.8
+      "_hours_remaining": 457.8
     },
     {
       "bidNtceNo": "R26BK01498222",
@@ -8651,7 +9386,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-20T11:00:00+09:00",
-      "_hours_remaining": 481.8
+      "_hours_remaining": 457.8
     },
     {
       "bidNtceNo": "R26BK01493461",
@@ -8683,7 +9418,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-20T15:00:00+09:00",
-      "_hours_remaining": 485.8
+      "_hours_remaining": 461.8
     },
     {
       "bidNtceNo": "R26BK01484568",
@@ -8715,7 +9450,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-21T10:00:00+09:00",
-      "_hours_remaining": 504.8
+      "_hours_remaining": 480.8
     },
     {
       "bidNtceNo": "R26BK01456051",
@@ -8747,7 +9482,7 @@
         "빅데이터"
       ],
       "_bidClseDt_iso": "2026-05-21T10:00:00+09:00",
-      "_hours_remaining": 504.8
+      "_hours_remaining": 480.8
     },
     {
       "bidNtceNo": "R26BK01481521",
@@ -8779,7 +9514,135 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-21T10:00:00+09:00",
-      "_hours_remaining": 504.8
+      "_hours_remaining": 480.8
+    },
+    {
+      "bidNtceNo": "R26BK01498269",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "광주 AI 실증도시 실현 기획용역",
+      "ntceInsttNm": "조달청",
+      "ntceInsttCd": "1230000",
+      "dminsttNm": "정보통신산업진흥원",
+      "dminsttCd": "B552551",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "일반경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "Y",
+      "bidNtceDt": "2026-04-30 12:16:02",
+      "bidBeginDt": "2026-05-19 10:00:00",
+      "bidClseDt": "2026-05-21 10:00:00",
+      "opengDt": "2026-05-21 11:00:00",
+      "asignBdgtAmt": "474270200",
+      "presmptPrce": "427272727",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01498269&bidPbancOrd=000",
+      "ntceInsttOfclNm": "양희선",
+      "ntceInsttOfclTelNo": "042-724-7360",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-05-21T10:00:00+09:00",
+      "_hours_remaining": 480.8
+    },
+    {
+      "bidNtceNo": "R26BK01499449",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "고객설비 데이터활용 AI 에너지 절감 플랫폼 실증에 관한 연구",
+      "ntceInsttNm": "한국지역난방공사",
+      "ntceInsttCd": "B550373",
+      "dminsttNm": "한국지역난방공사",
+      "dminsttCd": "B550373",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 13:32:47",
+      "bidBeginDt": "2026-05-04 10:00:00",
+      "bidClseDt": "2026-05-21 10:00:00",
+      "opengDt": "2026-05-28 10:00:00",
+      "asignBdgtAmt": "230848501",
+      "presmptPrce": "209862274",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01499449&bidPbancOrd=000",
+      "ntceInsttOfclNm": "서주경",
+      "ntceInsttOfclTelNo": "031-780-4155",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-05-21T10:00:00+09:00",
+      "_hours_remaining": 480.8
+    },
+    {
+      "bidNtceNo": "R26BK01498146",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "2026 경상남도 국제관광 투자유치 설명회 용역",
+      "ntceInsttNm": "조달청 경남지방조달청",
+      "ntceInsttCd": "1230155",
+      "dminsttNm": "재단법인경상남도투자경제진흥원",
+      "dminsttCd": "B554850",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "Y",
+      "bidNtceDt": "2026-04-30 09:57:38",
+      "bidBeginDt": "2026-05-19 10:00:00",
+      "bidClseDt": "2026-05-21 10:00:00",
+      "opengDt": "2026-05-21 11:00:00",
+      "asignBdgtAmt": "121222000",
+      "presmptPrce": "109090909",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01498146&bidPbancOrd=000",
+      "ntceInsttOfclNm": "심진우",
+      "ntceInsttOfclTelNo": "070-4056-6744",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "투자"
+      ],
+      "_bidClseDt_iso": "2026-05-21T10:00:00+09:00",
+      "_hours_remaining": 480.8
+    },
+    {
+      "bidNtceNo": "R26BK01489130",
+      "bidNtceOrd": "001",
+      "bidNtceNm": "중동 전쟁 이후 걸프협력이사회 회원국과의 미래지향적 협력 강화방안에  연구 - AI, 원전, 국방, 방산, 재건, 에너지 안보 분야를 중심으로",
+      "ntceInsttNm": "외교부",
+      "ntceInsttCd": "1262000",
+      "dminsttNm": "외교부",
+      "dminsttCd": "1262000",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "변경공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 17:42:52",
+      "bidBeginDt": "2026-04-30 18:00:00",
+      "bidClseDt": "2026-05-21 12:00:00",
+      "opengDt": "2026-05-21 13:00:00",
+      "asignBdgtAmt": "100000000",
+      "presmptPrce": "90909091",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01489130&bidPbancOrd=001",
+      "ntceInsttOfclNm": "윤태명",
+      "ntceInsttOfclTelNo": "02-2100-7070",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-05-21T12:00:00+09:00",
+      "_hours_remaining": 482.8
     },
     {
       "bidNtceNo": "R26BK01490577",
@@ -8812,7 +9675,7 @@
         "금융"
       ],
       "_bidClseDt_iso": "2026-05-21T16:00:00+09:00",
-      "_hours_remaining": 510.8
+      "_hours_remaining": 486.8
     },
     {
       "bidNtceNo": "R26BK01490577",
@@ -8845,7 +9708,7 @@
         "금융"
       ],
       "_bidClseDt_iso": "2026-05-21T16:00:00+09:00",
-      "_hours_remaining": 510.8
+      "_hours_remaining": 486.8
     },
     {
       "bidNtceNo": "R26BK01493851",
@@ -8877,7 +9740,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-22T10:00:00+09:00",
-      "_hours_remaining": 528.8
+      "_hours_remaining": 504.8
     },
     {
       "bidNtceNo": "R26BK01493851",
@@ -8909,7 +9772,71 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-05-22T10:00:00+09:00",
-      "_hours_remaining": 528.8
+      "_hours_remaining": 504.8
+    },
+    {
+      "bidNtceNo": "R26BK01498337",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "AI-데이터 중심의 경기교육 디지털플랫폼 운영 및 유지관리",
+      "ntceInsttNm": "조달청 인천지방조달청",
+      "ntceInsttCd": "1230133",
+      "dminsttNm": "경기도교육청",
+      "dminsttCd": "7530000",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "일반경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "Y",
+      "bidNtceDt": "2026-04-30 11:04:39",
+      "bidBeginDt": "2026-05-20 10:00:00",
+      "bidClseDt": "2026-05-22 10:00:00",
+      "opengDt": "2026-05-22 11:00:00",
+      "asignBdgtAmt": "6208423330",
+      "presmptPrce": "5611283636",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01498337&bidPbancOrd=000",
+      "ntceInsttOfclNm": "김준권",
+      "ntceInsttOfclTelNo": "070-4056-7872",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정(SW사업)",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-05-22T10:00:00+09:00",
+      "_hours_remaining": 504.8
+    },
+    {
+      "bidNtceNo": "R26BK01499369",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "2026년 AI기반 체육시설 안전점검 및 학습데이터 구축 용역",
+      "ntceInsttNm": "서울올림픽기념국민체육진흥공단",
+      "ntceInsttCd": "B551014",
+      "dminsttNm": "서울올림픽기념국민체육진흥공단",
+      "dminsttCd": "B551014",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 15:58:23",
+      "bidBeginDt": "2026-05-26 10:00:00",
+      "bidClseDt": "2026-06-01 10:00:00",
+      "opengDt": "2026-06-01 11:00:00",
+      "asignBdgtAmt": "99514000",
+      "presmptPrce": "90467273",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01499369&bidPbancOrd=000",
+      "ntceInsttOfclNm": "곽한나",
+      "ntceInsttOfclTelNo": "02-410-1213",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정(SW사업)",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-06-01T10:00:00+09:00",
+      "_hours_remaining": 744.8
     },
     {
       "bidNtceNo": "R26BK01480852",
@@ -8941,7 +9868,7 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-06-02T10:00:00+09:00",
-      "_hours_remaining": 792.8
+      "_hours_remaining": 768.8
     },
     {
       "bidNtceNo": "R26BK01467529",
@@ -8973,7 +9900,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-06-02T11:00:00+09:00",
-      "_hours_remaining": 793.8
+      "_hours_remaining": 769.8
     },
     {
       "bidNtceNo": "R26BK01482333",
@@ -9005,7 +9932,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-06-02T14:00:00+09:00",
-      "_hours_remaining": 796.8
+      "_hours_remaining": 772.8
     },
     {
       "bidNtceNo": "R26BK01471627",
@@ -9037,7 +9964,7 @@
         "빅데이터"
       ],
       "_bidClseDt_iso": "2026-06-02T14:00:00+09:00",
-      "_hours_remaining": 796.8
+      "_hours_remaining": 772.8
     },
     {
       "bidNtceNo": "R26BK01484615",
@@ -9069,7 +9996,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-06-05T10:00:00+09:00",
-      "_hours_remaining": 864.8
+      "_hours_remaining": 840.8
     },
     {
       "bidNtceNo": "R26BK01484400",
@@ -9101,7 +10028,7 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-06-05T10:00:00+09:00",
-      "_hours_remaining": 864.8
+      "_hours_remaining": 840.8
     },
     {
       "bidNtceNo": "R26BK01495097",
@@ -9133,7 +10060,7 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-06-09T10:00:00+09:00",
-      "_hours_remaining": 960.8
+      "_hours_remaining": 936.8
     },
     {
       "bidNtceNo": "R26BK01479844",
@@ -9165,7 +10092,7 @@
         "모형"
       ],
       "_bidClseDt_iso": "2026-06-09T11:00:00+09:00",
-      "_hours_remaining": 961.8
+      "_hours_remaining": 937.8
     },
     {
       "bidNtceNo": "R26BK01495825",
@@ -9197,7 +10124,103 @@
         "금융"
       ],
       "_bidClseDt_iso": "2026-06-09T18:00:00+09:00",
-      "_hours_remaining": 968.8
+      "_hours_remaining": 944.8
+    },
+    {
+      "bidNtceNo": "R26BK01498260",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "국민연금공단 본부 노후 통신장비 교체 및 통신망 고도화 사업",
+      "ntceInsttNm": "조달청",
+      "ntceInsttCd": "1230000",
+      "dminsttNm": "국민연금공단",
+      "dminsttCd": "B460001",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "Y",
+      "bidNtceDt": "2026-04-30 15:12:57",
+      "bidBeginDt": "2026-06-08 10:00:00",
+      "bidClseDt": "2026-06-10 10:00:00",
+      "opengDt": "2026-06-10 11:00:00",
+      "asignBdgtAmt": "1842922550",
+      "presmptPrce": "1663490909",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01498260&bidPbancOrd=000",
+      "ntceInsttOfclNm": "윤희주",
+      "ntceInsttOfclTelNo": "070-4056-7497",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정(SW사업)",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "연금"
+      ],
+      "_bidClseDt_iso": "2026-06-10T10:00:00+09:00",
+      "_hours_remaining": 960.8
+    },
+    {
+      "bidNtceNo": "R26BK01499701",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "데이터 관리체계 고도화 및 생성형 AI 서비스 구축",
+      "ntceInsttNm": "예금보험공사",
+      "ntceInsttCd": "B190017",
+      "dminsttNm": "예금보험공사",
+      "dminsttCd": "B190017",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 14:49:03",
+      "bidBeginDt": "2026-04-30 15:00:00",
+      "bidClseDt": "2026-06-10 14:00:00",
+      "opengDt": "2026-06-15 14:00:00",
+      "asignBdgtAmt": "1828300000",
+      "presmptPrce": "1662090909",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01499701&bidPbancOrd=000",
+      "ntceInsttOfclNm": "김정화",
+      "ntceInsttOfclTelNo": "02-758-0214",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정(SW사업)",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-06-10T14:00:00+09:00",
+      "_hours_remaining": 964.8
+    },
+    {
+      "bidNtceNo": "R26BK01498835",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "2026 LIPS AI 기반 사업비 자동화 솔루션",
+      "ntceInsttNm": "사단법인 초기투자액셀러레이터협회",
+      "ntceInsttCd": "Z055562",
+      "dminsttNm": "사단법인 초기투자액셀러레이터협회",
+      "dminsttCd": "Z055562",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "일반경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 10:27:41",
+      "bidBeginDt": "2026-04-30 14:00:00",
+      "bidClseDt": "2026-06-11 14:00:00",
+      "opengDt": "2026-06-11 15:00:00",
+      "asignBdgtAmt": "45000000",
+      "presmptPrce": "40909091",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01498835&bidPbancOrd=000",
+      "ntceInsttOfclNm": "공성현",
+      "ntceInsttOfclTelNo": "***********",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-06-11T14:00:00+09:00",
+      "_hours_remaining": 988.8
     },
     {
       "bidNtceNo": "R26BK01474950",
@@ -10864,9 +11887,746 @@
       ],
       "_bidClseDt_iso": "",
       "_hours_remaining": null
+    },
+    {
+      "bidNtceNo": "R26BK01500251",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "KAIST 연구관리시스템 기능개선 사업(재)",
+      "ntceInsttNm": "한국과학기술원",
+      "ntceInsttCd": "B350021",
+      "dminsttNm": "한국과학기술원",
+      "dminsttCd": "B350021",
+      "bidMethdNm": "직찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "재공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 15:57:51",
+      "bidBeginDt": "",
+      "bidClseDt": "",
+      "opengDt": "2026-05-14 14:00:00",
+      "asignBdgtAmt": "600000000",
+      "presmptPrce": "545454545",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01500251&bidPbancOrd=000",
+      "ntceInsttOfclNm": "임정빈",
+      "ntceInsttOfclTelNo": "042-350-2331",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정(SW사업)",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "",
+      "_hours_remaining": null
+    },
+    {
+      "bidNtceNo": "R26BK01500495",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "[AID] 2026학년도 재직자 AID 묶음강좌 콘텐츠 보수",
+      "ntceInsttNm": "명지전문대학",
+      "ntceInsttCd": "7002819",
+      "dminsttNm": "명지전문대학",
+      "dminsttCd": "7002819",
+      "bidMethdNm": "직찰/우편/상시",
+      "cntrctCnclsMthdNm": "일반경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 16:46:30",
+      "bidBeginDt": "",
+      "bidClseDt": "",
+      "opengDt": "2026-05-11 15:00:00",
+      "asignBdgtAmt": "18600000",
+      "presmptPrce": "16909091",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01500495&bidPbancOrd=000",
+      "ntceInsttOfclNm": "정민기",
+      "ntceInsttOfclTelNo": "02-300-1038",
+      "sucsfbidMthdNm": "최저가낙찰제-최저가낙찰자",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "",
+      "_hours_remaining": null
+    },
+    {
+      "bidNtceNo": "R26BK01500829",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "2026년 AI바우처 지원사업 회계 컨설팅 및 회계정산",
+      "ntceInsttNm": "사단법인 한국정보통신진흥협회",
+      "ntceInsttCd": "Z001679",
+      "dminsttNm": "사단법인 한국정보통신진흥협회",
+      "dminsttCd": "Z001679",
+      "bidMethdNm": "직찰",
+      "cntrctCnclsMthdNm": "일반경쟁",
+      "ntceKindNm": "재공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 18:04:28",
+      "bidBeginDt": "",
+      "bidClseDt": "",
+      "opengDt": "2026-05-12 15:00:00",
+      "asignBdgtAmt": "55000000",
+      "presmptPrce": "50000000",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01500829&bidPbancOrd=000",
+      "ntceInsttOfclNm": "최성근",
+      "ntceInsttOfclTelNo": "02-580-0594",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "",
+      "_hours_remaining": null
+    },
+    {
+      "bidNtceNo": "R26BK01500843",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "AI바우처 지원사업 사업관리시스템 개선 및 유지보수",
+      "ntceInsttNm": "사단법인 한국정보통신진흥협회",
+      "ntceInsttCd": "Z001679",
+      "dminsttNm": "사단법인 한국정보통신진흥협회",
+      "dminsttCd": "Z001679",
+      "bidMethdNm": "직찰",
+      "cntrctCnclsMthdNm": "일반경쟁",
+      "ntceKindNm": "재공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 18:07:12",
+      "bidBeginDt": "",
+      "bidClseDt": "",
+      "opengDt": "2026-05-12 15:00:00",
+      "asignBdgtAmt": "140000000",
+      "presmptPrce": "127272727",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01500843&bidPbancOrd=000",
+      "ntceInsttOfclNm": "최성근",
+      "ntceInsttOfclTelNo": "02-580-0594",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "",
+      "_hours_remaining": null
+    },
+    {
+      "bidNtceNo": "R26BK01500848",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "AI바우처 지원사업 설명회 및 결과평가 운영 지원",
+      "ntceInsttNm": "사단법인 한국정보통신진흥협회",
+      "ntceInsttCd": "Z001679",
+      "dminsttNm": "사단법인 한국정보통신진흥협회",
+      "dminsttCd": "Z001679",
+      "bidMethdNm": "직찰",
+      "cntrctCnclsMthdNm": "일반경쟁",
+      "ntceKindNm": "재공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 18:10:10",
+      "bidBeginDt": "",
+      "bidClseDt": "",
+      "opengDt": "2026-05-12 15:00:00",
+      "asignBdgtAmt": "130000000",
+      "presmptPrce": "118181818",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01500848&bidPbancOrd=000",
+      "ntceInsttOfclNm": "최성근",
+      "ntceInsttOfclTelNo": "02-580-0594",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "",
+      "_hours_remaining": null
     }
   ],
   "closed": [
+    {
+      "bidNtceNo": "R26BK01494274",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "하천환경변화를 고려한 영산강권역 AI 홍수예보체계 개선 연구",
+      "ntceInsttNm": "조달청",
+      "ntceInsttCd": "1230000",
+      "dminsttNm": "기후에너지환경부 영산강홍수통제소",
+      "dminsttCd": "1482037",
+      "bidMethdNm": "전자시담",
+      "cntrctCnclsMthdNm": "수의계약",
+      "ntceKindNm": "재공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "Y",
+      "bidNtceDt": "2026-04-28 17:06:28",
+      "bidBeginDt": "2026-04-30 13:00:00",
+      "bidClseDt": "2026-04-30 14:00:00",
+      "opengDt": "2026-04-30 15:00:00",
+      "asignBdgtAmt": "277400000",
+      "presmptPrce": "250000000",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01494274&bidPbancOrd=000",
+      "ntceInsttOfclNm": "양희선",
+      "ntceInsttOfclTelNo": "042-724-7360",
+      "sucsfbidMthdNm": "수의시담-일반경쟁->수의",
+      "first_seen_date": "2026-04-29",
+      "last_seen_date": "2026-04-29",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-04-30T14:00:00+09:00",
+      "_hours_remaining": -19.2
+    },
+    {
+      "bidNtceNo": "R26BK01498732",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "금빛안권역 거점개발사업 리모델링공사 재해예방기술지도용역",
+      "ntceInsttNm": "한국농어촌공사 전남지역본부 해남.완도지사",
+      "ntceInsttCd": "D151747",
+      "dminsttNm": "한국농어촌공사 전남지역본부 해남.완도지사",
+      "dminsttCd": "D151747",
+      "bidMethdNm": "전자시담",
+      "cntrctCnclsMthdNm": "수의계약",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "기술용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 10:07:11",
+      "bidBeginDt": "2026-04-30 13:00:00",
+      "bidClseDt": "2026-04-30 14:00:00",
+      "opengDt": "2026-04-30 15:00:00",
+      "asignBdgtAmt": "14000000",
+      "presmptPrce": "12727273",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01498732&bidPbancOrd=000",
+      "ntceInsttOfclNm": "김가영",
+      "ntceInsttOfclTelNo": "061-530-1574",
+      "sucsfbidMthdNm": "수의시담-수의시담",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "모델링"
+      ],
+      "_bidClseDt_iso": "2026-04-30T14:00:00+09:00",
+      "_hours_remaining": -19.2
+    },
+    {
+      "bidNtceNo": "R26BK01481249",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "2026년 임대아파트 놀이시설 통합 리모델링공사 설계용역",
+      "ntceInsttNm": "서울주택도시개발공사",
+      "ntceInsttCd": "Z003688",
+      "dminsttNm": "서울주택도시개발공사",
+      "dminsttCd": "Z003688",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "수의계약",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "기술용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-22 10:04:55",
+      "bidBeginDt": "2026-04-28 10:00:00",
+      "bidClseDt": "2026-04-30 12:00:00",
+      "opengDt": "2026-04-30 13:00:00",
+      "asignBdgtAmt": "73216000",
+      "presmptPrce": "66560000",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01481249&bidPbancOrd=000",
+      "ntceInsttOfclNm": "장혜진",
+      "ntceInsttOfclTelNo": "02-3410-7193",
+      "sucsfbidMthdNm": "소액수의견적-소액수의견적(2인 이상 견적 제출)",
+      "first_seen_date": "2026-04-24",
+      "last_seen_date": "2026-04-24",
+      "matched_keywords": [
+        "모델링"
+      ],
+      "_bidClseDt_iso": "2026-04-30T12:00:00+09:00",
+      "_hours_remaining": -21.2
+    },
+    {
+      "bidNtceNo": "R26BK01481598",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "2026년 해양산업 AI 전환 및 기술 실증·확산 지원 용역",
+      "ntceInsttNm": "한국해양진흥공사",
+      "ntceInsttCd": "B553953",
+      "dminsttNm": "한국해양진흥공사",
+      "dminsttCd": "B553953",
+      "bidMethdNm": "전자시담",
+      "cntrctCnclsMthdNm": "수의계약",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-28 18:07:41",
+      "bidBeginDt": "2026-04-28 19:00:00",
+      "bidClseDt": "2026-04-30 12:00:00",
+      "opengDt": "2026-04-30 13:00:00",
+      "asignBdgtAmt": "2500000000",
+      "presmptPrce": "2272727273",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01481598&bidPbancOrd=000",
+      "ntceInsttOfclNm": "홍지혁",
+      "ntceInsttOfclTelNo": "051-795-1576",
+      "sucsfbidMthdNm": "수의시담-수의시담",
+      "first_seen_date": "2026-04-29",
+      "last_seen_date": "2026-04-29",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-04-30T12:00:00+09:00",
+      "_hours_remaining": -21.2
+    },
+    {
+      "bidNtceNo": "R26BK01495037",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "아기상어 AI전시 프로젝트 인쇄홍보물",
+      "ntceInsttNm": "더핑크퐁컴퍼니 주식회사",
+      "ntceInsttCd": "Z037856",
+      "dminsttNm": "더핑크퐁컴퍼니 주식회사",
+      "dminsttCd": "Z037856",
+      "bidMethdNm": "전자시담",
+      "cntrctCnclsMthdNm": "수의계약",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-29 11:11:33",
+      "bidBeginDt": "2026-04-29 12:00:00",
+      "bidClseDt": "2026-04-30 12:00:00",
+      "opengDt": "2026-04-30 13:00:00",
+      "asignBdgtAmt": "81112965",
+      "presmptPrce": "73739059",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01495037&bidPbancOrd=000",
+      "ntceInsttOfclNm": "강서솔",
+      "ntceInsttOfclTelNo": "",
+      "sucsfbidMthdNm": "수의시담-수의시담",
+      "first_seen_date": "2026-04-30",
+      "last_seen_date": "2026-04-30",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-04-30T12:00:00+09:00",
+      "_hours_remaining": -21.2
+    },
+    {
+      "bidNtceNo": "R26BK01495960",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "수산생물질병 인공지능 학습모델 개발 및 서비스 시스템 고도화(III)",
+      "ntceInsttNm": "해양수산부 국립수산과학원",
+      "ntceInsttCd": "1192266",
+      "dminsttNm": "해양수산부 국립수산과학원",
+      "dminsttCd": "1192266",
+      "bidMethdNm": "전자시담",
+      "cntrctCnclsMthdNm": "수의계약",
+      "ntceKindNm": "재공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-29 11:29:38",
+      "bidBeginDt": "2026-04-30 10:00:00",
+      "bidClseDt": "2026-04-30 12:00:00",
+      "opengDt": "2026-04-30 13:00:00",
+      "asignBdgtAmt": "70000000",
+      "presmptPrce": "63636364",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01495960&bidPbancOrd=000",
+      "ntceInsttOfclNm": "심서현",
+      "ntceInsttOfclTelNo": "051-720-2066",
+      "sucsfbidMthdNm": "수의시담-수의시담",
+      "first_seen_date": "2026-04-30",
+      "last_seen_date": "2026-04-30",
+      "matched_keywords": [
+        "인공지능"
+      ],
+      "_bidClseDt_iso": "2026-04-30T12:00:00+09:00",
+      "_hours_remaining": -21.2
+    },
+    {
+      "bidNtceNo": "R26BK01495247",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "검증용 원심모형실험(3) 용역",
+      "ntceInsttNm": "한국건설기술연구원",
+      "ntceInsttCd": "B090023",
+      "dminsttNm": "한국건설기술연구원",
+      "dminsttCd": "B090023",
+      "bidMethdNm": "전자시담",
+      "cntrctCnclsMthdNm": "수의계약",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-29 09:26:36",
+      "bidBeginDt": "2026-04-30 09:00:00",
+      "bidClseDt": "2026-04-30 12:00:00",
+      "opengDt": "2026-04-30 13:00:00",
+      "asignBdgtAmt": "18480000",
+      "presmptPrce": "16800000",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01495247&bidPbancOrd=000",
+      "ntceInsttOfclNm": "유진옥",
+      "ntceInsttOfclTelNo": "031-910-0023",
+      "sucsfbidMthdNm": "수의시담-수의시담",
+      "first_seen_date": "2026-04-30",
+      "last_seen_date": "2026-04-30",
+      "matched_keywords": [
+        "모형"
+      ],
+      "_bidClseDt_iso": "2026-04-30T12:00:00+09:00",
+      "_hours_remaining": -21.2
+    },
+    {
+      "bidNtceNo": "R26BK01479989",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "2026년~2027년도 수질예측 및 수질오염사고대응예측시스템 유지관리(장기계속 1차)",
+      "ntceInsttNm": "조달청 인천지방조달청",
+      "ntceInsttCd": "1230133",
+      "dminsttNm": "기후에너지환경부 국립환경과학원",
+      "dminsttCd": "1482021",
+      "bidMethdNm": "전자시담",
+      "cntrctCnclsMthdNm": "수의계약",
+      "ntceKindNm": "재공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "Y",
+      "bidNtceDt": "2026-04-29 15:18:27",
+      "bidBeginDt": "2026-04-30 11:00:00",
+      "bidClseDt": "2026-04-30 12:00:00",
+      "opengDt": "2026-04-30 13:00:00",
+      "asignBdgtAmt": "363046000",
+      "presmptPrce": "327272727",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01479989&bidPbancOrd=000",
+      "ntceInsttOfclNm": "최찬수",
+      "ntceInsttOfclTelNo": "070-4056-7867",
+      "sucsfbidMthdNm": "수의시담-일반경쟁->수의",
+      "first_seen_date": "2026-04-30",
+      "last_seen_date": "2026-04-30",
+      "matched_keywords": [
+        "예측"
+      ],
+      "_bidClseDt_iso": "2026-04-30T12:00:00+09:00",
+      "_hours_remaining": -21.2
+    },
+    {
+      "bidNtceNo": "R26BK01498679",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "[수의시담] 정책연구기관(GRI)의 AI 전환을 위한 로드맵 수립",
+      "ntceInsttNm": "경기연구원",
+      "ntceInsttCd": "B553479",
+      "dminsttNm": "경기연구원",
+      "dminsttCd": "B553479",
+      "bidMethdNm": "전자시담",
+      "cntrctCnclsMthdNm": "수의계약",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-30 10:09:13",
+      "bidBeginDt": "2026-04-30 10:10:00",
+      "bidClseDt": "2026-04-30 12:00:00",
+      "opengDt": "2026-04-30 13:00:00",
+      "asignBdgtAmt": "22000000",
+      "presmptPrce": "20000000",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01498679&bidPbancOrd=000",
+      "ntceInsttOfclNm": "박재원",
+      "ntceInsttOfclTelNo": "031-250-3217",
+      "sucsfbidMthdNm": "수의시담-수의시담",
+      "first_seen_date": "2026-05-01",
+      "last_seen_date": "2026-05-01",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-04-30T12:00:00+09:00",
+      "_hours_remaining": -21.2
+    },
+    {
+      "bidNtceNo": "R26BK01488672",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "통영시 인구감소지역 대응 기본계획 및 지방소멸대응기금 투자계획 수립 용역",
+      "ntceInsttNm": "경상남도 통영시",
+      "ntceInsttCd": "5330000",
+      "dminsttNm": "경상남도 통영시",
+      "dminsttCd": "5330000",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "수의계약",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-24 17:41:03",
+      "bidBeginDt": "2026-04-28 10:00:00",
+      "bidClseDt": "2026-04-30 11:00:00",
+      "opengDt": "2026-04-30 14:00:00",
+      "asignBdgtAmt": "40000000",
+      "presmptPrce": "36363636",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01488672&bidPbancOrd=000",
+      "ntceInsttOfclNm": "신영주",
+      "ntceInsttOfclTelNo": "055-650-4424",
+      "sucsfbidMthdNm": "소액수의견적-소액수의견적(2인 이상 견적 제출)",
+      "first_seen_date": "2026-04-24",
+      "last_seen_date": "2026-04-25",
+      "matched_keywords": [
+        "투자"
+      ],
+      "_bidClseDt_iso": "2026-04-30T11:00:00+09:00",
+      "_hours_remaining": -22.2
+    },
+    {
+      "bidNtceNo": "R26BK01497135",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "[정책,107] AI 기반 손상위험 예측모델 연구 중장기 전략 수립",
+      "ntceInsttNm": "질병관리청",
+      "ntceInsttCd": "1790387",
+      "dminsttNm": "질병관리청",
+      "dminsttCd": "1790387",
+      "bidMethdNm": "전자시담",
+      "cntrctCnclsMthdNm": "수의계약",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-29 15:54:15",
+      "bidBeginDt": "2026-04-30 10:00:00",
+      "bidClseDt": "2026-04-30 11:00:00",
+      "opengDt": "2026-04-30 12:00:00",
+      "asignBdgtAmt": "50000000",
+      "presmptPrce": "45454545",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01497135&bidPbancOrd=000",
+      "ntceInsttOfclNm": "강태형",
+      "ntceInsttOfclTelNo": "043-719-7044",
+      "sucsfbidMthdNm": "수의시담-수의시담",
+      "first_seen_date": "2026-04-30",
+      "last_seen_date": "2026-04-30",
+      "matched_keywords": [
+        "AI",
+        "예측"
+      ],
+      "_bidClseDt_iso": "2026-04-30T11:00:00+09:00",
+      "_hours_remaining": -22.2
+    },
+    {
+      "bidNtceNo": "R26BK01495943",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "현업 대기질 모델 예측 성능 향상 연구(Ⅳ)",
+      "ntceInsttNm": "조달청 인천지방조달청",
+      "ntceInsttCd": "1230133",
+      "dminsttNm": "기후에너지환경부 국립환경과학원",
+      "dminsttCd": "1482021",
+      "bidMethdNm": "전자시담",
+      "cntrctCnclsMthdNm": "수의계약",
+      "ntceKindNm": "재공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "Y",
+      "bidNtceDt": "2026-04-29 14:07:14",
+      "bidBeginDt": "2026-04-30 10:00:00",
+      "bidClseDt": "2026-04-30 11:00:00",
+      "opengDt": "2026-04-30 12:00:00",
+      "asignBdgtAmt": "552474800",
+      "presmptPrce": "498181818",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01495943&bidPbancOrd=000",
+      "ntceInsttOfclNm": "박민지",
+      "ntceInsttOfclTelNo": "070-4056-7775",
+      "sucsfbidMthdNm": "수의시담-일반경쟁->수의",
+      "first_seen_date": "2026-04-30",
+      "last_seen_date": "2026-04-30",
+      "matched_keywords": [
+        "예측"
+      ],
+      "_bidClseDt_iso": "2026-04-30T11:00:00+09:00",
+      "_hours_remaining": -22.2
+    },
+    {
+      "bidNtceNo": "R26BK01409553",
+      "bidNtceOrd": "001",
+      "bidNtceNm": "26년 국방통합AI데이터센터 실증목적 GPU 서버 구축사업",
+      "ntceInsttNm": "조달청 인천지방조달청",
+      "ntceInsttCd": "1230133",
+      "dminsttNm": "국방통합데이터센터",
+      "dminsttCd": "ZD01034",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "일반경쟁",
+      "ntceKindNm": "변경공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "Y",
+      "bidNtceDt": "2026-04-20 15:33:01",
+      "bidBeginDt": "2026-04-28 10:00:00",
+      "bidClseDt": "2026-04-30 10:00:00",
+      "opengDt": "2026-04-30 11:00:00",
+      "asignBdgtAmt": "21706856820",
+      "presmptPrce": "19638308073",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01409553&bidPbancOrd=001",
+      "ntceInsttOfclNm": "김준권",
+      "ntceInsttOfclTelNo": "070-4056-7872",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정(SW사업)",
+      "first_seen_date": "2026-04-24",
+      "last_seen_date": "2026-04-24",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-04-30T10:00:00+09:00",
+      "_hours_remaining": -23.2
+    },
+    {
+      "bidNtceNo": "R26BK01481394",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "(동의대학교 산학협력단) [RISE] AI 기본소양 확대를 위한 AIx6 융합 프로그램 개발",
+      "ntceInsttNm": "동의대학교 산학협력단",
+      "ntceInsttCd": "7007556",
+      "dminsttNm": "동의대학교 산학협력단",
+      "dminsttCd": "7007556",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-22 10:57:44",
+      "bidBeginDt": "2026-04-22 16:00:00",
+      "bidClseDt": "2026-04-30 10:00:00",
+      "opengDt": "2026-05-08 11:00:00",
+      "asignBdgtAmt": "55000000",
+      "presmptPrce": "50000000",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01481394&bidPbancOrd=000",
+      "ntceInsttOfclNm": "서지웅",
+      "ntceInsttOfclTelNo": "051-890-2402",
+      "sucsfbidMthdNm": "규격가격동시입찰-제안적격자 중 예가 내 최저가 투찰자",
+      "first_seen_date": "2026-04-24",
+      "last_seen_date": "2026-04-24",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-04-30T10:00:00+09:00",
+      "_hours_remaining": -23.2
+    },
+    {
+      "bidNtceNo": "R26BK01485953",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "(재공고)KAIST 본원 화재예방안전진단 용역",
+      "ntceInsttNm": "한국과학기술원",
+      "ntceInsttCd": "B350021",
+      "dminsttNm": "한국과학기술원",
+      "dminsttCd": "B350021",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "수의계약",
+      "ntceKindNm": "재공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-23 16:55:12",
+      "bidBeginDt": "2026-04-24 14:00:00",
+      "bidClseDt": "2026-04-30 10:00:00",
+      "opengDt": "2026-04-30 11:00:00",
+      "asignBdgtAmt": "49900000",
+      "presmptPrce": "45363636",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01485953&bidPbancOrd=000",
+      "ntceInsttOfclNm": "이한권",
+      "ntceInsttOfclTelNo": "042-350-2333",
+      "sucsfbidMthdNm": "소액수의견적-소액수의견적(2인 이상 견적 제출)",
+      "first_seen_date": "2026-04-24",
+      "last_seen_date": "2026-04-24",
+      "matched_keywords": [
+        "AI"
+      ],
+      "_bidClseDt_iso": "2026-04-30T10:00:00+09:00",
+      "_hours_remaining": -23.2
+    },
+    {
+      "bidNtceNo": "R26BK01484409",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "애니메이션 IP (헬로랜드) 3D 배경 및 프랍 모델링 제작",
+      "ntceInsttNm": "(주)마로스튜디오",
+      "ntceInsttCd": "Z055913",
+      "dminsttNm": "(주)마로스튜디오",
+      "dminsttCd": "Z055913",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "일반경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-23 11:36:40",
+      "bidBeginDt": "2026-04-23 12:00:00",
+      "bidClseDt": "2026-04-30 10:00:00",
+      "opengDt": "2026-04-30 11:00:00",
+      "asignBdgtAmt": "132000000",
+      "presmptPrce": "120000000",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01484409&bidPbancOrd=000",
+      "ntceInsttOfclNm": "허재정",
+      "ntceInsttOfclTelNo": "070-8668-7696",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정",
+      "first_seen_date": "2026-04-24",
+      "last_seen_date": "2026-04-24",
+      "matched_keywords": [
+        "모델링"
+      ],
+      "_bidClseDt_iso": "2026-04-30T10:00:00+09:00",
+      "_hours_remaining": -23.2
+    },
+    {
+      "bidNtceNo": "R26BK01487212",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "광주동운초 공간재구조화 리모델링공사 가연성폐기물처리용역 견적제출 안내 공고",
+      "ntceInsttNm": "광주광역시교육청",
+      "ntceInsttCd": "7380000",
+      "dminsttNm": "광주광역시교육청",
+      "dminsttCd": "7380000",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "수의계약",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-24 15:36:14",
+      "bidBeginDt": "2026-04-28 10:00:00",
+      "bidClseDt": "2026-04-30 10:00:00",
+      "opengDt": "2026-04-30 11:10:00",
+      "asignBdgtAmt": "15297000",
+      "presmptPrce": "13906364",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01487212&bidPbancOrd=000",
+      "ntceInsttOfclNm": "윤지혜",
+      "ntceInsttOfclTelNo": "062-380-4161",
+      "sucsfbidMthdNm": "소액수의견적-소액수의견적(2인 이상 견적 제출)",
+      "first_seen_date": "2026-04-24",
+      "last_seen_date": "2026-04-25",
+      "matched_keywords": [
+        "모델링"
+      ],
+      "_bidClseDt_iso": "2026-04-30T10:00:00+09:00",
+      "_hours_remaining": -23.2
+    },
+    {
+      "bidNtceNo": "R26BK01487148",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "광주동운초 공간재구조화 리모델링공사 건설폐기물처리용역 견적제출 안내 공고",
+      "ntceInsttNm": "광주광역시교육청",
+      "ntceInsttCd": "7380000",
+      "dminsttNm": "광주광역시교육청",
+      "dminsttCd": "7380000",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "수의계약",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-04-24 16:25:05",
+      "bidBeginDt": "2026-04-28 10:00:00",
+      "bidClseDt": "2026-04-30 10:00:00",
+      "opengDt": "2026-04-30 11:00:00",
+      "asignBdgtAmt": "71348000",
+      "presmptPrce": "64861818",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01487148&bidPbancOrd=000",
+      "ntceInsttOfclNm": "윤지혜",
+      "ntceInsttOfclTelNo": "062-380-4161",
+      "sucsfbidMthdNm": "소액수의견적-소액수의견적(2인 이상 견적 제출)",
+      "first_seen_date": "2026-04-24",
+      "last_seen_date": "2026-04-25",
+      "matched_keywords": [
+        "모델링"
+      ],
+      "_bidClseDt_iso": "2026-04-30T10:00:00+09:00",
+      "_hours_remaining": -23.2
+    },
     {
       "bidNtceNo": "R26BK01491740",
       "bidNtceOrd": "000",
@@ -10897,7 +12657,7 @@
         "인공지능"
       ],
       "_bidClseDt_iso": "2026-04-29T17:00:00+09:00",
-      "_hours_remaining": -16.2
+      "_hours_remaining": -40.2
     },
     {
       "bidNtceNo": "R26BK01470946",
@@ -10929,7 +12689,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-29T16:00:00+09:00",
-      "_hours_remaining": -17.2
+      "_hours_remaining": -41.2
     },
     {
       "bidNtceNo": "R26BK01470946",
@@ -10961,7 +12721,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-29T16:00:00+09:00",
-      "_hours_remaining": -17.2
+      "_hours_remaining": -41.2
     },
     {
       "bidNtceNo": "R26BK01477852",
@@ -10993,7 +12753,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-29T15:00:00+09:00",
-      "_hours_remaining": -18.2
+      "_hours_remaining": -42.2
     },
     {
       "bidNtceNo": "R26BK01491719",
@@ -11025,7 +12785,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-29T15:00:00+09:00",
-      "_hours_remaining": -18.2
+      "_hours_remaining": -42.2
     },
     {
       "bidNtceNo": "R26BK01495807",
@@ -11057,7 +12817,7 @@
         "빅데이터"
       ],
       "_bidClseDt_iso": "2026-04-29T15:00:00+09:00",
-      "_hours_remaining": -18.2
+      "_hours_remaining": -42.2
     },
     {
       "bidNtceNo": "R26BK01478512",
@@ -11089,7 +12849,7 @@
         "금융"
       ],
       "_bidClseDt_iso": "2026-04-29T14:00:00+09:00",
-      "_hours_remaining": -19.2
+      "_hours_remaining": -43.2
     },
     {
       "bidNtceNo": "R26BK01494191",
@@ -11121,7 +12881,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-29T14:00:00+09:00",
-      "_hours_remaining": -19.2
+      "_hours_remaining": -43.2
     },
     {
       "bidNtceNo": "R26BK01476333",
@@ -11153,7 +12913,7 @@
         "전망"
       ],
       "_bidClseDt_iso": "2026-04-29T11:00:00+09:00",
-      "_hours_remaining": -22.2
+      "_hours_remaining": -46.2
     },
     {
       "bidNtceNo": "R26BK01491551",
@@ -11185,7 +12945,7 @@
         "금융"
       ],
       "_bidClseDt_iso": "2026-04-29T11:00:00+09:00",
-      "_hours_remaining": -22.2
+      "_hours_remaining": -46.2
     },
     {
       "bidNtceNo": "R26BK01492610",
@@ -11217,7 +12977,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-04-29T11:00:00+09:00",
-      "_hours_remaining": -22.2
+      "_hours_remaining": -46.2
     },
     {
       "bidNtceNo": "R26BK01495240",
@@ -11249,7 +13009,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-04-29T11:00:00+09:00",
-      "_hours_remaining": -22.2
+      "_hours_remaining": -46.2
     },
     {
       "bidNtceNo": "R26BK01479831",
@@ -11281,7 +13041,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-29T10:00:00+09:00",
-      "_hours_remaining": -23.2
+      "_hours_remaining": -47.2
     },
     {
       "bidNtceNo": "R26BK01477660",
@@ -11313,7 +13073,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-29T10:00:00+09:00",
-      "_hours_remaining": -23.2
+      "_hours_remaining": -47.2
     },
     {
       "bidNtceNo": "R26BK01484211",
@@ -11345,7 +13105,7 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-04-29T10:00:00+09:00",
-      "_hours_remaining": -23.2
+      "_hours_remaining": -47.2
     },
     {
       "bidNtceNo": "R26BK01485044",
@@ -11377,7 +13137,7 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-04-29T10:00:00+09:00",
-      "_hours_remaining": -23.2
+      "_hours_remaining": -47.2
     },
     {
       "bidNtceNo": "R26BK01490357",
@@ -11409,7 +13169,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-28T17:00:00+09:00",
-      "_hours_remaining": -40.2
+      "_hours_remaining": -64.2
     },
     {
       "bidNtceNo": "R26BK01494179",
@@ -11441,7 +13201,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-28T17:00:00+09:00",
-      "_hours_remaining": -40.2
+      "_hours_remaining": -64.2
     },
     {
       "bidNtceNo": "R26BK01491061",
@@ -11473,7 +13233,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-28T16:30:00+09:00",
-      "_hours_remaining": -40.7
+      "_hours_remaining": -64.7
     },
     {
       "bidNtceNo": "R26BK01493212",
@@ -11505,7 +13265,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-28T16:00:00+09:00",
-      "_hours_remaining": -41.2
+      "_hours_remaining": -65.2
     },
     {
       "bidNtceNo": "R26BK01479102",
@@ -11537,7 +13297,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-28T14:00:00+09:00",
-      "_hours_remaining": -43.2
+      "_hours_remaining": -67.2
     },
     {
       "bidNtceNo": "R26BK01487222",
@@ -11569,7 +13329,7 @@
         "연금"
       ],
       "_bidClseDt_iso": "2026-04-28T14:00:00+09:00",
-      "_hours_remaining": -43.2
+      "_hours_remaining": -67.2
     },
     {
       "bidNtceNo": "R26BK01483073",
@@ -11601,7 +13361,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-28T11:00:00+09:00",
-      "_hours_remaining": -46.2
+      "_hours_remaining": -70.2
     },
     {
       "bidNtceNo": "R26BK01477394",
@@ -11633,7 +13393,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-28T11:00:00+09:00",
-      "_hours_remaining": -46.2
+      "_hours_remaining": -70.2
     },
     {
       "bidNtceNo": "R26BK01490181",
@@ -11665,7 +13425,7 @@
         "연금"
       ],
       "_bidClseDt_iso": "2026-04-28T11:00:00+09:00",
-      "_hours_remaining": -46.2
+      "_hours_remaining": -70.2
     },
     {
       "bidNtceNo": "R26BK01474005",
@@ -11697,7 +13457,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-28T10:00:00+09:00",
-      "_hours_remaining": -47.2
+      "_hours_remaining": -71.2
     },
     {
       "bidNtceNo": "R26BK01463788",
@@ -11729,7 +13489,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-28T10:00:00+09:00",
-      "_hours_remaining": -47.2
+      "_hours_remaining": -71.2
     },
     {
       "bidNtceNo": "R26BK01476681",
@@ -11761,7 +13521,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-04-28T10:00:00+09:00",
-      "_hours_remaining": -47.2
+      "_hours_remaining": -71.2
     },
     {
       "bidNtceNo": "R26BK01471819",
@@ -11793,7 +13553,7 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-04-28T10:00:00+09:00",
-      "_hours_remaining": -47.2
+      "_hours_remaining": -71.2
     },
     {
       "bidNtceNo": "R26BK01474079",
@@ -11825,7 +13585,7 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-04-28T10:00:00+09:00",
-      "_hours_remaining": -47.2
+      "_hours_remaining": -71.2
     },
     {
       "bidNtceNo": "R26BK01485667",
@@ -11857,7 +13617,7 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-04-28T10:00:00+09:00",
-      "_hours_remaining": -47.2
+      "_hours_remaining": -71.2
     },
     {
       "bidNtceNo": "R26BK01480021",
@@ -11889,7 +13649,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-27T16:00:00+09:00",
-      "_hours_remaining": -65.2
+      "_hours_remaining": -89.2
     },
     {
       "bidNtceNo": "R26BK01487848",
@@ -11921,7 +13681,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-27T15:00:00+09:00",
-      "_hours_remaining": -66.2
+      "_hours_remaining": -90.2
     },
     {
       "bidNtceNo": "R26BK01479530",
@@ -11953,7 +13713,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-27T14:00:00+09:00",
-      "_hours_remaining": -67.2
+      "_hours_remaining": -91.2
     },
     {
       "bidNtceNo": "R26BK01488202",
@@ -11985,7 +13745,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-27T12:00:00+09:00",
-      "_hours_remaining": -69.2
+      "_hours_remaining": -93.2
     },
     {
       "bidNtceNo": "R26BK01483817",
@@ -12017,7 +13777,7 @@
         "전망"
       ],
       "_bidClseDt_iso": "2026-04-27T12:00:00+09:00",
-      "_hours_remaining": -69.2
+      "_hours_remaining": -93.2
     },
     {
       "bidNtceNo": "R26BK01484911",
@@ -12049,7 +13809,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-27T11:00:00+09:00",
-      "_hours_remaining": -70.2
+      "_hours_remaining": -94.2
     },
     {
       "bidNtceNo": "R26BK01477785",
@@ -12081,7 +13841,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-27T10:00:00+09:00",
-      "_hours_remaining": -71.2
+      "_hours_remaining": -95.2
     },
     {
       "bidNtceNo": "R26BK01477790",
@@ -12113,7 +13873,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-27T10:00:00+09:00",
-      "_hours_remaining": -71.2
+      "_hours_remaining": -95.2
     },
     {
       "bidNtceNo": "R26BK01476806",
@@ -12145,7 +13905,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-27T10:00:00+09:00",
-      "_hours_remaining": -71.2
+      "_hours_remaining": -95.2
     },
     {
       "bidNtceNo": "R26BK01477660",
@@ -12177,7 +13937,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-27T10:00:00+09:00",
-      "_hours_remaining": -71.2
+      "_hours_remaining": -95.2
     },
     {
       "bidNtceNo": "R26BK01476806",
@@ -12209,7 +13969,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-27T10:00:00+09:00",
-      "_hours_remaining": -71.2
+      "_hours_remaining": -95.2
     },
     {
       "bidNtceNo": "R26BK01480190",
@@ -12241,7 +14001,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-27T10:00:00+09:00",
-      "_hours_remaining": -71.2
+      "_hours_remaining": -95.2
     },
     {
       "bidNtceNo": "R26BK01477937",
@@ -12273,7 +14033,7 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-04-27T10:00:00+09:00",
-      "_hours_remaining": -71.2
+      "_hours_remaining": -95.2
     },
     {
       "bidNtceNo": "R26BK01475182",
@@ -12305,7 +14065,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-24T14:00:00+09:00",
-      "_hours_remaining": -139.2
+      "_hours_remaining": -163.2
     },
     {
       "bidNtceNo": "R26BK01476294",
@@ -12337,7 +14097,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-24T14:00:00+09:00",
-      "_hours_remaining": -139.2
+      "_hours_remaining": -163.2
     },
     {
       "bidNtceNo": "R26BK01476294",
@@ -12369,7 +14129,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-24T14:00:00+09:00",
-      "_hours_remaining": -139.2
+      "_hours_remaining": -163.2
     },
     {
       "bidNtceNo": "R26BK01485636",
@@ -12401,7 +14161,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-24T12:00:00+09:00",
-      "_hours_remaining": -141.2
+      "_hours_remaining": -165.2
     },
     {
       "bidNtceNo": "R26BK01482225",
@@ -12433,7 +14193,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-04-24T11:00:00+09:00",
-      "_hours_remaining": -142.2
+      "_hours_remaining": -166.2
     },
     {
       "bidNtceNo": "R26BK01484783",
@@ -12465,7 +14225,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-23T18:00:00+09:00",
-      "_hours_remaining": -159.2
+      "_hours_remaining": -183.2
     },
     {
       "bidNtceNo": "R26BK01483102",
@@ -12497,7 +14257,7 @@
         "딥러닝"
       ],
       "_bidClseDt_iso": "2026-04-23T14:30:00+09:00",
-      "_hours_remaining": -162.7
+      "_hours_remaining": -186.7
     },
     {
       "bidNtceNo": "R26BK01483287",
@@ -12529,7 +14289,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-23T14:00:00+09:00",
-      "_hours_remaining": -163.2
+      "_hours_remaining": -187.2
     },
     {
       "bidNtceNo": "R26BK01480997",
@@ -12561,7 +14321,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-23T12:00:00+09:00",
-      "_hours_remaining": -165.2
+      "_hours_remaining": -189.2
     },
     {
       "bidNtceNo": "R26BK01477141",
@@ -12594,7 +14354,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-04-23T12:00:00+09:00",
-      "_hours_remaining": -165.2
+      "_hours_remaining": -189.2
     },
     {
       "bidNtceNo": "R26BK01479393",
@@ -12626,7 +14386,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-23T12:00:00+09:00",
-      "_hours_remaining": -165.2
+      "_hours_remaining": -189.2
     },
     {
       "bidNtceNo": "R26BK01481539",
@@ -12658,7 +14418,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-22T16:00:00+09:00",
-      "_hours_remaining": -185.2
+      "_hours_remaining": -209.2
     },
     {
       "bidNtceNo": "R26BK01474445",
@@ -12690,7 +14450,7 @@
         "빅데이터"
       ],
       "_bidClseDt_iso": "2026-04-22T15:00:00+09:00",
-      "_hours_remaining": -186.2
+      "_hours_remaining": -210.2
     },
     {
       "bidNtceNo": "R26BK01473951",
@@ -12722,7 +14482,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-22T14:00:00+09:00",
-      "_hours_remaining": -187.2
+      "_hours_remaining": -211.2
     },
     {
       "bidNtceNo": "R26BK01473011",
@@ -12754,7 +14514,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-04-22T12:00:00+09:00",
-      "_hours_remaining": -189.2
+      "_hours_remaining": -213.2
     },
     {
       "bidNtceNo": "R26BK01479217",
@@ -12786,7 +14546,7 @@
         "투자"
       ],
       "_bidClseDt_iso": "2026-04-22T11:00:00+09:00",
-      "_hours_remaining": -190.2
+      "_hours_remaining": -214.2
     },
     {
       "bidNtceNo": "R26BK01475125",
@@ -12818,7 +14578,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-21T15:00:00+09:00",
-      "_hours_remaining": -210.2
+      "_hours_remaining": -234.2
     },
     {
       "bidNtceNo": "R26BK01477065",
@@ -12850,7 +14610,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-04-21T15:00:00+09:00",
-      "_hours_remaining": -210.2
+      "_hours_remaining": -234.2
     },
     {
       "bidNtceNo": "R26BK01475935",
@@ -12882,7 +14642,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-21T14:20:00+09:00",
-      "_hours_remaining": -210.9
+      "_hours_remaining": -234.9
     },
     {
       "bidNtceNo": "R26BK01476187",
@@ -12914,7 +14674,7 @@
         "모델링"
       ],
       "_bidClseDt_iso": "2026-04-21T11:00:00+09:00",
-      "_hours_remaining": -214.2
+      "_hours_remaining": -238.2
     },
     {
       "bidNtceNo": "R26BK01475935",
@@ -12946,7 +14706,7 @@
         "AI"
       ],
       "_bidClseDt_iso": "2026-04-21T10:00:00+09:00",
-      "_hours_remaining": -215.2
+      "_hours_remaining": -239.2
     },
     {
       "bidNtceNo": "R26BK01449166",
@@ -12980,7 +14740,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-04-21T10:00:00+09:00",
-      "_hours_remaining": -215.2
+      "_hours_remaining": -239.2
     },
     {
       "bidNtceNo": "R26BK01475402",
@@ -13012,7 +14772,7 @@
         "예측"
       ],
       "_bidClseDt_iso": "2026-04-20T15:00:00+09:00",
-      "_hours_remaining": -234.2
+      "_hours_remaining": -258.2
     }
   ]
 }
