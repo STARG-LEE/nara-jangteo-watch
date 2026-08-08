@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-08-09T08:51:52+09:00",
+  "date": "2026-08-09",
+  "count": 1,
+  "items": [
+    {
+      "bidNtceNo": "R26BK01672893",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "AI기반 그룹웨어(전자결재)시스템 구축",
+      "ntceInsttNm": "울산과학대학산학협력단",
+      "ntceInsttCd": "Z018143",
+      "dminsttNm": "울산과학대학산학협력단",
+      "dminsttCd": "Z018143",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-08-08 21:44:42",
+      "bidBeginDt": "2026-08-08 23:00:00",
+      "bidClseDt": "2026-08-19 12:00:00",
+      "opengDt": "2026-08-19 13:00:00",
+      "asignBdgtAmt": "200000000",
+      "presmptPrce": "181818182",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01672893&bidPbancOrd=000",
+      "ntceInsttOfclNm": "박동철",
+      "ntceInsttOfclTelNo": "052-230-0552",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정"
+    }
+  ]
+}
