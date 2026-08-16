@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-08-17T08:40:53+09:00",
+  "date": "2026-08-17",
+  "count": 1,
+  "items": [
+    {
+      "bidNtceNo": "R26BK01684335",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "연구행정 데이터 기반 AI 플랫폼 구축",
+      "ntceInsttNm": "한국생명공학연구원",
+      "ntceInsttCd": "Z004836",
+      "dminsttNm": "한국생명공학연구원",
+      "dminsttCd": "Z004836",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-08-16 18:07:04",
+      "bidBeginDt": "2026-08-17 10:00:00",
+      "bidClseDt": "2026-08-27 10:00:00",
+      "opengDt": "2026-08-27 11:00:00",
+      "asignBdgtAmt": "94579000",
+      "presmptPrce": "85980909",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01684335&bidPbancOrd=000",
+      "ntceInsttOfclNm": "이진성",
+      "ntceInsttOfclTelNo": "042-860-4041",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정(SW사업)"
+    }
+  ]
+}
