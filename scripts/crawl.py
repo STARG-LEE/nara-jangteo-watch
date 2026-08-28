@@ -25,6 +25,8 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 try:
     from zoneinfo import ZoneInfo
@@ -53,6 +55,26 @@ def _load_dotenv(path: Path) -> None:
 
 
 _load_dotenv(ROOT / ".env")
+
+
+def _make_session() -> requests.Session:
+    """data.go.kr가 간헐적으로 연결 타임아웃을 내므로 재시도+백오프를 붙인 세션."""
+    retry = Retry(
+        total=4,
+        connect=4,
+        read=2,
+        backoff_factor=1.5,  # 0, 1.5, 3, 6초 대기
+        status_forcelist=(500, 502, 503, 504),
+        allowed_methods=frozenset(["GET"]),
+    )
+    session = requests.Session()
+    adapter = HTTPAdapter(max_retries=retry)
+    session.mount("https://", adapter)
+    session.mount("http://", adapter)
+    return session
+
+
+SESSION = _make_session()
 
 
 @dataclass
@@ -116,7 +138,7 @@ def fetch_page(
     if bid_ntce_nm:
         params["bidNtceNm"] = bid_ntce_nm
 
-    resp = requests.get(url, params=params, timeout=30)
+    resp = SESSION.get(url, params=params, timeout=30)
 
     if resp.status_code == 401:
         raise RuntimeError(
@@ -319,18 +341,29 @@ def main() -> int:
         search_keywords = cfg.keywords
 
     merged_raw: dict[str, dict] = {}
+    net_failures = 0
     try:
         for kw in search_keywords:
             print(f"▶ 검색: {kw or '(전체)'}")
-            for raw in fetch_by_keyword(cfg, service_key, begin, end, kw):
-                key = f"{raw.get('bidNtceNo')}-{raw.get('bidNtceOrd')}"
-                merged_raw[key] = raw
-    except requests.RequestException as e:
-        print(f"ERROR: 네트워크 오류 - {e}", file=sys.stderr)
-        return 3
+            try:
+                for raw in fetch_by_keyword(cfg, service_key, begin, end, kw):
+                    key = f"{raw.get('bidNtceNo')}-{raw.get('bidNtceOrd')}"
+                    merged_raw[key] = raw
+            except requests.RequestException as e:
+                # 재시도까지 소진한 네트워크 오류는 해당 키워드만 건너뛰고 계속 진행한다.
+                net_failures += 1
+                print(f"  ⚠ '{kw}' 네트워크 오류로 건너뜀 - {e}", file=sys.stderr)
     except RuntimeError as e:
+        # 401/키 오류/API 오류는 설정 문제이므로 전체 중단.
         print(f"ERROR: {e}", file=sys.stderr)
         return 4
+
+    if net_failures and not merged_raw:
+        # 모든 키워드가 네트워크로 실패 → 사실상 API 장애이므로 실패로 종료.
+        print(f"ERROR: 모든 키워드가 네트워크 오류로 실패 ({net_failures}건).", file=sys.stderr)
+        return 3
+    if net_failures:
+        print(f"(주의: {net_failures}개 키워드는 네트워크 오류로 건너뜀, 나머지는 정상 수집)")
 
     print(f"\n전체 중복제거 후 원본: {len(merged_raw)}건")
 
