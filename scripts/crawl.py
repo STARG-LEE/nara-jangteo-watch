@@ -59,11 +59,12 @@ _load_dotenv(ROOT / ".env")
 
 def _make_session() -> requests.Session:
     """data.go.kr가 간헐적으로 연결 타임아웃을 내므로 재시도+백오프를 붙인 세션."""
+    # data.go.kr가 러너 IP를 통째로 막으면 같은 IP 재시도는 무의미하므로 짧게만.
     retry = Retry(
-        total=4,
-        connect=4,
-        read=2,
-        backoff_factor=1.5,  # 0, 1.5, 3, 6초 대기
+        total=2,
+        connect=2,
+        read=1,
+        backoff_factor=0.5,  # 0, 0.5초 대기
         status_forcelist=(500, 502, 503, 504),
         allowed_methods=frozenset(["GET"]),
     )
@@ -138,7 +139,7 @@ def fetch_page(
     if bid_ntce_nm:
         params["bidNtceNm"] = bid_ntce_nm
 
-    resp = SESSION.get(url, params=params, timeout=30)
+    resp = SESSION.get(url, params=params, timeout=(10, 30))  # (connect, read)
 
     if resp.status_code == 401:
         raise RuntimeError(
@@ -342,6 +343,7 @@ def main() -> int:
 
     merged_raw: dict[str, dict] = {}
     net_failures = 0
+    consecutive_fails = 0
     try:
         for kw in search_keywords:
             print(f"▶ 검색: {kw or '(전체)'}")
@@ -349,10 +351,20 @@ def main() -> int:
                 for raw in fetch_by_keyword(cfg, service_key, begin, end, kw):
                     key = f"{raw.get('bidNtceNo')}-{raw.get('bidNtceOrd')}"
                     merged_raw[key] = raw
+                consecutive_fails = 0
             except requests.RequestException as e:
                 # 재시도까지 소진한 네트워크 오류는 해당 키워드만 건너뛰고 계속 진행한다.
                 net_failures += 1
+                consecutive_fails += 1
                 print(f"  ⚠ '{kw}' 네트워크 오류로 건너뜀 - {e}", file=sys.stderr)
+                # 서킷브레이커: 아직 아무것도 못 모았는데 연속 3회 실패면 호스트가
+                # 통째로 막힌 것으로 보고 즉시 중단(막힌 IP 재시도로 시간 낭비 방지).
+                if consecutive_fails >= 3 and not merged_raw:
+                    print(
+                        "ERROR: 연속 3개 키워드 네트워크 실패 → apis.data.go.kr 접속 불가 판정, 중단.",
+                        file=sys.stderr,
+                    )
+                    return 3
     except RuntimeError as e:
         # 401/키 오류/API 오류는 설정 문제이므로 전체 중단.
         print(f"ERROR: {e}", file=sys.stderr)
