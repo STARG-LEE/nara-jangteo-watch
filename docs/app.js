@@ -168,6 +168,36 @@
     container.innerHTML = chips.join("");
   }
 
+  // index.json의 분류·남은 시간은 수집 시점 기준이라, 수집이 실패한 날엔 이미 마감된
+  // 공고가 "임박"으로 남는다. 열 때마다 현재 시각 기준으로 다시 나눈다
+  // (scripts/build_index.py classify()와 같은 규칙: 7일 이내 = 임박).
+  function reclassify(d) {
+    const now = Date.now();
+    const SOON_MS = 7 * 24 * 3600 * 1000;
+    const all = [...(d.closing_soon || []), ...(d.open || []), ...(d.closed || [])];
+    const open = [], soon = [], closed = [];
+    for (const it of all) {
+      const t = it._bidClseDt_iso ? Date.parse(it._bidClseDt_iso) : NaN;
+      if (isNaN(t)) {
+        it._hours_remaining = null;
+        open.push(it);
+        continue;
+      }
+      it._hours_remaining = (t - now) / 3600000;
+      if (t < now) closed.push(it);
+      else if (t - now <= SOON_MS) soon.push(it);
+      else open.push(it);
+    }
+    const byHours = (a, b) => (a._hours_remaining ?? Infinity) - (b._hours_remaining ?? Infinity) || 0;
+    open.sort(byHours);
+    soon.sort(byHours);
+    closed.sort((a, b) => (b._bidClseDt_iso || "").localeCompare(a._bidClseDt_iso || ""));
+    d.open = open;
+    d.closing_soon = soon;
+    d.closed = closed;
+    d.stats = { ...d.stats, open: open.length, closing_soon: soon.length, closed: closed.length, total: all.length };
+  }
+
   function updateMeta() {
     const d = state.data;
     if (!d) return;
@@ -212,6 +242,7 @@
       const r = await fetch(DATA_URL, { cache: "no-store" });
       if (!r.ok) throw new Error(`HTTP ${r.status}`);
       state.data = await r.json();
+      reclassify(state.data);
       updateMeta();
       buildKeywordFilter();
       render();

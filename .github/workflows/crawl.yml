@@ -4,6 +4,9 @@ on:
   schedule:
     # KST 매일 오전 8:30 = UTC 23:30 (전날)
     - cron: "30 23 * * *"
+    # KST 오후 2:30 재수집. data.go.kr가 러너 IP를 막아 아침 수집이 실패하는 날 보충용
+    # (새 러너 = 새 IP, 같은 날짜 파일에 병합되므로 중복 없음)
+    - cron: "30 5 * * *"
   workflow_dispatch:
     inputs:
       days:
