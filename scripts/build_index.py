@@ -14,11 +14,11 @@ data/*.json 에 쌓인 일별 수집 결과를 하나의 대시보드용 인덱�
 
 config.keep_days 보다 오래된 data/ 파일은 스킵한다.
 """
-from __future__ import annotations
-
 import json
+import os
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from typing import Dict, List, Optional, Tuple
 
 try:
     from zoneinfo import ZoneInfo
@@ -29,10 +29,11 @@ except Exception:
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG_PATH = ROOT / "config.json"
 DATA_DIR = ROOT / "data"
-OUT_PATH = ROOT / "docs" / "data" / "index.json"
+# 학교 서버에서는 NARA_INDEX_OUT 으로 웹 디렉터리(/var/www/html/nara/data/index.json)에 바로 쓴다.
+OUT_PATH = Path(os.environ.get("NARA_INDEX_OUT") or ROOT / "docs" / "data" / "index.json")
 
 
-def parse_bid_dt(s: str) -> datetime | None:
+def parse_bid_dt(s: str) -> Optional[datetime]:
     """나라장터 API의 날짜 문자열을 KST datetime으로 파싱.
 
     관측된 포맷: '2026-04-30 18:00:00', '202604301800', '2026-04-30 18:00'
@@ -61,11 +62,11 @@ def load_config() -> dict:
         return json.load(f)
 
 
-def iter_daily_files(keep_days: int) -> list[Path]:
+def iter_daily_files(keep_days: int) -> List[Path]:
     if not DATA_DIR.exists():
         return []
     cutoff = (datetime.now(tz=KST) - timedelta(days=keep_days)).date()
-    kept: list[Path] = []
+    kept: List[Path] = []
     for p in sorted(DATA_DIR.glob("*.json")):
         try:
             file_date = datetime.strptime(p.stem, "%Y-%m-%d").date()
@@ -76,7 +77,7 @@ def iter_daily_files(keep_days: int) -> list[Path]:
     return kept
 
 
-def match_keywords(title: str, keywords: list[str], case_sensitive: bool) -> list[str]:
+def match_keywords(title: str, keywords: List[str], case_sensitive: bool) -> List[str]:
     """제목에 매치되는 모든 키워드를 원본 순서대로 반환."""
     if not title or not keywords:
         return []
@@ -84,8 +85,8 @@ def match_keywords(title: str, keywords: list[str], case_sensitive: bool) -> lis
     return [kw for kw in keywords if (kw if case_sensitive else kw.lower()) in haystack]
 
 
-def merge_all(files: list[Path], keywords: list[str], case_sensitive: bool) -> list[dict]:
-    merged: dict[str, dict] = {}
+def merge_all(files: List[Path], keywords: List[str], case_sensitive: bool) -> List[dict]:
+    merged: Dict[str, dict] = {}
     for path in files:
         try:
             with path.open(encoding="utf-8") as f:
@@ -111,13 +112,13 @@ def merge_all(files: list[Path], keywords: list[str], case_sensitive: bool) -> l
 SOON_THRESHOLD_DAYS = 7
 
 
-def classify(items: list[dict]) -> tuple[list[dict], list[dict], list[dict]]:
+def classify(items: List[dict]) -> Tuple[List[dict], List[dict], List[dict]]:
     now = datetime.now(tz=KST)
     soon_cutoff = now + timedelta(days=SOON_THRESHOLD_DAYS)
 
-    open_list: list[dict] = []
-    soon_list: list[dict] = []
-    closed_list: list[dict] = []
+    open_list: List[dict] = []
+    soon_list: List[dict] = []
+    closed_list: List[dict] = []
 
     for it in items:
         close_dt = parse_bid_dt(it.get("bidClseDt", ""))
@@ -182,9 +183,12 @@ def main() -> int:
     }
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    with OUT_PATH.open("w", encoding="utf-8") as f:
+    # 웹서버가 바로 서빙하는 파일이므로 임시 파일에 다 쓴 뒤 한 번에 바꿔치기한다.
+    tmp_path = OUT_PATH.with_name(OUT_PATH.name + ".tmp")
+    with tmp_path.open("w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
-    print(f"저장: {OUT_PATH.relative_to(ROOT)}")
+    os.replace(str(tmp_path), str(OUT_PATH))
+    print(f"저장: {OUT_PATH}")
     print(f"  open={len(open_list)}  closing_soon={len(soon_list)}  closed={len(closed_list)}")
     return 0
 

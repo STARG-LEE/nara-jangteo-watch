@@ -13,8 +13,6 @@
     python scripts/crawl.py --days 3
     python scripts/crawl.py --date 2026-04-23
 """
-from __future__ import annotations
-
 import argparse
 import json
 import os
@@ -23,6 +21,7 @@ import time
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from typing import Dict, List, Tuple
 
 import requests
 from requests.adapters import HTTPAdapter
@@ -80,8 +79,8 @@ SESSION = _make_session()
 
 @dataclass
 class Config:
-    keywords: list[str]
-    exclude_keywords: list[str]
+    keywords: List[str]
+    exclude_keywords: List[str]
     lookback_days: int
     match_mode: str
     case_sensitive: bool
@@ -169,7 +168,7 @@ def fetch_page(
     return data
 
 
-def extract_items(resp_json: dict) -> list[dict]:
+def extract_items(resp_json: dict) -> List[dict]:
     body = (resp_json.get("response") or {}).get("body") or {}
     items = body.get("items")
     if not items:
@@ -247,9 +246,9 @@ def fetch_by_keyword(
     begin: datetime,
     end: datetime,
     keyword: str,
-) -> list[dict]:
+) -> List[dict]:
     """특정 키워드(공백이면 전체)로 페이지를 끝까지 순회."""
-    collected: list[dict] = []
+    collected: List[dict] = []
     label = f"'{keyword}'" if keyword else "(전체)"
     for page in range(1, cfg.max_pages + 1):
         print(f"    page {page} … ", end="", flush=True)
@@ -267,12 +266,12 @@ def fetch_by_keyword(
     return collected
 
 
-def merge_and_save(new_items: list[dict], date_str: str) -> tuple[int, int]:
+def merge_and_save(new_items: List[dict], date_str: str) -> Tuple[int, int]:
     """같은 날짜 파일이 이미 있으면 merge, 없으면 새로 생성."""
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     path = DATA_DIR / f"{date_str}.json"
 
-    existing: dict[str, dict] = {}
+    existing: Dict[str, dict] = {}
     if path.exists():
         try:
             with path.open(encoding="utf-8") as f:
@@ -341,7 +340,7 @@ def main() -> int:
     else:
         search_keywords = cfg.keywords
 
-    merged_raw: dict[str, dict] = {}
+    merged_raw: Dict[str, dict] = {}
     net_failures = 0
     consecutive_fails = 0
     try:
@@ -379,7 +378,7 @@ def main() -> int:
 
     print(f"\n전체 중복제거 후 원본: {len(merged_raw)}건")
 
-    filtered: list[dict] = []
+    filtered: List[dict] = []
     for raw in merged_raw.values():
         title = str(raw.get("bidNtceNm") or "")
         if not title:
