@@ -19,12 +19,20 @@
   "lookback_days": 1,
   "keep_days": 60,
   "match_mode": "any",
-  "case_sensitive": false,
+  "case_sensitive": true,
+  "ignore_phrases": [
+    "리모델링",
+    "전망대",
+    "공모형",
+    "KAIST",
+    "KAIT",
+    "FAIR"
+  ],
   "api": {
     "endpoint": "https://apis.data.go.kr/1230000/ad/BidPublicInfoService",
     "operation": "getBidPblancListInfoServcPPSSrch",
     "num_of_rows": 500,
     "max_pages": 20
   },
-  "comment": "keywords: 공고명(bidNtceNm)에 포함되어야 하는 단어 목록. match_mode=any 는 각 키워드로 API를 순회 검색해 합침. all 은 첫 키워드로 검색 후 나머지 키워드가 모두 포함된 항목만 로컬에서 필터. exclude_keywords 는 항상 로컬 필터. lookback_days=1 은 최근 1일 범위 조회. keep_days 는 대시보드에서 유지하는 일수. 오퍼레이션 getBidPblancListInfoServcPPSSrch 는 용역 입찰공고를 bidNtceNm 부분검색으로 조회."
+  "comment": "keywords: 공고명(bidNtceNm)에 포함되어야 하는 단어 목록. match_mode=any 는 각 키워드로 API를 순회 검색해 합침. all 은 첫 키워드로 검색 후 나머지 키워드가 모두 포함된 항목만 로컬에서 필터. exclude_keywords 는 항상 로컬 필터. lookback_days=1 은 최근 1일 범위 조회. keep_days 는 대시보드에서 유지하는 일수. 오퍼레이션 getBidPblancListInfoServcPPSSrch 는 용역 입찰공고를 bidNtceNm 부분검색으로 조회. case_sensitive=true 라서 'AI' 는 대문자만 잡힌다(Fair·Shanghai 오탐 방지). ignore_phrases 는 키워드를 우연히 품은 단어로, 매칭 전에 제목에서 지운다(리모델링⊃모델링, 전망대⊃전망, 계획공모형⊃모형, KAIST⊃AI). 키워드가 하나도 안 남은 공고는 대시보드에서 뺀다."
 }

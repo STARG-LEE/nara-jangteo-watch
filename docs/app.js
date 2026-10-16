@@ -1,256 +1,356 @@
 (() => {
   const DATA_URL = "./data/index.json";
+  const PAGE = 150;              // 한 번에 그리는 행 수("더 보기"로 늘림)
+  const SOON_MS = 7 * 864e5;     // 마감 임박 = 7일 이내 (build_index.py 와 같은 기준)
+  const NEW_MS = 2 * 864e5;      // 새 공고 = 공고일시 48시간 이내
+  const STALE_MS = 30 * 36e5;    // 마지막 수집이 30시간 넘으면 경고
+  const STARS_KEY = "nara:stars";
+  const VIEWS = ["soon", "open", "closed", "starred"];
+  const SORTS = ["deadline", "posted", "budget"];
+  const WEEKDAY = "일월화수목금토";
 
-  const state = {
-    tab: "closing_soon",
-    query: "",
-    selectedKeyword: "__all__",
-    data: null,
-  };
+  const state = { view: "soon", kw: "", q: "", sort: "deadline", onlyNew: false, limit: PAGE };
+  let items = [];
+  let data = null;
+  let stars = loadStars();
 
-  const $ = (sel) => document.querySelector(sel);
+  const $ = (s) => document.querySelector(s);
 
-  function fmtKoreanDateTime(iso) {
-    if (!iso) return "-";
-    try {
-      const d = new Date(iso);
-      if (isNaN(d)) return iso;
-      const y = d.getFullYear();
-      const mo = String(d.getMonth() + 1).padStart(2, "0");
-      const da = String(d.getDate()).padStart(2, "0");
-      const hh = String(d.getHours()).padStart(2, "0");
-      const mm = String(d.getMinutes()).padStart(2, "0");
-      return `${y}-${mo}-${da} ${hh}:${mm}`;
-    } catch {
-      return iso;
+  // ---------- 저장(관심) ----------
+  function loadStars() {
+    try { return new Set(JSON.parse(localStorage.getItem(STARS_KEY) || "[]")); }
+    catch (e) { return new Set(); }
+  }
+  function saveStars() {
+    try { localStorage.setItem(STARS_KEY, JSON.stringify([...stars])); } catch (e) { /* 사생활 보호 모드 등 */ }
+  }
+
+  // ---------- 형식 ----------
+  function esc(s) {
+    return String(s == null ? "" : s)
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+  }
+  const pad = (n) => String(n).padStart(2, "0");
+  const dayStart = (t) => { const d = new Date(t); d.setHours(0, 0, 0, 0); return d.getTime(); };
+  const fmtDay = (t) => { const d = new Date(t); return `${d.getMonth() + 1}.${pad(d.getDate())} (${WEEKDAY[d.getDay()]})`; };
+  const fmtDT = (t) => { const d = new Date(t); return `${d.getMonth() + 1}.${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}`; };
+  function toNum(s) {
+    const n = Number(String(s == null ? "" : s).replace(/[^\d.]/g, ""));
+    return isFinite(n) ? n : 0;
+  }
+  function fmtWon(n) {
+    if (!n) return "";
+    if (n >= 1e8) return `${Number((n / 1e8).toFixed(n >= 1e10 ? 0 : 1))}억`;
+    if (n >= 1e4) return `${Math.round(n / 1e4).toLocaleString()}만`;
+    return `${n.toLocaleString()}원`;
+  }
+  function ago(ms) {
+    const h = ms / 36e5;
+    if (h < 1) return `${Math.max(1, Math.round(ms / 6e4))}분 전`;
+    if (h < 48) return `${Math.round(h)}시간 전`;
+    return `${Math.round(h / 24)}일 전`;
+  }
+
+  // ---------- 데이터 ----------
+  function enrich(raw) {
+    const asign = toNum(raw.asignBdgtAmt);
+    const presmpt = toNum(raw.presmptPrce);
+    return Object.assign({}, raw, {
+      matched_keywords: Array.isArray(raw.matched_keywords) ? raw.matched_keywords : [],
+      close: raw._bidClseDt_iso ? Date.parse(raw._bidClseDt_iso) : NaN,
+      posted: raw._bidNtceDt_iso ? Date.parse(raw._bidNtceDt_iso) : NaN,
+      budget: asign || presmpt,
+      budgetLabel: asign ? "배정예산" : presmpt ? "추정가격" : "",
+      cancelled: raw.ntceKindNm === "취소공고",
+      hay: [raw.bidNtceNm, raw.ntceInsttNm, raw.dminsttNm, raw.bidNtceNo].join(" ").toLowerCase(),
+    });
+  }
+
+  // 분류는 열람 시각 기준(index.json 의 버킷은 수집 시각 기준이라 쓰지 않는다).
+  function bucketOf(it, now) {
+    if (it.cancelled) return "closed";
+    if (isNaN(it.close)) return "open";
+    if (it.close < now) return "closed";
+    return it.close - now <= SOON_MS ? "soon" : "open";
+  }
+  function inView(it, view, now) {
+    return view === "starred" ? stars.has(it.bidNtceNo) : bucketOf(it, now) === view;
+  }
+
+  function visible(now) {
+    const q = state.q.trim().toLowerCase();
+    return items.filter((it) =>
+      inView(it, state.view, now) &&
+      (!state.kw || it.matched_keywords.includes(state.kw)) &&
+      (!q || it.hay.includes(q)) &&
+      (!state.onlyNew || now - it.posted <= NEW_MS));
+  }
+
+  function sortItems(list) {
+    const byClose = (a, b) => (isNaN(a.close) ? Infinity : a.close) - (isNaN(b.close) ? Infinity : b.close);
+    const cmp = {
+      deadline: state.view === "closed" ? (a, b) => byClose(b, a) : byClose,
+      posted: (a, b) => (b.posted || 0) - (a.posted || 0),
+      budget: (a, b) => b.budget - a.budget,
+    }[state.sort];
+    return list.sort((a, b) => cmp(a, b) || 0);
+  }
+
+  // ---------- 그리기 ----------
+  function highlight(title, kws) {
+    if (!kws.length) return esc(title);
+    const pattern = kws.slice().sort((a, b) => b.length - a.length)
+      .map((k) => k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|");
+    const re = new RegExp(pattern, "g");
+    let out = "";
+    let last = 0;
+    title.replace(re, (m, offset) => {
+      out += esc(title.slice(last, offset)) + `<mark>${esc(m)}</mark>`;
+      last = offset + m.length;
+      return m;
+    });
+    return out + esc(title.slice(last));
+  }
+
+  function dueHtml(it, now) {
+    if (it.cancelled) return `<div class="due past"><span class="due-main">취소</span></div>`;
+    if (isNaN(it.close)) return `<div class="due"><span class="due-main">미상</span><span class="due-sub">마감일 없음</span></div>`;
+    const ms = it.close - now;
+    let main;
+    let cls = "";
+    if (ms < 0) { main = "마감"; cls = "past"; }
+    else if (ms < 36e5) { main = `${Math.max(1, Math.round(ms / 6e4))}분`; cls = "urgent"; }
+    else if (ms < 864e5) { main = `${Math.floor(ms / 36e5)}시간`; cls = "urgent"; }
+    else {
+      const days = Math.round((dayStart(it.close) - dayStart(now)) / 864e5);
+      main = `D-${days}`;
+      cls = days <= 3 ? "soon" : "";
     }
+    return `<div class="due ${cls}"><span class="due-main">${main}</span><span class="due-sub">${fmtDT(it.close)}</span></div>`;
   }
 
-  function fmtRemaining(hours) {
-    if (hours === null || hours === undefined) return { text: "마감일 미상", cls: "expired" };
-    if (hours < 0) return { text: "마감됨", cls: "expired" };
-    if (hours < 1) return { text: `${Math.round(hours * 60)}분 남음`, cls: "danger" };
-    if (hours < 24) return { text: `${hours.toFixed(1)}시간 남음`, cls: "danger" };
-    const days = hours / 24;
-    if (days < 3) return { text: `${days.toFixed(1)}일 남음`, cls: "warn" };
-    return { text: `${days.toFixed(0)}일 남음`, cls: "ok" };
-  }
-
-  function fmtKrw(s) {
-    if (!s) return "";
-    const n = Number(String(s).replace(/[^\d.-]/g, ""));
-    if (!isFinite(n) || n <= 0) return "";
-    if (n >= 1e8) return `${(n / 1e8).toFixed(1)}억`;
-    if (n >= 1e4) return `${(n / 1e4).toFixed(0)}만`;
-    return n.toLocaleString();
-  }
-
-  function buildBidUrl(item) {
-    if (item.bidNtceDtlUrl) return item.bidNtceDtlUrl;
-    if (item.bidNtceNo) {
-      return `https://www.g2b.go.kr:8101/ep/invitation/publish/bidInfoDtl.do?bidno=${encodeURIComponent(item.bidNtceNo)}&bidseq=${encodeURIComponent(item.bidNtceOrd || "")}`;
+  function rowHtml(it, now) {
+    const badges = [];
+    if (now - it.posted <= NEW_MS) badges.push(`<span class="badge new">새 공고</span>`);
+    if (it.ntceKindNm && it.ntceKindNm !== "등록공고") {
+      badges.push(`<span class="badge${it.cancelled ? " cancel" : ""}">${esc(it.ntceKindNm)}</span>`);
     }
-    return "#";
-  }
-
-  function cardHtml(item) {
-    const hours = item._hours_remaining;
-    const remaining = fmtRemaining(hours);
-    const url = buildBidUrl(item);
-    const title = item.bidNtceNm || "(제목 없음)";
-    const org = item.ntceInsttNm || item.dminsttNm || "";
-    const demander = item.dminsttNm && item.dminsttNm !== item.ntceInsttNm ? item.dminsttNm : "";
-    const budget = fmtKrw(item.asignBdgtAmt) || fmtKrw(item.presmptPrce);
-    const method = [item.bidMethdNm, item.cntrctCnclsMthdNm].filter(Boolean).join(" / ");
-    const kind = item.ntceKindNm && item.ntceKindNm !== "일반" ? item.ntceKindNm : "";
-    const matched = Array.isArray(item.matched_keywords) ? item.matched_keywords : [];
-
-    let cardCls = "card";
-    if (remaining.cls === "danger" || remaining.cls === "warn") cardCls += " soon";
-    if (remaining.cls === "expired" && hours !== null && hours < 0) cardCls += " overdue";
-
-    const matchedHtml = matched.length
-      ? `<div class="matched-keywords">${matched.map(k => `<span class="kw">${escapeHtml(k)}</span>`).join("")}</div>`
-      : "";
-
+    const title = highlight(it.bidNtceNm || "(제목 없음)", it.matched_keywords);
+    const titleHtml = it.bidNtceDtlUrl
+      ? `<a href="${esc(it.bidNtceDtlUrl)}" target="_blank" rel="noopener">${title}</a>`
+      : title;
+    const meta = [];
+    if (it.ntceInsttNm) meta.push(`<li><b>${esc(it.ntceInsttNm)}</b></li>`);
+    if (it.dminsttNm && it.dminsttNm !== it.ntceInsttNm) meta.push(`<li>수요 ${esc(it.dminsttNm)}</li>`);
+    const method = [it.bidMethdNm, it.cntrctCnclsMthdNm].filter(Boolean).join(", ");
+    if (method) meta.push(`<li>${esc(method)}</li>`);
+    if (!isNaN(it.posted)) meta.push(`<li>공고 ${fmtDT(it.posted)}</li>`);
+    meta.push(`<li>${esc(it.bidNtceNo)}-${esc(it.bidNtceOrd || "000")}</li>`);
+    const starred = stars.has(it.bidNtceNo);
+    const closed = bucketOf(it, now) === "closed";
     return `
-      <article class="${cardCls}">
-        <h3 class="card-title"><a href="${url}" target="_blank" rel="noopener">${escapeHtml(title)}</a></h3>
-        <div class="card-meta">
-          ${kind ? `<span class="tag">${escapeHtml(kind)}</span>` : ""}
-          ${org ? `<span><strong>공고기관</strong> ${escapeHtml(org)}</span>` : ""}
-          ${demander ? `<span><strong>수요기관</strong> ${escapeHtml(demander)}</span>` : ""}
-          ${method ? `<span><strong>입찰방식</strong> ${escapeHtml(method)}</span>` : ""}
-          <span><strong>공고번호</strong> ${escapeHtml(item.bidNtceNo || "")}${item.bidNtceOrd ? "-" + escapeHtml(item.bidNtceOrd) : ""}</span>
+      <article class="row${closed ? " is-closed" : ""}">
+        ${dueHtml(it, now)}
+        <div>
+          <h2 class="title">${titleHtml}${badges.length ? `<span class="badges">${badges.join("")}</span>` : ""}</h2>
+          <ul class="meta">${meta.join("")}</ul>
         </div>
-        ${matchedHtml}
-        <div class="card-bottom">
-          <span class="remaining ${remaining.cls}">${remaining.text}</span>
-          <span class="budget">
-            ${item.bidClseDt ? `마감 <strong>${escapeHtml(item.bidClseDt)}</strong>` : ""}
-            ${budget ? ` · 예산 <strong>${budget}원</strong>` : ""}
-          </span>
+        <div class="side">
+          <div class="budget">${it.budget ? `${fmtWon(it.budget)}<small>${it.budgetLabel}</small>` : `<small>예산 미공개</small>`}</div>
+          <button class="star" type="button" data-star="${esc(it.bidNtceNo)}" aria-pressed="${starred}"
+            aria-label="${starred ? "관심 해제" : "관심 추가"}: ${esc(it.bidNtceNm)}">${starred ? "★" : "☆"}</button>
         </div>
-      </article>
-    `;
+      </article>`;
   }
 
-  function escapeHtml(s) {
-    return String(s ?? "")
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;")
-      .replace(/'/g, "&#39;");
+  function groupLabel(it, now) {
+    if (it.cancelled) return "취소된 공고";
+    if (isNaN(it.close)) return "마감일 미상";
+    const diff = Math.round((dayStart(it.close) - dayStart(now)) / 864e5);
+    const prefix = diff === 0 ? "오늘 " : diff === 1 ? "내일 " : diff === -1 ? "어제 " : "";
+    return `${prefix}${fmtDay(it.close)} 마감`;
+  }
+
+  function renderCounts(now) {
+    const counts = { soon: 0, open: 0, closed: 0 };
+    for (const it of items) counts[bucketOf(it, now)]++;
+    $("#count-soon").textContent = counts.soon;
+    $("#count-open").textContent = counts.open;
+    $("#count-closed").textContent = counts.closed;
+    $("#count-starred").textContent = items.filter((it) => stars.has(it.bidNtceNo)).length;
+    document.querySelectorAll(".view").forEach((b) => b.setAttribute("aria-selected", String(b.dataset.view === state.view)));
+  }
+
+  function renderChips(now) {
+    const inThisView = items.filter((it) => inView(it, state.view, now));
+    const counts = new Map();
+    for (const it of inThisView) for (const k of it.matched_keywords) counts.set(k, (counts.get(k) || 0) + 1);
+    const order = ((data.config && data.config.keywords) || []).filter((k) => counts.has(k) || k === state.kw);
+    const chip = (kw, label, n) =>
+      `<button class="chip" type="button" data-kw="${esc(kw)}" aria-pressed="${state.kw === kw}">${esc(label)} <span class="n">${n}</span></button>`;
+    $("#chips").innerHTML = [chip("", "전체", inThisView.length)]
+      .concat(order.map((k) => chip(k, k, counts.get(k) || 0))).join("");
   }
 
   function render() {
-    const listEl = $("#list");
-    if (!state.data) {
-      listEl.innerHTML = '<p class="empty">데이터를 불러오는 중…</p>';
-      return;
-    }
-
-    const bucket = state.data[state.tab] || [];
-    const q = state.query.trim().toLowerCase();
-    const kw = state.selectedKeyword;
-
-    const filtered = bucket.filter((it) => {
-      if (kw && kw !== "__all__") {
-        const matched = Array.isArray(it.matched_keywords) ? it.matched_keywords : [];
-        if (!matched.includes(kw)) return false;
-      }
-      if (q) {
-        const hay = [it.bidNtceNm, it.ntceInsttNm, it.dminsttNm, it.bsnsDivNm]
-          .filter(Boolean).join(" ").toLowerCase();
-        if (!hay.includes(q)) return false;
-      }
-      return true;
-    });
-
-    if (filtered.length === 0) {
-      const parts = [];
-      if (kw && kw !== "__all__") parts.push(`키워드 "${escapeHtml(kw)}"`);
-      if (q) parts.push(`"${escapeHtml(state.query)}"`);
-      const msg = parts.length
-        ? `${parts.join(" + ")} 에 매치되는 공고가 없습니다.`
-        : "해당하는 공고가 없습니다.";
-      listEl.innerHTML = `<p class="empty">${msg}</p>`;
-      return;
-    }
-
-    listEl.innerHTML = filtered.map(cardHtml).join("");
-  }
-
-  function buildKeywordFilter() {
-    const container = $("#kw-filter");
-    if (!state.data || !container) return;
-
-    // 모든 버킷에서 키워드 카운트 집계 (현재 탭 기준)
-    const bucket = state.data[state.tab] || [];
-    const counts = new Map();
-    for (const it of bucket) {
-      const kws = Array.isArray(it.matched_keywords) ? it.matched_keywords : [];
-      for (const k of kws) counts.set(k, (counts.get(k) || 0) + 1);
-    }
-
-    // 설정된 키워드 순서 유지 + 실제 매치된 것만 표시
-    const configKws = state.data.config?.keywords || [];
-    const ordered = configKws.filter((k) => counts.has(k));
-    // 설정에 없지만 데이터에 있는 키워드도 뒤에 추가 (예: 설정 변경 직후)
-    for (const [k] of counts) if (!ordered.includes(k)) ordered.push(k);
-
-    const chips = [`<button class="kw-chip ${state.selectedKeyword === "__all__" ? "active" : ""}" data-kw="__all__">전체 <span class="count">${bucket.length}</span></button>`];
-    for (const k of ordered) {
-      const active = state.selectedKeyword === k ? "active" : "";
-      chips.push(`<button class="kw-chip ${active}" data-kw="${escapeHtml(k)}">${escapeHtml(k)} <span class="count">${counts.get(k)}</span></button>`);
-    }
-    container.innerHTML = chips.join("");
-  }
-
-  // index.json의 분류·남은 시간은 수집 시점 기준이라, 수집이 실패한 날엔 이미 마감된
-  // 공고가 "임박"으로 남는다. 열 때마다 현재 시각 기준으로 다시 나눈다
-  // (scripts/build_index.py classify()와 같은 규칙: 7일 이내 = 임박).
-  function reclassify(d) {
+    if (!data) return;
     const now = Date.now();
-    const SOON_MS = 7 * 24 * 3600 * 1000;
-    const all = [...(d.closing_soon || []), ...(d.open || []), ...(d.closed || [])];
-    const open = [], soon = [], closed = [];
-    for (const it of all) {
-      const t = it._bidClseDt_iso ? Date.parse(it._bidClseDt_iso) : NaN;
-      if (isNaN(t)) {
-        it._hours_remaining = null;
-        open.push(it);
-        continue;
-      }
-      it._hours_remaining = (t - now) / 3600000;
-      if (t < now) closed.push(it);
-      else if (t - now <= SOON_MS) soon.push(it);
-      else open.push(it);
+    renderCounts(now);
+    renderChips(now);
+    if (document.activeElement !== $("#search")) $("#search").value = state.q;
+    $("#sort").value = state.sort;
+    $("#only-new").checked = state.onlyNew;
+    $("#reset").hidden = !(state.kw || state.q || state.onlyNew);
+
+    const list = sortItems(visible(now));
+    $("#result-count").textContent = `${list.length.toLocaleString()}건`;
+    const listEl = $("#list");
+    listEl.setAttribute("aria-busy", "false");
+
+    if (!list.length) {
+      listEl.innerHTML = state.view === "starred" && !stars.size
+        ? `<div class="empty"><strong>관심 공고가 없습니다</strong>목록에서 ☆ 버튼을 누르면 여기에 모입니다. 이 브라우저에만 저장됩니다.</div>`
+        : `<div class="empty"><strong>조건에 맞는 공고가 없습니다</strong>검색어나 키워드 필터를 바꿔 보세요.</div>`;
+      $("#more").hidden = true;
+      return;
     }
-    const byHours = (a, b) => (a._hours_remaining ?? Infinity) - (b._hours_remaining ?? Infinity) || 0;
-    open.sort(byHours);
-    soon.sort(byHours);
-    closed.sort((a, b) => (b._bidClseDt_iso || "").localeCompare(a._bidClseDt_iso || ""));
-    d.open = open;
-    d.closing_soon = soon;
-    d.closed = closed;
-    d.stats = { ...d.stats, open: open.length, closing_soon: soon.length, closed: closed.length, total: all.length };
+
+    const shown = list.slice(0, state.limit);
+    const grouped = state.sort === "deadline";
+    const groupSize = new Map();
+    if (grouped) for (const x of list) { const g = groupLabel(x, now); groupSize.set(g, (groupSize.get(g) || 0) + 1); }
+    let html = "";
+    let lastGroup = null;
+    for (const it of shown) {
+      if (grouped) {
+        const g = groupLabel(it, now);
+        if (g !== lastGroup) {
+          html += `<h3 class="group">${esc(g)}<span class="n">${groupSize.get(g)}건</span></h3>`;
+          lastGroup = g;
+        }
+      }
+      html += rowHtml(it, now);
+    }
+    listEl.innerHTML = html;
+    const rest = list.length - shown.length;
+    $("#more").hidden = rest <= 0;
+    $("#more").textContent = `더 보기 (${rest.toLocaleString()}건 남음)`;
   }
 
-  function updateMeta() {
-    const d = state.data;
-    if (!d) return;
-    $("#generated-at").textContent = `갱신: ${fmtKoreanDateTime(d.generated_at)}`;
-    const kws = (d.config?.keywords || []).join(", ") || "없음";
-    const mode = d.config?.match_mode === "all" ? "(모두 포함)" : "(하나라도 포함)";
-    $("#keywords").textContent = `키워드 ${mode}: ${kws}`;
-    $("#stat-soon").textContent = d.stats?.closing_soon ?? "-";
-    $("#stat-open").textContent = d.stats?.open ?? "-";
-    $("#stat-closed").textContent = d.stats?.closed ?? "-";
-    $("#stat-total").textContent = d.stats?.total ?? "-";
+  function renderMeta() {
+    const gen = Date.parse(data.generated_at);
+    const age = Date.now() - gen;
+    $("#updated").textContent = isNaN(gen) ? "" : `마지막 수집 ${fmtDT(gen)} (${ago(age)})`;
+    const stale = $("#stale");
+    stale.hidden = !(age > STALE_MS);
+    stale.textContent = `마지막 수집이 ${ago(age)}입니다. 그 뒤에 올라온 공고는 아직 반영되지 않았습니다.`;
+    const kws = (data.config && data.config.keywords) || [];
+    $("#keywords").textContent = kws.length ? `키워드 ${kws.length}개: ${kws.join(", ")}` : "";
   }
 
+  // ---------- URL 상태 (공유 가능한 주소) ----------
+  function readHash() {
+    const p = new URLSearchParams(location.hash.slice(1));
+    state.view = VIEWS.includes(p.get("view")) ? p.get("view") : "soon";
+    state.sort = SORTS.includes(p.get("sort")) ? p.get("sort") : "deadline";
+    state.kw = p.get("kw") || "";
+    state.q = p.get("q") || "";
+    state.onlyNew = p.get("new") === "1";
+  }
+  function writeHash() {
+    const p = new URLSearchParams();
+    if (state.view !== "soon") p.set("view", state.view);
+    if (state.sort !== "deadline") p.set("sort", state.sort);
+    if (state.kw) p.set("kw", state.kw);
+    if (state.q) p.set("q", state.q);
+    if (state.onlyNew) p.set("new", "1");
+    const s = p.toString();
+    history.replaceState(null, "", s ? `#${s}` : location.pathname + location.search);
+  }
+  function update(patch) {
+    Object.assign(state, patch, { limit: PAGE });
+    writeHash();
+    render();
+  }
+
+  // ---------- CSV ----------
+  function downloadCsv() {
+    const list = sortItems(visible(Date.now()));
+    const cols = [
+      ["공고번호", (it) => it.bidNtceNo], ["차수", (it) => it.bidNtceOrd], ["공고명", (it) => it.bidNtceNm],
+      ["공고종류", (it) => it.ntceKindNm], ["공고기관", (it) => it.ntceInsttNm], ["수요기관", (it) => it.dminsttNm],
+      ["입찰방식", (it) => it.bidMethdNm], ["계약방법", (it) => it.cntrctCnclsMthdNm],
+      ["공고일시", (it) => it.bidNtceDt], ["마감일시", (it) => it.bidClseDt], ["개찰일시", (it) => it.opengDt],
+      ["예산(원)", (it) => it.budget || ""], ["예산구분", (it) => it.budgetLabel],
+      ["담당자", (it) => it.ntceInsttOfclNm], ["전화", (it) => it.ntceInsttOfclTelNo],
+      ["키워드", (it) => it.matched_keywords.join(" ")], ["링크", (it) => it.bidNtceDtlUrl],
+    ];
+    const cell = (v) => `"${String(v == null ? "" : v).replace(/"/g, '""')}"`;
+    const lines = [cols.map((c) => cell(c[0])).join(",")]
+      .concat(list.map((it) => cols.map((c) => cell(c[1](it))).join(",")));
+    const blob = new Blob(["﻿" + lines.join("\r\n")], { type: "text/csv;charset=utf-8" });
+    const d = new Date();
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = `나라장터-${state.view}-${d.getFullYear()}${pad(d.getMonth() + 1)}${pad(d.getDate())}.csv`;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  }
+
+  // ---------- 이벤트 ----------
   function bindEvents() {
-    document.querySelectorAll(".tab").forEach((btn) => {
-      btn.addEventListener("click", () => {
-        document.querySelectorAll(".tab").forEach((b) => b.classList.remove("active"));
-        btn.classList.add("active");
-        state.tab = btn.dataset.tab;
-        // 탭 바꾸면 해당 버킷에 있는 키워드 기준으로 칩을 다시 그림
-        buildKeywordFilter();
-        render();
-      });
+    document.querySelectorAll(".view").forEach((b) => b.addEventListener("click", () => update({ view: b.dataset.view })));
+    $("#chips").addEventListener("click", (e) => {
+      const c = e.target.closest(".chip");
+      if (c) update({ kw: c.dataset.kw });
     });
+    let t = null;
     $("#search").addEventListener("input", (e) => {
-      state.query = e.target.value;
+      clearTimeout(t);
+      t = setTimeout(() => update({ q: e.target.value }), 150);
+    });
+    $("#sort").addEventListener("change", (e) => update({ sort: e.target.value }));
+    $("#only-new").addEventListener("change", (e) => update({ onlyNew: e.target.checked }));
+    $("#reset").addEventListener("click", () => { $("#search").value = ""; update({ kw: "", q: "", onlyNew: false }); });
+    $("#csv").addEventListener("click", downloadCsv);
+    $("#more").addEventListener("click", () => { state.limit += PAGE; render(); });
+    $("#list").addEventListener("click", (e) => {
+      const b = e.target.closest("[data-star]");
+      if (!b) return;
+      const no = b.dataset.star;
+      if (stars.has(no)) stars.delete(no); else stars.add(no);
+      saveStars();
       render();
     });
-    // 키워드 칩 클릭은 이벤트 위임으로 처리 (칩이 동적으로 재생성되므로)
-    $("#kw-filter").addEventListener("click", (e) => {
-      const chip = e.target.closest(".kw-chip");
-      if (!chip) return;
-      state.selectedKeyword = chip.dataset.kw;
-      document.querySelectorAll("#kw-filter .kw-chip").forEach((c) => c.classList.remove("active"));
-      chip.classList.add("active");
-      render();
+    document.addEventListener("keydown", (e) => {
+      const typing = /^(INPUT|SELECT|TEXTAREA)$/.test(document.activeElement.tagName);
+      if (e.key === "/" && !typing) { e.preventDefault(); $("#search").focus(); }
+      if (e.key === "Escape" && document.activeElement === $("#search") && state.q) {
+        $("#search").value = "";
+        update({ q: "" });
+      }
     });
+    window.addEventListener("hashchange", () => { readHash(); render(); });
   }
 
   async function load() {
     try {
       const r = await fetch(DATA_URL, { cache: "no-store" });
       if (!r.ok) throw new Error(`HTTP ${r.status}`);
-      state.data = await r.json();
-      reclassify(state.data);
-      updateMeta();
-      buildKeywordFilter();
+      data = await r.json();
+      items = [].concat(data.closing_soon || [], data.open || [], data.closed || []).map(enrich);
+      renderMeta();
       render();
     } catch (e) {
-      $("#list").innerHTML = `<p class="empty">데이터를 불러오지 못했습니다: ${escapeHtml(String(e))}<br>워크플로우가 한 번 이상 실행되어야 <code>docs/data/index.json</code>이 생성됩니다.</p>`;
+      $("#list").setAttribute("aria-busy", "false");
+      $("#list").innerHTML = `<div class="empty"><strong>데이터를 불러오지 못했습니다</strong>${esc(String(e))}<br><button class="btn" type="button" onclick="location.reload()">다시 시도</button></div>`;
     }
   }
 
+  readHash();
   bindEvents();
   load();
 })();

@@ -77,15 +77,34 @@ def iter_daily_files(keep_days: int) -> List[Path]:
     return kept
 
 
-def match_keywords(title: str, keywords: List[str], case_sensitive: bool) -> List[str]:
-    """제목에 매치되는 모든 키워드를 원본 순서대로 반환."""
+def match_keywords(
+    title: str, keywords: List[str], case_sensitive: bool, ignore_phrases: List[str] = (),
+) -> List[str]:
+    """제목에 매치되는 모든 키워드를 원본 순서대로 반환.
+
+    ignore_phrases 는 키워드를 우연히 품은 다른 단어(리모델링⊃모델링, 전망대⊃전망 등)라서
+    매칭 전에 제목에서 지운다. 제목에 진짜 키워드가 따로 있으면 그건 그대로 잡힌다.
+    """
     if not title or not keywords:
         return []
     haystack = title if case_sensitive else title.lower()
+    for phrase in ignore_phrases:
+        haystack = haystack.replace(phrase if case_sensitive else phrase.lower(), " ")
     return [kw for kw in keywords if (kw if case_sensitive else kw.lower()) in haystack]
 
 
-def merge_all(files: List[Path], keywords: List[str], case_sensitive: bool) -> List[dict]:
+# 대시보드가 쓰는 필드만 남긴다(index.json 크기 절반 이하로).
+KEEP_FIELDS = (
+    "bidNtceNo", "bidNtceOrd", "bidNtceNm", "ntceKindNm", "ntceInsttNm", "dminsttNm",
+    "bidMethdNm", "cntrctCnclsMthdNm", "bidNtceDt", "bidClseDt", "opengDt",
+    "asignBdgtAmt", "presmptPrce", "bidNtceDtlUrl", "ntceInsttOfclNm", "ntceInsttOfclTelNo",
+)
+
+
+def merge_all(
+    files: List[Path], keywords: List[str], case_sensitive: bool, ignore_phrases: List[str],
+) -> List[dict]:
+    """일별 파일을 합친다. 같은 공고번호의 변경·재공고(차수)는 가장 최신 차수 하나만 남긴다."""
     merged: Dict[str, dict] = {}
     for path in files:
         try:
@@ -95,15 +114,16 @@ def merge_all(files: List[Path], keywords: List[str], case_sensitive: bool) -> L
             continue
         collected_at = payload.get("date") or path.stem
         for item in payload.get("items", []):
-            key = f"{item.get('bidNtceNo')}-{item.get('bidNtceOrd')}"
-            merged_item = dict(item)
-            existing_seen = merged.get(key, {}).get("first_seen_date", collected_at)
-            merged_item["first_seen_date"] = (
-                existing_seen if existing_seen < collected_at else collected_at
-            )
-            merged_item["last_seen_date"] = collected_at
+            key = str(item.get("bidNtceNo") or "")
+            prev = merged.get(key)
+            first_seen = min(prev["first_seen_date"], collected_at) if prev else collected_at
+            if prev and str(prev.get("bidNtceOrd") or "") > str(item.get("bidNtceOrd") or ""):
+                prev["first_seen_date"] = first_seen  # 더 오래된 차수가 늦게 들어온 경우
+                continue
+            merged_item = {k: item[k] for k in KEEP_FIELDS if item.get(k) not in (None, "")}
+            merged_item["first_seen_date"] = first_seen
             merged_item["matched_keywords"] = match_keywords(
-                str(item.get("bidNtceNm") or ""), keywords, case_sensitive,
+                str(item.get("bidNtceNm") or ""), keywords, case_sensitive, ignore_phrases,
             )
             merged[key] = merged_item
     return list(merged.values())
@@ -123,6 +143,8 @@ def classify(items: List[dict]) -> Tuple[List[dict], List[dict], List[dict]]:
     for it in items:
         close_dt = parse_bid_dt(it.get("bidClseDt", ""))
         enriched = dict(it)
+        ntce_dt = parse_bid_dt(it.get("bidNtceDt", ""))
+        enriched["_bidNtceDt_iso"] = ntce_dt.isoformat() if ntce_dt else ""
         if close_dt is not None:
             enriched["_bidClseDt_iso"] = close_dt.isoformat()
             remaining = close_dt - now
@@ -155,11 +177,16 @@ def main() -> int:
     keep_days = int(cfg.get("keep_days", 60))
     keywords = [k.strip() for k in cfg.get("keywords", []) if k and k.strip()]
     case_sensitive = bool(cfg.get("case_sensitive", False))
+    ignore_phrases = [p for p in cfg.get("ignore_phrases", []) if p]
     files = iter_daily_files(keep_days)
     print(f"사용할 일별 파일: {len(files)}개")
 
-    merged = merge_all(files, keywords, case_sensitive)
-    print(f"고유 공고 총합: {len(merged)}건")
+    merged = merge_all(files, keywords, case_sensitive, ignore_phrases)
+    print(f"고유 공고 총합(최신 차수만): {len(merged)}건")
+    if keywords:
+        before = len(merged)
+        merged = [it for it in merged if it["matched_keywords"]]
+        print(f"키워드 오탐 제외: {before - len(merged)}건 → {len(merged)}건")
 
     open_list, soon_list, closed_list = classify(merged)
 
@@ -186,7 +213,7 @@ def main() -> int:
     # 웹서버가 바로 서빙하는 파일이므로 임시 파일에 다 쓴 뒤 한 번에 바꿔치기한다.
     tmp_path = OUT_PATH.with_name(OUT_PATH.name + ".tmp")
     with tmp_path.open("w", encoding="utf-8") as f:
-        json.dump(payload, f, ensure_ascii=False, indent=2)
+        json.dump(payload, f, ensure_ascii=False, separators=(",", ":"))
     os.replace(str(tmp_path), str(OUT_PATH))
     print(f"저장: {OUT_PATH}")
     print(f"  open={len(open_list)}  closing_soon={len(soon_list)}  closed={len(closed_list)}")

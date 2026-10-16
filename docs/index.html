@@ -3,57 +3,90 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
 <title>나라장터 용역 공고 트래커</title>
+<meta name="description" content="AI·데이터·금융 키워드에 맞는 나라장터 용역 입찰공고를 마감순으로 모아 보는 트래커">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="icon" href="data:,">
 <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<header>
-  <div class="container">
-    <h1>나라장터 용역 공고 트래커</h1>
-    <p class="subtitle">공공데이터포털 입찰공고정보서비스를 기반으로 키워드에 매치되는 용역 공고를 매일 자동 수집합니다.</p>
-    <div class="meta" id="meta">
-      <span class="chip" id="generated-at">갱신: -</span>
-      <span class="chip" id="keywords">키워드: -</span>
+<a class="skip" href="#list">목록으로 건너뛰기</a>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <div>
+      <h1>나라장터 용역 공고</h1>
+      <p class="sub" id="keywords">키워드 불러오는 중</p>
     </div>
+    <p class="updated" id="updated" aria-live="polite"></p>
   </div>
 </header>
 
-<main class="container">
-  <section class="stats" id="stats">
-    <div class="stat-card"><div class="stat-label">마감 임박 (7일 이내)</div><div class="stat-value" id="stat-soon">-</div></div>
-    <div class="stat-card"><div class="stat-label">진행 중</div><div class="stat-value" id="stat-open">-</div></div>
-    <div class="stat-card"><div class="stat-label">마감됨</div><div class="stat-value" id="stat-closed">-</div></div>
-    <div class="stat-card"><div class="stat-label">전체</div><div class="stat-value" id="stat-total">-</div></div>
-  </section>
+<div class="stale wrap" id="stale" hidden></div>
 
-  <section class="controls">
-    <div class="tabs" role="tablist">
-      <button class="tab active" data-tab="closing_soon" role="tab">마감 임박</button>
-      <button class="tab" data-tab="open" role="tab">진행 중</button>
-      <button class="tab" data-tab="closed" role="tab">마감됨</button>
+<main class="wrap">
+  <nav class="views" role="tablist" aria-label="공고 보기">
+    <button class="view" role="tab" data-view="soon" aria-selected="true">
+      <span class="view-label">마감 임박</span><span class="view-count" id="count-soon">-</span>
+      <span class="view-hint">7일 이내</span>
+    </button>
+    <button class="view" role="tab" data-view="open" aria-selected="false">
+      <span class="view-label">진행 중</span><span class="view-count" id="count-open">-</span>
+      <span class="view-hint">8일 이상 남음</span>
+    </button>
+    <button class="view" role="tab" data-view="closed" aria-selected="false">
+      <span class="view-label">마감됨</span><span class="view-count" id="count-closed">-</span>
+      <span class="view-hint">취소 공고 포함</span>
+    </button>
+    <button class="view" role="tab" data-view="starred" aria-selected="false">
+      <span class="view-label">관심</span><span class="view-count" id="count-starred">-</span>
+      <span class="view-hint">이 브라우저에 저장</span>
+    </button>
+  </nav>
+
+  <section class="toolbar" aria-label="검색과 정렬">
+    <div class="field field-search">
+      <label for="search">검색</label>
+      <input type="search" id="search" placeholder="공고명, 기관, 공고번호" autocomplete="off">
     </div>
-    <input type="search" id="search" placeholder="공고명·기관으로 필터 (예: 구축, 국방부)">
-  </section>
-
-  <section class="kw-filter" aria-label="키워드 필터">
-    <div class="kw-filter-inner" id="kw-filter">
-      <button class="kw-chip active" data-kw="__all__">전체</button>
+    <div class="field">
+      <label for="sort">정렬</label>
+      <select id="sort">
+        <option value="deadline">마감 빠른 순</option>
+        <option value="posted">최근 공고 순</option>
+        <option value="budget">예산 큰 순</option>
+      </select>
     </div>
+    <label class="toggle">
+      <input type="checkbox" id="only-new">
+      <span>새 공고만 <small>(48시간 이내)</small></span>
+    </label>
+    <button class="btn" id="csv" type="button">CSV 내려받기</button>
   </section>
 
-  <section id="list" class="list" aria-live="polite">
-    <p class="empty">데이터를 불러오는 중…</p>
+  <div class="chips" id="chips" role="group" aria-label="키워드 필터"></div>
+
+  <div class="result-meta">
+    <p id="result-count" aria-live="polite"></p>
+    <button class="link-btn" id="reset" type="button" hidden>필터 초기화</button>
+  </div>
+
+  <section id="list" class="list" aria-busy="true">
+    <div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div>
+    <div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div>
   </section>
+  <button class="btn btn-more" id="more" type="button" hidden>더 보기</button>
 </main>
 
-<footer>
-  <div class="container">
-    <p>
-      데이터 출처: <a href="https://www.g2b.go.kr" target="_blank" rel="noopener">나라장터(국가종합전자조달)</a> ·
-      API: <a href="https://www.data.go.kr/data/15129394/openapi.do" target="_blank" rel="noopener">조달청 입찰공고정보서비스</a>
-    </p>
-    <p class="tiny">이 페이지의 정보는 참고용이며 공식 공고 내용과 다를 수 있습니다. 입찰 전 반드시 나라장터 공식 공고를 확인하세요.</p>
-  </div>
+<footer class="wrap footer">
+  <p>
+    출처: <a href="https://www.g2b.go.kr" target="_blank" rel="noopener">나라장터</a>,
+    <a href="https://www.data.go.kr/data/15129394/openapi.do" target="_blank" rel="noopener">조달청 입찰공고정보서비스</a>.
+    매일 07시부터 21시까지 2시간마다 수집합니다.
+  </p>
+  <p class="muted">참고용입니다. 입찰 전에 나라장터 원문 공고를 반드시 확인하세요.</p>
 </footer>
 
 <script src="./app.js"></script>
