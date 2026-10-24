@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-24T10:44:58+09:00",
+  "generated_at": "2026-10-24T18:41:10+09:00",
   "date": "2026-10-24",
-  "count": 26,
+  "count": 27,
   "items": [
     {
       "bidNtceNo": "R26BK01787967",
@@ -652,6 +652,31 @@
       "ntceInsttOfclNm": "정형준",
       "ntceInsttOfclTelNo": "053-200-5187",
       "sucsfbidMthdNm": "최저가낙찰제-최저가낙찰자"
+    },
+    {
+      "bidNtceNo": "R26BK01789619",
+      "bidNtceOrd": "000",
+      "bidNtceNm": "EMR 내 AI 기반 진료리포트 생성시스템 구축",
+      "ntceInsttNm": "한국마사회",
+      "ntceInsttCd": "B551015",
+      "dminsttNm": "한국마사회",
+      "dminsttCd": "B551015",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "등록공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-10-24 17:50:51",
+      "bidBeginDt": "2026-10-24 18:00:00",
+      "bidClseDt": "2026-11-05 10:00:00",
+      "opengDt": "2026-11-05 11:00:00",
+      "asignBdgtAmt": "29000000",
+      "presmptPrce": "26363636",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01789619&bidPbancOrd=000",
+      "ntceInsttOfclNm": "박하준",
+      "ntceInsttOfclTelNo": "02-509-1364",
+      "sucsfbidMthdNm": "협상에의한계약-협상에 의한 낙찰자 결정(SW사업)"
     }
   ]
 }
