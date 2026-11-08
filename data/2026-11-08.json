@@ -1,6 +1,32 @@
 {
-  "generated_at": "2026-11-08T11:35:58+09:00",
+  "generated_at": "2026-11-08T21:03:42+09:00",
   "date": "2026-11-08",
-  "count": 0,
-  "items": []
+  "count": 1,
+  "items": [
+    {
+      "bidNtceNo": "R26BK01813153",
+      "bidNtceOrd": "002",
+      "bidNtceNm": "홍성의료원 본관(2-2단계) 리모델링 및 증축 공사 건설폐기물 처리용역 입찰 재정정 공고(긴급)",
+      "ntceInsttNm": "충청남도홍성의료원",
+      "ntceInsttCd": "Z003672",
+      "dminsttNm": "충청남도홍성의료원",
+      "dminsttCd": "Z003672",
+      "bidMethdNm": "전자입찰",
+      "cntrctCnclsMthdNm": "제한경쟁",
+      "ntceKindNm": "변경공고",
+      "bsnsDivNm": "",
+      "srvceDivNm": "일반용역",
+      "ppswGnrlSrvceYn": "N",
+      "bidNtceDt": "2026-11-08 19:54:10",
+      "bidBeginDt": "2026-11-11 10:00:00",
+      "bidClseDt": "2026-11-13 10:00:00",
+      "opengDt": "2026-11-13 11:00:00",
+      "asignBdgtAmt": "92515000",
+      "presmptPrce": "84104545",
+      "bidNtceDtlUrl": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01813153&bidPbancOrd=002",
+      "ntceInsttOfclNm": "임흥수",
+      "ntceInsttOfclTelNo": "041-630-6266",
+      "sucsfbidMthdNm": "적격심사제-관리규정외 수기심사(총점입력)"
+    }
+  ]
 }
